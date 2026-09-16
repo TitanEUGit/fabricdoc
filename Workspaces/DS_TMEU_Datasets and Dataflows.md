@@ -8,6 +8,12 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!WARNING]
+> **Legacy Storage Workspace (Pre-Fabric)**
+> This workspace is primarily used for legacy data storage that predates the introduction of Microsoft Fabric and OneLake in our environment.
+> **Architectural Goal:** Whenever modifying pipelines or datasets in this workspace, evaluate if the data can be migrated to OneLake (e.g., `Fabric_Prod_Workspace`) — moving from Power BI native items (Dataflows Gen1, standard datasets) to Fabric native items (Notebooks, Pipelines, Lakehouses). New infrastructure should avoid using this workspace as a primary sink.
+
 This document contains operational and technical details for the **DS_TMEU_Datasets and Dataflows** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory
@@ -19,13 +25,13 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 | **alert_sharepoint** | `Report` | `6549ea36-f79e-4d59-8cf6-408cfa6ff59a` | - |
 | **TMR Headcount File** | `Report` | `f61c64d0-fc00-4a4a-8df0-fdd2b383de10` | - |
 | **TMR PA History** | `Report` | `08295924-fe94-4f56-a21a-4d8804519ee8` | - |
-| **TMD PA History** | `Report` | `f8eb323b-fb1f-485f-aed9-c7a1e469b046` | - |
+| **TMD PA History** | `Report` | `f8eb323b-fb1f-485f-aed9-c7a1e469b046` | ⚠️ **DO NOT DELETE** without management approval. Must verify TMD (Germany) exit deal is 100% closed and data is no longer needed by users |
 | **TMU PA History** | `Report` | `514a2155-0dfe-40d0-a744-0330cb35699f` | - |
 | **TMEU TIV and MS** | `Report` | `cbd4b531-6c52-42b1-b5c5-7b2856c3ba0e` | - |
 | **TMEU Parts Inventory Staging** | `Report` | `6859a591-023a-4a6d-bd93-50af72d69347` | - |
-| **TMD Parts Inventory Staging** | `Report` | `c03f27f1-1e48-4c62-bc2b-0066a38554bd` | - |
-| **1C SQL Ledger Data** | `Report` | `a7952345-0ef8-4f55-aded-b1669dd7cc5d` | - |
-| **EU IT Expenses Staging** | `Report` | `8bc26454-168d-4db2-80da-bc97aeae63f4` | - |
+| **TMD Parts Inventory Staging** | `Report` | `c03f27f1-1e48-4c62-bc2b-0066a38554bd` | ⚠️ **DO NOT DELETE** without management approval. Must verify TMD (Germany) exit deal is 100% closed and data is no longer needed by users |
+| **1C SQL Ledger Data** | `Report` | `a7952345-0ef8-4f55-aded-b1669dd7cc5d` | Auto-generated report for the semantic model bridging raw 1C data and the IT costs pipeline |
+| **EU IT Expenses Staging** | `Report` | `8bc26454-168d-4db2-80da-bc97aeae63f4` | ⚠️ Legacy report for IT costs calculation |
 | **TMU Sales Backlog Staging** | `Report` | `cec2dae3-2f80-4757-b25b-f7987ec635be` | - |
 | **TMEU IT Devices Users** | `Report` | `eeadc0b6-b631-4b72-b4a1-5459decbc155` | - |
 | **Zoho Dataset** | `Report` | `138d117b-a120-4d48-be0b-3d1b9b80f965` | - |
@@ -33,14 +39,14 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 | **alert_sharepoint** | `SemanticModel` | `99fc1dac-c34a-453e-ad54-d35434dab6a9` | - |
 | **TMR Headcount File** | `SemanticModel` | `e53c9781-f5f6-462f-8712-4f1d2fd4c0ef` | - |
 | **TMR PA History** | `SemanticModel` | `707be0b8-6f26-4354-9bb2-08bf71a155c0` | - |
-| **TMD PA History** | `SemanticModel` | `73b1811a-a5d7-47b5-aaf7-ef28841cbae0` | - |
+| **TMD PA History** | `SemanticModel` | `73b1811a-a5d7-47b5-aaf7-ef28841cbae0` | ⚠️ **DO NOT DELETE** without management approval. Must verify TMD (Germany) exit deal is 100% closed and data is no longer needed by users |
 | **TMU PA History** | `SemanticModel` | `b2119e5e-b4ee-46b1-b67b-c943981d46b5` | - |
-| **Staging TMU Inventory** | `SemanticModel` | `abaff326-14a3-4ef9-a000-e36913fa5f4f` | - |
+| **Staging TMU Inventory** | `SemanticModel` | `abaff326-14a3-4ef9-a000-e36913fa5f4f` | ⚠️ Legacy TMU inventory dataset (bundled with Power Automate in the past). Candidate for deletion |
 | **TMEU TIV and MS** | `SemanticModel` | `b5f3ee4d-f7d1-4ae9-a05b-0b36110acd08` | - |
 | **TMEU Parts Inventory Staging** | `SemanticModel` | `43ac2f83-8541-4894-8a5a-4916eb084327` | - |
-| **TMD Parts Inventory Staging** | `SemanticModel` | `fb8b36d5-bff0-4308-bdba-7b752deaf8a8` | - |
-| **1C SQL Ledger Data** | `SemanticModel` | `b46cf783-91f2-4da3-9656-ca9a2e4317db` | - |
-| **EU IT Expenses Staging** | `SemanticModel` | `644f3fb9-a8ba-4eaf-94d0-cc3e8968577f` | - |
+| **TMD Parts Inventory Staging** | `SemanticModel` | `fb8b36d5-bff0-4308-bdba-7b752deaf8a8` | ⚠️ **DO NOT DELETE** without management approval. Must verify TMD (Germany) exit deal is 100% closed and data is no longer needed by users |
+| **1C SQL Ledger Data** | `SemanticModel` | `b46cf783-91f2-4da3-9656-ca9a2e4317db` | Acts as a bridge semantic model between the raw 1C (1s) database and the IT costs pipeline |
+| **EU IT Expenses Staging** | `SemanticModel` | `644f3fb9-a8ba-4eaf-94d0-cc3e8968577f` | ⚠️ Legacy (pre-Fabric, Power Automate driven) calculation of IT costs. Candidate for deletion if no longer needed by business |
 | **TMU Sales Backlog Staging** | `SemanticModel` | `6dbc849f-4f47-4b32-80d0-d0550020c1c5` | - |
 | **TMEU IT Devices Users** | `SemanticModel` | `7d81e1fe-3853-42db-a0a6-59778f12532d` | - |
 | **Zoho Dataset** | `SemanticModel` | `4c6de12d-dc63-4152-8c1e-79ed38cc792b` | - |

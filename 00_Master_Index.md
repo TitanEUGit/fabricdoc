@@ -2,9 +2,6 @@
 
 Welcome to the Titan Machinery Fabric & Power BI Documentation Hub. This documentation suite provides a complete, structured overview of all Fabric items, Power BI reports, data lineage, and refresh schedules.
 
-> [!NOTE]
-> Workspace `BI_TMEU_Testspace` is strictly excluded from this documentation.
-
 ## Document Navigation Hub
 
 - 📋 [01. Workspaces Catalog](01_Workspaces_Catalog.md) - Summary inventory of all workspaces and capacity metrics.
