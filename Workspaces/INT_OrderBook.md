@@ -8,6 +8,13 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!WARNING]
+> **Legacy Workspace (Transitioning to ERP-based Successors)**
+> This workspace contains legacy reports on Wholegoods (WG) orders, which were previously manually maintained by the TMA WG team. 
+> - **TMA WG team was disbanded in Aug 2026**, and the teams tasks were partially handed over to country managers and/or automated.
+> - **As of Sep 2026**, direct ERP-based successors to these reports are in the final stages of evaluation.
+
 This document contains operational and technical details for the **INT_OrderBook** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory

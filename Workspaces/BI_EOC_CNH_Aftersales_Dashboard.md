@@ -8,7 +8,10 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
-This document contains operational and technical details for the **BI_EOC_CNH_Aftersales_Dashboard** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
+
+This workspace (**BI_EOC_CNH_Aftersales_Dashboard**) is dedicated to housing the dashboards and metrics for **Aftersales KPIs for CNH** (Case IH / CASE), Titan Machinery's primary manufacturer and key strategic partner.
+
+This document contains operational and technical details for the workspace, designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory
 

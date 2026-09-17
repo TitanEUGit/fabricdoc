@@ -8,6 +8,11 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!WARNING]
+> **Legacy Workspace (Pending Deletion Review)**
+> This workspace contains legacy reports built in 2024. Their ongoing usage hasn't been proven. TMA Management Team should be involved in evaluating this priority upon request, as they were the initial requesters. Clarify the necessity of these reports and decommission/delete them if confirmed as unused.
+
 This document contains operational and technical details for the **BI_TMB_Segment Dashboard** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory

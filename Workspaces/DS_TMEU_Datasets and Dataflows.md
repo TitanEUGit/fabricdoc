@@ -20,36 +20,36 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 
 | Item Name | Item Type | Item ID | Description |
 | :--- | :--- | :--- | :--- |
-| **alert_ar_sharepoint_file_modified_date** | `Dashboard` | `d1e31b3c-4ef5-4c7d-bbca-28273ffd92c4` | - |
-| **TMEU_HC_Dataset** | `Report` | `b9f8759c-a985-4258-b6c6-5c60900b1aff` | - |
-| **alert_sharepoint** | `Report` | `6549ea36-f79e-4d59-8cf6-408cfa6ff59a` | - |
-| **TMR Headcount File** | `Report` | `f61c64d0-fc00-4a4a-8df0-fdd2b383de10` | - |
-| **TMR PA History** | `Report` | `08295924-fe94-4f56-a21a-4d8804519ee8` | - |
+| **alert_ar_sharepoint_file_modified_date** | `Dashboard` | `d1e31b3c-4ef5-4c7d-bbca-28273ffd92c4` | ⚠️ Legacy Power Automate pipeline (monthly CSV copy). Monitor refresh and deprecate in the future |
+| **TMEU_HC_Dataset** | `Report` | `b9f8759c-a985-4258-b6c6-5c60900b1aff` | Legacy staging report for EU-wide Headcount data. Driven by the `TMEU_HC_Dataset` semantic model |
+| **alert_sharepoint** | `Report` | `6549ea36-f79e-4d59-8cf6-408cfa6ff59a` | ⚠️ Legacy Power Automate pipeline (monthly CSV copy). Monitor refresh and deprecate in the future |
+| **TMR Headcount File** | `Report` | `f61c64d0-fc00-4a4a-8df0-fdd2b383de10` | Legacy staging report for Romania (TMR) Headcount data. Driven by the `TMR Headcount File` semantic model |
+| **TMR PA History** | `Report` | `08295924-fe94-4f56-a21a-4d8804519ee8` | ⚠️ Legacy Power Automate pipeline (monthly CSV copy). Monitor refresh and deprecate in the future |
 | **TMD PA History** | `Report` | `f8eb323b-fb1f-485f-aed9-c7a1e469b046` | ⚠️ **DO NOT DELETE** without management approval. Must verify TMD (Germany) exit deal is 100% closed and data is no longer needed by users |
-| **TMU PA History** | `Report` | `514a2155-0dfe-40d0-a744-0330cb35699f` | - |
-| **TMEU TIV and MS** | `Report` | `cbd4b531-6c52-42b1-b5c5-7b2856c3ba0e` | - |
-| **TMEU Parts Inventory Staging** | `Report` | `6859a591-023a-4a6d-bd93-50af72d69347` | - |
+| **TMU PA History** | `Report` | `514a2155-0dfe-40d0-a744-0330cb35699f` | ⚠️ Legacy Power Automate pipeline (monthly CSV copy). Monitor refresh and deprecate in the future |
+| **TMEU TIV and MS** | `Report` | `cbd4b531-6c52-42b1-b5c5-7b2856c3ba0e` | ⚠️ Extremely legacy report for Wholegoods market data (TIV = Total Industry Volume). Candidate for deletion |
+| **TMEU Parts Inventory Staging** | `Report` | `6859a591-023a-4a6d-bd93-50af72d69347` | ⚠️ Legacy Power Automate pipeline (monthly CSV copy). Monitor refresh and deprecate in the future |
 | **TMD Parts Inventory Staging** | `Report` | `c03f27f1-1e48-4c62-bc2b-0066a38554bd` | ⚠️ **DO NOT DELETE** without management approval. Must verify TMD (Germany) exit deal is 100% closed and data is no longer needed by users |
 | **1C SQL Ledger Data** | `Report` | `a7952345-0ef8-4f55-aded-b1669dd7cc5d` | Auto-generated report for the semantic model bridging raw 1C data and the IT costs pipeline |
 | **EU IT Expenses Staging** | `Report` | `8bc26454-168d-4db2-80da-bc97aeae63f4` | ⚠️ Legacy report for IT costs calculation |
-| **TMU Sales Backlog Staging** | `Report` | `cec2dae3-2f80-4757-b25b-f7987ec635be` | - |
-| **TMEU IT Devices Users** | `Report` | `eeadc0b6-b631-4b72-b4a1-5459decbc155` | - |
-| **Zoho Dataset** | `Report` | `138d117b-a120-4d48-be0b-3d1b9b80f965` | - |
-| **TMEU_HC_Dataset** | `SemanticModel` | `f9a0fe7e-b471-4e05-a381-c953fd1fec24` | - |
-| **alert_sharepoint** | `SemanticModel` | `99fc1dac-c34a-453e-ad54-d35434dab6a9` | - |
-| **TMR Headcount File** | `SemanticModel` | `e53c9781-f5f6-462f-8712-4f1d2fd4c0ef` | - |
-| **TMR PA History** | `SemanticModel` | `707be0b8-6f26-4354-9bb2-08bf71a155c0` | - |
+| **TMU Sales Backlog Staging** | `Report` | `cec2dae3-2f80-4757-b25b-f7987ec635be` | ⚠️ Legacy Power Automate pipeline (monthly CSV copy). Monitor refresh and deprecate in the future |
+| **TMEU IT Devices Users** | `Report` | `eeadc0b6-b631-4b72-b4a1-5459decbc155` | ⚠️ Legacy report (now automated elsewhere). Monitor and consider for deletion |
+| **Zoho Dataset** | `Report` | `138d117b-a120-4d48-be0b-3d1b9b80f965` | ⚠️ Legacy report (now automated elsewhere). Monitor and consider for deletion |
+| **TMEU_HC_Dataset** | `SemanticModel` | `f9a0fe7e-b471-4e05-a381-c953fd1fec24` | Processes manual OPS Package Excels from SharePoint monthly. ⚠️ **Fragile:** Prone to breaking due to manual data entry errors in the source Excels |
+| **alert_sharepoint** | `SemanticModel` | `99fc1dac-c34a-453e-ad54-d35434dab6a9` | ⚠️ Legacy Power Automate pipeline (monthly CSV copy). Monitor refresh and deprecate in the future |
+| **TMR Headcount File** | `SemanticModel` | `e53c9781-f5f6-462f-8712-4f1d2fd4c0ef` | Processes manual OPS Package Excels from SharePoint monthly. ⚠️ **Fragile:** Prone to breaking due to manual data entry errors in the source Excels |
+| **TMR PA History** | `SemanticModel` | `707be0b8-6f26-4354-9bb2-08bf71a155c0` | ⚠️ Legacy Power Automate pipeline (monthly CSV copy). Monitor refresh and deprecate in the future |
 | **TMD PA History** | `SemanticModel` | `73b1811a-a5d7-47b5-aaf7-ef28841cbae0` | ⚠️ **DO NOT DELETE** without management approval. Must verify TMD (Germany) exit deal is 100% closed and data is no longer needed by users |
-| **TMU PA History** | `SemanticModel` | `b2119e5e-b4ee-46b1-b67b-c943981d46b5` | - |
+| **TMU PA History** | `SemanticModel` | `b2119e5e-b4ee-46b1-b67b-c943981d46b5` | ⚠️ Legacy Power Automate pipeline (monthly CSV copy). Monitor refresh and deprecate in the future |
 | **Staging TMU Inventory** | `SemanticModel` | `abaff326-14a3-4ef9-a000-e36913fa5f4f` | ⚠️ Legacy TMU inventory dataset (bundled with Power Automate in the past). Candidate for deletion |
-| **TMEU TIV and MS** | `SemanticModel` | `b5f3ee4d-f7d1-4ae9-a05b-0b36110acd08` | - |
-| **TMEU Parts Inventory Staging** | `SemanticModel` | `43ac2f83-8541-4894-8a5a-4916eb084327` | - |
+| **TMEU TIV and MS** | `SemanticModel` | `b5f3ee4d-f7d1-4ae9-a05b-0b36110acd08` | ⚠️ Extremely legacy Wholegoods market data based on manual Excel files from former employees. Candidate for deletion |
+| **TMEU Parts Inventory Staging** | `SemanticModel` | `43ac2f83-8541-4894-8a5a-4916eb084327` | ⚠️ Legacy Power Automate pipeline (monthly CSV copy). Monitor refresh and deprecate in the future |
 | **TMD Parts Inventory Staging** | `SemanticModel` | `fb8b36d5-bff0-4308-bdba-7b752deaf8a8` | ⚠️ **DO NOT DELETE** without management approval. Must verify TMD (Germany) exit deal is 100% closed and data is no longer needed by users |
 | **1C SQL Ledger Data** | `SemanticModel` | `b46cf783-91f2-4da3-9656-ca9a2e4317db` | Acts as a bridge semantic model between the raw 1C (1s) database and the IT costs pipeline |
 | **EU IT Expenses Staging** | `SemanticModel` | `644f3fb9-a8ba-4eaf-94d0-cc3e8968577f` | ⚠️ Legacy (pre-Fabric, Power Automate driven) calculation of IT costs. Candidate for deletion if no longer needed by business |
-| **TMU Sales Backlog Staging** | `SemanticModel` | `6dbc849f-4f47-4b32-80d0-d0550020c1c5` | - |
-| **TMEU IT Devices Users** | `SemanticModel` | `7d81e1fe-3853-42db-a0a6-59778f12532d` | - |
-| **Zoho Dataset** | `SemanticModel` | `4c6de12d-dc63-4152-8c1e-79ed38cc792b` | - |
+| **TMU Sales Backlog Staging** | `SemanticModel` | `6dbc849f-4f47-4b32-80d0-d0550020c1c5` | ⚠️ Legacy Power Automate pipeline (monthly CSV copy). Monitor refresh and deprecate in the future |
+| **TMEU IT Devices Users** | `SemanticModel` | `7d81e1fe-3853-42db-a0a6-59778f12532d` | ⚠️ Legacy dataset (now automated elsewhere). Monitor and consider for deletion |
+| **Zoho Dataset** | `SemanticModel` | `4c6de12d-dc63-4152-8c1e-79ed38cc792b` | ⚠️ Legacy dataset (now automated elsewhere). Monitor and consider for deletion |
 
 ## 3. Semantic Models (Datasets) & Refresh Schedules
 
