@@ -419,8 +419,8 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 
 **Dataflows**:
 - **TMU Service HR Tables** (ID: `13f50965-b993-41a5-80b4-b9ac793c8b63`)
-- **TMB OPS Package Helpers** (ID: `85fdccde-c127-47f6-abca-20372d36c64d`)
-- **TMR OPS Package Helpers** (ID: `8da432b8-78ee-4821-bd58-8da64ae8e734`)
+- **TMB OPS Package Helpers** (ID: `85fdccde-c127-47f6-abca-20372d36c64d`) — *Legacy storage for manual Excel adjustments for the Bulgaria (TMB) OPS Package*
+- **TMR OPS Package Helpers** (ID: `8da432b8-78ee-4821-bd58-8da64ae8e734`) — *Legacy storage for manual Excel adjustments for the Romania (TMR) OPS Package*
 - **TMD HR Tables** (ID: `15d26653-4f86-4420-be69-5f32a2ea0124`)
 - **TMEU Mappings** (ID: `f4703fc2-e426-4d6b-a394-24aa3d433ca9`)
 - **TMR SP Stock History** (ID: `3cf66791-50d0-4468-846a-1a54e9635fec`)
@@ -432,10 +432,10 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 - **TMEU SP Item ENG Description** (ID: `7590ec83-bbb9-45bb-ba23-b91943449d2d`)
 - **TMU PIH Excel Data** (ID: `733f9633-c636-4be6-bbc2-aa05390fd661`)
 - **HR Database DF** (ID: `f449640a-15cb-45b1-a943-3a7c4aff2a06`)
-- **TMR OPS Package helpers P2** (ID: `f0acb7ee-7e3d-4db5-9510-74f0743e09cf`)
+- **TMR OPS Package helpers P2** (ID: `f0acb7ee-7e3d-4db5-9510-74f0743e09cf`) — *Legacy storage for manual Excel adjustments for the Romania (TMR) OPS Package (Part 2)*
 - **TMU Sales Backlog (Forecast)** (ID: `51bfac21-2e3d-4ea3-a3f8-ca6e1ec49ec3`)
 - **TMUS Service SRT** (ID: `7b46ff70-3892-440e-ade0-5338a1b3b435`)
-- **TMU Active ESCs** (ID: `cbe781c0-61f1-46b6-80d3-adefb7b09b10`)
+- **TMU Active ESCs** (ID: `cbe781c0-61f1-46b6-80d3-adefb7b09b10`) — *Manual configuration table of TMU ESCs. Controls the Monday Power Automate customer interaction emails. Update this when ESCs join or leave in Ukraine.*
 - **TMEU WG Inventory Hardcopy** (ID: `31ee2eee-4880-46e9-8e80-d97ab5347550`)
 - **TMEU HR Temp Data** (ID: `eef5623f-5daf-4e61-9f5c-5c9e07b9003a`)
 **Dashboards**:

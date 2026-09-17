@@ -152,10 +152,45 @@ Every country and the EU consolidation level has its own OPS Package workspace:
 > [!NOTE]
 > Full documentation of OPS Package content, KPIs, and data model will be added to the individual workspace files. For now, treat any `*OPSpackage*` workspace as high-priority and business-critical.
 
+#### OPS Package Helpers & Manual Adjustments
+You may encounter **OPS Package Helper** dataflows in the environment. These serve as legacy storage for manual adjustments to the respective country OPS Packages. 
+- Historically, some adjustment data was maintained by users directly in Excel. 
+- Some of these manual Excel inputs are still in use today. 
+- **Troubleshooting tip:** If business users report that their manual adjustments are not reflecting in the OPS Package reports, the corresponding OPS Package Helper dataflow (and its underlying Excel source) is the **first place you should look**.
+
 ---
+### 0.7 EOC Domain Dashboards
 
+The EOC (Europe Office Center / HQ) domain dashboard workspaces are critical reporting environments used for strategic oversight.
 
+#### What they are
+These workspaces contain highly summarized data tailored for specific business lines across the organization.
 
+#### Why they matter
+These are the primary domain dashboards heavily utilized by both **country-level management** and **TMA (Austria HQ) domain managers** to track high-level KPIs, set strategic targets, and drive domain-level decision-making.
+
+#### Where to find them
+- `BI_EOC_Parts_Dashboard`: Core domain dashboards for Parts across the countries.
+- `BI_EOC_Sales_Dashboard`: Core domain dashboards for Sales (Wholegoods) across the countries.
+- `BI_EOC_Service_Dashboard`: Core domain dashboards for Service operations across the countries.
+
+> [!NOTE]
+> **Power BI App Publishing**
+> Each of these EOC workspaces contains a dedicated set of country-specific reports that all share the same structure. Users consume these reports primarily through the **Power BI App**. 
+> **Important:** Whenever you adjust the content of these reports, you must **update the Power BI App** to ensure users see the latest changes.
+
+---
+### 0.8 Legacy Architecture & Tech Debt: JetDWH (TMB & TMR & TMA)
+
+> [!WARNING]
+> **Legacy Data Warehouse (JetDWH)**
+> Most reports for **TMB** (Bulgaria), **TMR** (Romania) and some of **TMA**'s (Austria) legacy reports built prior to Fabric adoption in 2025 source their ERP data from a legacy data warehouse known as **JetDWH**.
+>
+> - **Maintenance:** JetDWH is maintained by an outsourced partner, **Arggo**. They are responsible for its upkeep.
+> - **Strategic Goal:** The long-term architecture strategy is to **abandon JetDWH** over time and fully migrate to the OneLake architecture.
+> - **Current Challenge:** Most business-critical reports for TMB, TMR and TMA are still dependent on JetDWH. Rebuilding these directly on Fabric/OneLake will be a long-running, resource-intensive project requiring additional planning and capacity.
+
+---
 
 Welcome! This guide is designed to help a newcomer quickly get up to speed with Titan Machinery's Fabric & Power BI environment.
 

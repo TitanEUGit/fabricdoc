@@ -8,6 +8,11 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!IMPORTANT]
+> **Core Domain Dashboard (Service)**
+> This workspace houses one of the most critical domain-specific dashboards in the environment. It contains highly summarized Service data that is heavily utilized by both **country-level management** and **TMA (Austria HQ) domain managers** for strategic oversight and decision-making.
+
 This document contains operational and technical details for the **BI_EOC_Service_Dashboard** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory

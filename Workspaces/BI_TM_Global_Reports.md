@@ -8,6 +8,12 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!NOTE]
+> **Global Wholegoods Sales Reporting (US Market Request)**
+> This workspace contains reports focused on **global Wholegoods (WG) sales**. These reports were specifically requested by the US organization and are typically reviewed only once a year. 
+> **Operational Note:** You may periodically be asked to manually update these reports with fresh US data.
+
 This document contains operational and technical details for the **BI_TM_Global_Reports** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory

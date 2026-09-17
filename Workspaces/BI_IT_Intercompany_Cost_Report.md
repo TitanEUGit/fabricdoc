@@ -8,6 +8,11 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!NOTE]
+> **Intercompany IT Cost Reporting**
+> This workspace contains reporting for **shared Azure IT costs** between the European business and the US market. The underlying data for these reports is maintained and fed by a dedicated pipeline running out of the `Fabric_Prod_Workspace`.
+
 This document contains operational and technical details for the **BI_IT_Intercompany_Cost_Report** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory
