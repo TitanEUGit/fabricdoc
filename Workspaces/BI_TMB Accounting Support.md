@@ -8,6 +8,11 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!WARNING]
+> **Legacy Workspace (Usage Verification Required)**
+> This workspace was inherited from a former TMB finance manager. Its current usage needs to be verified to determine if anyone at the company still relies on it. Currently, only the **AMT Report for posting** is actively refreshing.
+
 This document contains operational and technical details for the **BI_TMB Accounting Support** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory
@@ -16,11 +21,11 @@ This document contains operational and technical details for the **BI_TMB Accoun
 | :--- | :--- | :--- | :--- |
 | **ICO Elimination** | `Report` | `f771bc20-3759-4b1c-bc71-3654b8a272e6` | - |
 | **Purchase_sales report TMB** | `Report` | `24e55cf8-497e-4584-88cf-7baeb147ec4b` | - |
-| **AMT Report for posting** | `Report` | `11cd083b-8933-4f5a-8ad9-0f99fec0bd6e` | - |
+| **AMT Report for posting** | `Report` | `11cd083b-8933-4f5a-8ad9-0f99fec0bd6e` | **Active:** The only report in this workspace that is actively refreshing |
 | **Usage Metrics Report** | `Report` | `4324ee91-485b-44f6-8031-1b31e7ff0d44` | - |
 | **ICO Elimination** | `SemanticModel` | `1f0eed45-707a-4912-a259-64b7ab64762d` | - |
 | **Purchase_sales report TMB** | `SemanticModel` | `5adb9f5a-1ad4-448e-8c83-830d6f51a60b` | - |
-| **AMT Report for posting** | `SemanticModel` | `0178ab0e-aeea-4807-bdd0-5ac7ed552f8a` | - |
+| **AMT Report for posting** | `SemanticModel` | `0178ab0e-aeea-4807-bdd0-5ac7ed552f8a` | **Active:** The only dataset in this workspace that is actively refreshing |
 | **Usage Metrics Report** | `SemanticModel` | `12cc3550-f4f8-4830-8043-e1362e209224` | - |
 
 ## 3. Semantic Models (Datasets) & Refresh Schedules

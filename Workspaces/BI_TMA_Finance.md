@@ -8,6 +8,11 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!WARNING]
+> **Legacy Workspace (Datasource Only)**
+> The `BI_TMA_Finance` is a legacy workspace. Today, it primarily serves as a backend datasource for other downstream reports rather than for direct end-user consumption.
+
 This document contains operational and technical details for the **BI_TMA_Finance** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory
