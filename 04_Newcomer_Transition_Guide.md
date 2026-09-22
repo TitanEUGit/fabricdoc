@@ -201,7 +201,7 @@ Welcome! This guide is designed to help a newcomer quickly get up to speed with 
 
 ## 2. Common Maintenance Workflows
 ### Monitoring Daily Refreshes
-1. Open `02_Refresh_Schedules_&_Operations.md` to see expected daily refresh windows.
+1. Open `02_Refresh_Schedules_&_Operations.md` to see expected daily refresh windows. The documented schedules are valid as of the middle September 2026 and can already be changed, so make sure to check with the platform if the latest information is required!
 2. In the Power BI Service, navigate to the specific Workspace.
 3. Check dataset Refresh History for any `Failed` status.
 
