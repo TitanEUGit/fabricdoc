@@ -72,14 +72,6 @@ This document contains operational and technical details for the **BI_TMEU Whole
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMR/Order%20Helper/Models%20and%20Leadtime.xlsx'}`
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMR/Order%20Helper/Budget%20Units.xlsx'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-01-11 04:00:06 | 2026-01-11 04:00:06 | `Disabled` | `Scheduled` | - |
-| 2026-01-10 04:00:08 | 2026-01-10 04:05:12 | `Completed` | `Scheduled` | - |
-| 2026-01-09 04:00:13 | 2026-01-09 04:06:54 | `Completed` | `Scheduled` | - |
-| 2026-01-08 04:00:06 | 2026-01-08 04:04:36 | `Completed` | `Scheduled` | - |
-| 2026-01-07 04:00:07 | 2026-01-07 04:05:08 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMB WG Stock Order Helper (model input)
 - **Dataset ID**: `b5bfbc6e-574a-478d-bcd9-03a52b2aa70f`
@@ -97,14 +89,6 @@ This document contains operational and technical details for the **BI_TMEU Whole
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMB/Order%20Helper/Budget%20Units.xlsx'}`
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMB/Order%20Helper/Models%20and%20Leadtime.xlsx'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-01-07 04:01:22 | 2026-01-07 04:01:22 | `Disabled` | `Scheduled` | - |
-| 2026-01-06 04:00:25 | 2026-01-06 04:05:04 | `Completed` | `Scheduled` | - |
-| 2026-01-05 04:00:24 | 2026-01-05 04:03:54 | `Completed` | `Scheduled` | - |
-| 2026-01-04 04:00:19 | 2026-01-04 04:03:26 | `Completed` | `Scheduled` | - |
-| 2026-01-03 04:01:18 | 2026-01-03 04:07:58 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMD WG Stock Order Helper (model input)
 - **Dataset ID**: `8da0d574-58ee-431e-b764-65b1cb0ef79c`
@@ -124,14 +108,6 @@ This document contains operational and technical details for the **BI_TMEU Whole
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMD/Order%20Helper/Budget%20Units.xlsx'}`
 - Type: `Extension` | Connection: `{'path': 'titanmachinery.crm4.dynamics.com', 'kind': 'CommonDataService'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-11-11 04:01:12 | 2025-11-11 04:01:12 | `Disabled` | `Scheduled` | - |
-| 2025-11-10 04:00:34 | 2025-11-10 04:05:58 | `Completed` | `Scheduled` | - |
-| 2025-11-09 04:01:14 | 2025-11-09 04:08:44 | `Completed` | `Scheduled` | - |
-| 2025-11-08 04:03:15 | 2025-11-08 04:09:40 | `Completed` | `Scheduled` | - |
-| 2025-11-07 04:01:12 | 2025-11-07 04:10:07 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMEU Inventory Forecast
 - **Dataset ID**: `9f00ef86-146e-45c2-8424-fdb6bbde4626`
@@ -153,14 +129,6 @@ This document contains operational and technical details for the **BI_TMEU Whole
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmr_opspackage', 'database': 'tmr ops package'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmu_opspackage', 'database': 'tmu ops package'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 03:00:21 | 2026-09-15 03:13:15 | `Completed` | `Scheduled` | - |
-| 2026-09-14 03:00:24 | 2026-09-14 03:12:59 | `Completed` | `Scheduled` | - |
-| 2026-09-13 03:01:14 | 2026-09-13 03:14:09 | `Completed` | `Scheduled` | - |
-| 2026-09-12 03:00:27 | 2026-09-12 03:14:37 | `Completed` | `Scheduled` | - |
-| 2026-09-11 03:01:12 | 2026-09-11 03:12:55 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU WG Stock Order Helper (model input)
 - **Dataset ID**: `57746fbc-5b9a-44b1-9a9b-45dfdd4c62d1`
@@ -180,14 +148,6 @@ This document contains operational and technical details for the **BI_TMEU Whole
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMU/Order%20Helper/Budget%20Units.xlsx'}`
 - Type: `Extension` | Connection: `{'path': 'PowerPlatformDataflows', 'kind': 'PowerPlatformDataflows'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-12-08 04:00:03 | 2025-12-08 04:00:03 | `Disabled` | `Scheduled` | - |
-| 2025-12-07 04:00:02 | 2025-12-07 04:01:29 | `Completed` | `Scheduled` | - |
-| 2025-12-06 04:00:02 | 2025-12-06 04:01:25 | `Completed` | `Scheduled` | - |
-| 2025-12-05 04:00:02 | 2025-12-05 04:01:22 | `Completed` | `Scheduled` | - |
-| 2025-12-04 04:01:07 | 2025-12-04 04:06:07 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `99cf25b7-e07f-43fa-a0dc-539fdc60dee5`
@@ -202,14 +162,6 @@ This document contains operational and technical details for the **BI_TMEU Whole
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-21 02:42:07 | 2025-07-21 02:42:07 | `Disabled` | `Scheduled` | - |
-| 2025-07-20 02:42:06 | 2025-07-20 02:46:16 | `Completed` | `Scheduled` | - |
-| 2025-07-19 02:42:11 | 2025-07-19 02:46:01 | `Completed` | `Scheduled` | - |
-| 2025-07-18 02:42:03 | 2025-07-18 02:45:57 | `Completed` | `Scheduled` | - |
-| 2025-07-17 02:42:18 | 2025-07-17 02:44:32 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Report Usage Metrics Model
 - **Dataset ID**: `cfc5b550-e550-4398-acdd-a0b053816717`
@@ -238,14 +190,6 @@ This document contains operational and technical details for the **BI_TMEU Whole
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMU/Inventory%20Forecast%20Helper/TMU%20Inventory%20Forecast%20Helper.xlsx'}`
 - Type: `SharePointList` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/collaboration/'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-03-22 05:02:05 | 2026-03-22 05:02:05 | `Disabled` | `Scheduled` | - |
-| 2026-03-21 05:02:12 | 2026-03-21 05:13:47 | `Completed` | `Scheduled` | - |
-| 2026-03-20 05:02:12 | 2026-03-20 05:13:21 | `Completed` | `Scheduled` | - |
-| 2026-03-19 05:02:08 | 2026-03-19 05:12:25 | `Completed` | `Scheduled` | - |
-| 2026-03-18 05:03:21 | 2026-03-18 05:13:34 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMEU Inventory Forecast (EDD)
 - **Dataset ID**: `1af8389e-51c5-45e5-bb2e-cb85cabbec1a`
@@ -269,14 +213,6 @@ This document contains operational and technical details for the **BI_TMEU Whole
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/WG/source%20based%20on%20EDD/Estimated%20delivery%20dates.xlsx'}`
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmeu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 04:01:15 | 2026-09-15 04:15:16 | `Completed` | `Scheduled` | - |
-| 2026-09-14 04:01:16 | 2026-09-14 04:15:02 | `Completed` | `Scheduled` | - |
-| 2026-09-13 04:02:12 | 2026-09-13 04:17:12 | `Completed` | `Scheduled` | - |
-| 2026-09-12 04:01:16 | 2026-09-12 04:16:05 | `Completed` | `Scheduled` | - |
-| 2026-09-11 04:02:15 | 2026-09-11 04:15:51 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMB KTI Report
 - **Dataset ID**: `cbb167d6-301c-4a54-9bbf-82794c0f09d1`
@@ -291,14 +227,6 @@ This document contains operational and technical details for the **BI_TMEU Whole
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmeu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-07-17 08:16:55 | 2026-07-17 08:16:59 | `Completed` | `OnDemand` | - |
-| 2026-07-17 07:14:06 | 2026-07-17 07:14:10 | `Completed` | `OnDemand` | - |
-| 2026-07-17 04:01:44 | 2026-07-17 04:01:53 | `Completed` | `DataFactory` | - |
-| 2026-04-24 04:01:21 | 2026-04-24 04:01:30 | `Completed` | `DataFactory` | - |
-| 2026-03-17 14:45:28 | 2026-03-17 14:45:37 | `Completed` | `OnDemand` | - |
 
 ## 4. Power BI Reports Inventory
 

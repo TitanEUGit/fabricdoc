@@ -51,14 +51,6 @@ This document contains operational and technical details for the **BI_EOC_Servic
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMB/Service_dashboard/service_dashboard_budget_title.xlsx'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmeu_aftersales', 'database': 'tmeu open service jobcards'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 07:01:04 | 2026-09-15 07:02:40 | `Completed` | `Scheduled` | - |
-| 2026-09-14 07:00:14 | 2026-09-14 07:01:50 | `Completed` | `Scheduled` | - |
-| 2026-09-13 07:01:04 | 2026-09-13 07:02:39 | `Completed` | `Scheduled` | - |
-| 2026-09-12 07:00:16 | 2026-09-12 07:01:42 | `Completed` | `Scheduled` | - |
-| 2026-09-11 07:01:06 | 2026-09-11 07:02:50 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMD Service Dashboard
 - **Dataset ID**: `9881dc85-86e2-4e89-b3a5-d517a3df3d1f`
@@ -75,14 +67,6 @@ This document contains operational and technical details for the **BI_EOC_Servic
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMD/Service_dashboard/service_dashboard_budget_title.xlsx'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmeu_aftersales', 'database': 'tmeu open service jobcards'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 07:01:01 | 2026-09-15 07:01:29 | `Completed` | `Scheduled` | - |
-| 2026-09-14 07:00:08 | 2026-09-14 07:00:55 | `Completed` | `Scheduled` | - |
-| 2026-09-13 07:01:01 | 2026-09-13 07:02:01 | `Completed` | `Scheduled` | - |
-| 2026-09-12 07:00:01 | 2026-09-12 07:00:26 | `Completed` | `Scheduled` | - |
-| 2026-09-11 07:01:01 | 2026-09-11 07:01:56 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMR Service Dashboard
 - **Dataset ID**: `69fc80c3-0b92-47c4-8cda-2a46efd0e8cc`
@@ -100,14 +84,6 @@ This document contains operational and technical details for the **BI_EOC_Servic
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmeu_aftersales', 'database': 'tmeu open service jobcards'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/ds_tmeu_datasets and dataflows', 'database': 'tmeu_hc_dataset'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 07:01:03 | 2026-09-15 07:03:21 | `Completed` | `Scheduled` | - |
-| 2026-09-14 07:00:21 | 2026-09-14 07:02:57 | `Completed` | `Scheduled` | - |
-| 2026-09-13 07:01:03 | 2026-09-13 07:03:05 | `Completed` | `Scheduled` | - |
-| 2026-09-12 07:00:13 | 2026-09-12 07:02:34 | `Completed` | `Scheduled` | - |
-| 2026-09-11 07:01:12 | 2026-09-11 07:04:44 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU Service Dashboard
 - **Dataset ID**: `c5b76d01-1ccd-4b97-9222-1b3cc6bce725`
@@ -124,14 +100,6 @@ This document contains operational and technical details for the **BI_EOC_Servic
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMU/Service_dashboard/service_dashboard_budget_title.xlsx'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmeu_aftersales', 'database': 'tmeu open service jobcards'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 07:01:13 | 2026-09-15 07:04:59 | `Completed` | `Scheduled` | - |
-| 2026-09-14 07:00:16 | 2026-09-14 07:02:19 | `Completed` | `Scheduled` | - |
-| 2026-09-13 07:01:14 | 2026-09-13 07:04:35 | `Completed` | `Scheduled` | - |
-| 2026-09-12 07:00:38 | 2026-09-12 07:03:06 | `Completed` | `Scheduled` | - |
-| 2026-09-11 07:01:09 | 2026-09-11 07:03:27 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Report Usage Metrics Model
 - **Dataset ID**: `ab195926-4696-458d-90a4-fcbffdc339c0`
@@ -154,14 +122,6 @@ This document contains operational and technical details for the **BI_EOC_Servic
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-21 14:12:23 | 2025-07-21 14:12:23 | `Disabled` | `Scheduled` | - |
-| 2025-07-20 14:11:02 | 2025-07-20 14:19:05 | `Completed` | `Scheduled` | - |
-| 2025-07-19 14:11:00 | 2025-07-19 14:19:07 | `Completed` | `Scheduled` | - |
-| 2025-07-18 14:11:11 | 2025-07-18 14:19:20 | `Completed` | `Scheduled` | - |
-| 2025-07-17 14:12:17 | 2025-07-17 14:20:09 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMEU Summary Service Dashboard
 - **Dataset ID**: `8aa29f08-ee09-4ba0-8908-ff33ecd65cb2`
@@ -179,14 +139,6 @@ This document contains operational and technical details for the **BI_EOC_Servic
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_eoc_service_dashboard', 'database': 'tmu service dashboard'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_eoc_service_dashboard', 'database': 'tmb service dashboard'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 07:30:26 | 2026-09-15 07:33:03 | `Completed` | `Scheduled` | - |
-| 2026-09-14 07:31:17 | 2026-09-14 07:38:21 | `Completed` | `Scheduled` | - |
-| 2026-09-13 07:31:06 | 2026-09-13 07:34:20 | `Completed` | `Scheduled` | - |
-| 2026-09-12 07:31:20 | 2026-09-12 07:38:28 | `Completed` | `Scheduled` | - |
-| 2026-09-11 07:31:19 | 2026-09-11 07:38:18 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

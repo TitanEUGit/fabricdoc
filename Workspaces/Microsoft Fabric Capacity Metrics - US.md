@@ -32,14 +32,6 @@ This document contains operational and technical details for the **Microsoft Fab
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'CapacityMetricsCES', 'kind': 'CapacityMetricsCES'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 07:02:06 | 2026-09-15 07:12:50 | `Completed` | `Scheduled` | - |
-| 2026-09-14 22:02:16 | 2026-09-14 22:16:36 | `Completed` | `Scheduled` | - |
-| 2026-09-14 20:02:06 | 2026-09-14 20:13:09 | `Completed` | `Scheduled` | - |
-| 2026-09-14 19:02:03 | 2026-09-14 19:12:04 | `Completed` | `Scheduled` | - |
-| 2026-09-14 18:03:05 | 2026-09-14 18:16:35 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

@@ -62,14 +62,6 @@ This document contains operational and technical details for the **INT_OrderBook
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'tmweupautosql01.database.windows.net', 'database': 'tmweu_reporting_db'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-14 21:30:16 | 2026-09-14 21:37:16 | `Completed` | `Scheduled` | - |
-| 2026-09-13 21:30:14 | 2026-09-13 21:37:17 | `Completed` | `Scheduled` | - |
-| 2026-09-12 21:30:17 | 2026-09-12 21:36:50 | `Completed` | `Scheduled` | - |
-| 2026-09-11 21:30:15 | 2026-09-11 21:35:07 | `Completed` | `Scheduled` | - |
-| 2026-09-10 21:30:18 | 2026-09-10 21:37:26 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `8a47e46b-0bdb-4fc8-b855-275ceeb3dde5`
@@ -84,14 +76,6 @@ This document contains operational and technical details for the **INT_OrderBook
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-21 00:32:06 | 2025-07-21 00:32:06 | `Disabled` | `Scheduled` | - |
-| 2025-07-20 00:31:12 | 2025-07-20 00:41:38 | `Completed` | `Scheduled` | - |
-| 2025-07-19 00:31:09 | 2025-07-19 00:40:54 | `Completed` | `Scheduled` | - |
-| 2025-07-18 00:31:06 | 2025-07-18 00:41:01 | `Completed` | `Scheduled` | - |
-| 2025-07-17 00:31:05 | 2025-07-17 00:37:39 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

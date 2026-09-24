@@ -51,14 +51,6 @@ This document contains operational and technical details for the **BI_TMEU_Segme
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMB/headcount_division/headcount_by_division.xlsx'}`
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMB/serv_rec_rate/gross_sal_serv.xlsx'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-02-08 21:01:08 | 2026-02-08 21:11:58 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2026-02-01 21:01:27 | 2026-02-01 21:14:11 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2026-01-25 21:01:09 | 2026-01-25 21:12:38 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2026-01-18 21:00:20 | 2026-01-18 21:11:03 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2026-01-11 21:01:13 | 2026-01-11 21:03:21 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMD Segment Dashboard
 - **Dataset ID**: `fe8040c4-16ab-4fdc-b6bd-78f0aabcb42c`
@@ -78,14 +70,6 @@ This document contains operational and technical details for the **BI_TMEU_Segme
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmd_crm', 'database': 'tmd crm'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmd_aftersales', 'database': 'tmd service kpi new'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-03-22 21:01:04 | 2026-03-22 21:01:04 | `Disabled` | `Scheduled` | - |
-| 2026-03-15 21:00:04 | 2026-03-15 21:01:29 | `Completed` | `Scheduled` | - |
-| 2026-03-08 21:00:22 | 2026-03-08 21:04:16 | `Completed` | `Scheduled` | - |
-| 2026-03-01 21:01:05 | 2026-03-01 21:03:55 | `Completed` | `Scheduled` | - |
-| 2026-02-22 21:01:07 | 2026-02-22 21:03:44 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMR Segment Dashboard
 - **Dataset ID**: `ad06fb6a-9dd0-4f70-b9a4-c19ac8f4cca0`
@@ -104,14 +88,6 @@ This document contains operational and technical details for the **BI_TMEU_Segme
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMR/TIV/TIV%20inputs.xlsx'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmr_crm', 'database': 'tmr crm'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-08-17 20:02:09 | 2025-08-17 20:02:09 | `Disabled` | `Scheduled` | - |
-| 2025-08-10 20:03:11 | 2025-08-10 20:11:37 | `Completed` | `Scheduled` | - |
-| 2025-08-03 20:01:14 | 2025-08-03 20:07:18 | `Completed` | `Scheduled` | - |
-| 2025-07-27 20:01:11 | 2025-07-27 20:08:21 | `Completed` | `Scheduled` | - |
-| 2025-07-20 20:01:05 | 2025-07-20 20:05:10 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU Segment Dashboard
 - **Dataset ID**: `052625b6-55c1-40dd-a004-1c099be02a8b`
@@ -131,14 +107,6 @@ This document contains operational and technical details for the **BI_TMEU_Segme
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMU/headcount_division/headcount_by_division.xlsx'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmu_crm', 'database': 'tmu crm'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-10-26 21:01:03 | 2025-10-26 21:03:09 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2025-10-19 20:01:01 | 2025-10-19 20:04:39 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2025-10-12 20:01:04 | 2025-10-12 20:03:29 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2025-10-06 14:19:01 | 2025-10-06 14:22:03 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2025-05-25 20:01:06 | 2025-05-25 20:01:06 | `Disabled` | `Scheduled` | - |
 
 ### Semantic Model: Report Usage Metrics Model
 - **Dataset ID**: `13cada7e-f054-4c43-8614-0252bcc840da`
@@ -161,14 +129,6 @@ This document contains operational and technical details for the **BI_TMEU_Segme
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-18 21:43:03 | 2025-07-18 21:43:03 | `Disabled` | `Scheduled` | - |
-| 2025-07-17 21:43:14 | 2025-07-17 21:44:48 | `Completed` | `Scheduled` | - |
-| 2025-07-16 21:43:03 | 2025-07-16 21:44:46 | `Completed` | `Scheduled` | - |
-| 2025-07-15 21:43:04 | 2025-07-15 21:45:23 | `Completed` | `Scheduled` | - |
-| 2025-07-14 21:43:17 | 2025-07-14 21:44:19 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

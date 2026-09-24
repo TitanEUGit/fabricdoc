@@ -42,14 +42,6 @@ This document contains operational and technical details for the **BI_TMR Afters
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2024-08-03 07:23:03 | 2024-08-03 07:23:03 | `Disabled` | `Scheduled` | - |
-| 2024-08-02 07:23:02 | 2024-08-02 07:23:14 | `Completed` | `Scheduled` | - |
-| 2024-08-01 07:23:00 | 2024-08-01 07:23:12 | `Completed` | `Scheduled` | - |
-| 2024-07-31 07:23:25 | 2024-07-31 07:23:39 | `Completed` | `Scheduled` | - |
-| 2024-07-30 07:23:13 | 2024-07-30 07:23:51 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

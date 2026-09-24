@@ -48,14 +48,6 @@ This document contains operational and technical details for the **BI_EOC_OPSPac
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmu_opspackage_reports', 'database': 'p&l tmu'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmd_aftersales', 'database': 'tmd parts sales'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 07:01:08 | 2026-09-15 07:07:44 | `Completed` | `Scheduled` | - |
-| 2026-09-14 07:00:12 | 2026-09-14 07:06:52 | `Completed` | `Scheduled` | - |
-| 2026-09-13 07:01:09 | 2026-09-13 07:08:37 | `Completed` | `Scheduled` | - |
-| 2026-09-12 07:00:25 | 2026-09-12 07:07:01 | `Completed` | `Scheduled` | - |
-| 2026-09-11 07:01:04 | 2026-09-11 07:06:55 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `d73cc21f-1a8e-481b-b023-326d966313e3`
@@ -70,14 +62,6 @@ This document contains operational and technical details for the **BI_EOC_OPSPac
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-19 08:59:14 | 2025-07-19 08:59:14 | `Disabled` | `Scheduled` | - |
-| 2025-07-18 08:59:06 | 2025-07-18 09:00:36 | `Completed` | `Scheduled` | - |
-| 2025-07-17 09:00:16 | 2025-07-17 09:06:02 | `Completed` | `Scheduled` | - |
-| 2025-07-16 08:59:08 | 2025-07-16 08:59:59 | `Completed` | `Scheduled` | - |
-| 2025-07-15 08:59:12 | 2025-07-15 09:00:08 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Report Usage Metrics Model
 - **Dataset ID**: `170d6635-faf9-4caa-a052-9dfb4136f797`

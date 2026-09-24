@@ -44,14 +44,6 @@ This document contains operational and technical details for the **BI_TMR_OpsPac
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmeu_bronze_lakehouse'}`
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmeu_erp_raw_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 05:00:27 | 2026-09-15 05:28:03 | `Completed` | `Scheduled` | - |
-| 2026-09-14 05:00:26 | 2026-09-14 05:28:10 | `Completed` | `Scheduled` | - |
-| 2026-09-13 05:01:02 | 2026-09-13 05:57:41 | `Completed` | `Scheduled` | - |
-| 2026-09-12 05:00:10 | 2026-09-12 05:25:27 | `Completed` | `Scheduled` | - |
-| 2026-09-11 05:01:15 | 2026-09-11 05:25:54 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

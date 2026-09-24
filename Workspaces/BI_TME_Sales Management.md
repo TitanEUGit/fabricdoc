@@ -44,14 +44,6 @@ This document contains operational and technical details for the **BI_TME_Sales 
 - Type: `Extension` | Connection: `{'path': 'titanmachinery.crm4.dynamics.com', 'kind': 'CommonDataService'}`
 - Type: `Extension` | Connection: `{'path': 'PowerPlatformDataflows', 'kind': 'PowerPlatformDataflows'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-05-28 00:01:06 | 2025-05-28 00:01:06 | `Disabled` | `Scheduled` | - |
-| 2025-05-27 00:00:05 | 2025-05-27 00:10:55 | `Completed` | `Scheduled` | - |
-| 2025-05-26 00:01:05 | 2025-05-26 00:07:44 | `Completed` | `Scheduled` | - |
-| 2025-05-25 00:01:06 | 2025-05-25 00:07:47 | `Completed` | `Scheduled` | - |
-| 2025-05-24 00:00:08 | 2025-05-24 00:05:51 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMEU New Equipment - Sales by Top Manufacturers
 - **Dataset ID**: `cfdd5f24-29fd-47d3-bf32-6bc07d0f7347`
@@ -69,14 +61,6 @@ This document contains operational and technical details for the **BI_TME_Sales 
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmd_sales', 'database': 'tmd wg sales'}`
 - Type: `Extension` | Connection: `{'path': 'PowerPlatformDataflows', 'kind': 'PowerPlatformDataflows'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-01-14 08:01:20 | 2026-01-14 08:01:20 | `Disabled` | `Scheduled` | - |
-| 2026-01-13 08:01:03 | 2026-01-13 08:03:55 | `Completed` | `Scheduled` | - |
-| 2026-01-12 08:01:02 | 2026-01-12 08:04:28 | `Completed` | `Scheduled` | - |
-| 2026-01-11 08:01:02 | 2026-01-11 08:04:37 | `Completed` | `Scheduled` | - |
-| 2026-01-10 08:01:18 | 2026-01-10 08:07:39 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `90b75a6a-50f0-4b41-b5a2-04f2d96dab3c`
@@ -91,14 +75,6 @@ This document contains operational and technical details for the **BI_TME_Sales 
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-21 00:35:13 | 2025-07-21 00:35:13 | `Disabled` | `Scheduled` | - |
-| 2025-07-20 00:35:05 | 2025-07-20 00:42:00 | `Completed` | `Scheduled` | - |
-| 2025-07-19 00:35:11 | 2025-07-19 00:40:59 | `Completed` | `Scheduled` | - |
-| 2025-07-18 00:35:17 | 2025-07-18 00:42:09 | `Completed` | `Scheduled` | - |
-| 2025-07-17 00:35:02 | 2025-07-17 00:44:32 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

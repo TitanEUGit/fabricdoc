@@ -41,14 +41,6 @@ This document contains operational and technical details for the **BI_TMD_Segmen
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmd_crm', 'database': 'tmd crm'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmd_aftersales', 'database': 'tmd service kpi new'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-12-08 21:00:04 | 2025-12-08 21:00:04 | `Disabled` | `Scheduled` | - |
-| 2025-12-01 21:00:27 | 2025-12-01 21:03:49 | `Completed` | `Scheduled` | - |
-| 2025-11-24 21:00:14 | 2025-11-24 21:02:55 | `Completed` | `Scheduled` | - |
-| 2025-11-17 21:01:20 | 2025-11-17 21:04:41 | `Completed` | `Scheduled` | - |
-| 2025-11-10 21:01:32 | 2025-11-10 21:09:32 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Report Usage Metrics Model
 - **Dataset ID**: `53d7aade-856d-44d2-a88a-4f643890371e`
@@ -71,14 +63,6 @@ This document contains operational and technical details for the **BI_TMD_Segmen
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2024-05-26 03:30:24 | 2024-05-26 03:30:24 | `Disabled` | `Scheduled` | - |
-| 2024-05-25 03:30:38 | 2024-05-25 03:38:51 | `Completed` | `Scheduled` | - |
-| 2024-05-24 03:30:33 | 2024-05-24 03:38:20 | `Completed` | `Scheduled` | - |
-| 2024-05-23 03:30:35 | 2024-05-23 03:37:26 | `Completed` | `Scheduled` | - |
-| 2024-05-22 03:30:12 | 2024-05-22 03:31:20 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

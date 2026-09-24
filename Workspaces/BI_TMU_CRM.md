@@ -51,14 +51,6 @@ This document contains operational and technical details for the **BI_TMU_CRM** 
 - Type: `Extension` | Connection: `{'path': 'titanukraine.crm4.dynamics.com', 'kind': 'CommonDataService'}`
 - Type: `Extension` | Connection: `{'path': 'PowerPlatformDataflows', 'kind': 'PowerPlatformDataflows'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 01:00:26 | 2026-09-15 01:06:21 | `Completed` | `Scheduled` | - |
-| 2026-09-14 01:00:13 | 2026-09-14 01:04:29 | `Completed` | `Scheduled` | - |
-| 2026-09-13 01:01:02 | 2026-09-13 01:08:21 | `Completed` | `Scheduled` | - |
-| 2026-09-12 01:00:28 | 2026-09-12 01:06:41 | `Completed` | `Scheduled` | - |
-| 2026-09-11 01:00:11 | 2026-09-11 01:03:27 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU ESC Appointments
 - **Dataset ID**: `e8cbfe04-219e-414e-867c-dcbb04ba24d3`
@@ -74,14 +66,6 @@ This document contains operational and technical details for the **BI_TMU_CRM** 
 - Type: `Extension` | Connection: `{'path': 'titanukraine.crm4.dynamics.com', 'kind': 'CommonDataService'}`
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-08-05 02:00:02 | 2026-08-05 02:00:02 | `Disabled` | `Scheduled` | - |
-| 2026-08-04 02:00:29 | 2026-08-04 02:18:46 | `Completed` | `Scheduled` | - |
-| 2026-08-03 02:00:01 | 2026-08-03 02:17:11 | `Completed` | `Scheduled` | - |
-| 2026-08-02 02:00:29 | 2026-08-02 02:18:10 | `Completed` | `Scheduled` | - |
-| 2026-08-01 02:00:34 | 2026-08-01 02:21:10 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU Quoted Offers
 - **Dataset ID**: `fa133345-23e3-49b0-ba68-a104d7fad4a5`
@@ -97,14 +81,6 @@ This document contains operational and technical details for the **BI_TMU_CRM** 
 - Type: `Extension` | Connection: `{'path': 'titanukraine.crm4.dynamics.com', 'kind': 'CommonDataService'}`
 - Type: `Extension` | Connection: `{'path': 'PowerPlatformDataflows', 'kind': 'PowerPlatformDataflows'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 03:00:21 | 2026-09-15 03:04:18 | `Completed` | `Scheduled` | - |
-| 2026-09-14 03:00:24 | 2026-09-14 03:03:33 | `Completed` | `Scheduled` | - |
-| 2026-09-13 03:01:14 | 2026-09-13 03:05:46 | `Completed` | `Scheduled` | - |
-| 2026-09-12 03:01:10 | 2026-09-12 03:06:50 | `Completed` | `Scheduled` | - |
-| 2026-09-11 03:01:11 | 2026-09-11 03:04:02 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU CRM Customers and Regions
 - **Dataset ID**: `c86883d9-cb1a-47c9-8d1b-d68db7bb2b1b`
@@ -119,14 +95,6 @@ This document contains operational and technical details for the **BI_TMU_CRM** 
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'titanukraine.crm4.dynamics.com', 'kind': 'CommonDataService'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-07-12 05:01:10 | 2026-07-12 05:01:10 | `Disabled` | `Scheduled` | - |
-| 2026-07-11 05:01:12 | 2026-07-11 05:06:38 | `Completed` | `Scheduled` | - |
-| 2026-07-10 05:02:07 | 2026-07-10 05:06:35 | `Completed` | `Scheduled` | - |
-| 2026-07-09 05:01:06 | 2026-07-09 05:04:34 | `Completed` | `Scheduled` | - |
-| 2026-07-08 05:01:16 | 2026-07-08 05:05:08 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `88ce196a-dac7-4b2d-af0e-6507104bb39f`
@@ -141,14 +109,6 @@ This document contains operational and technical details for the **BI_TMU_CRM** 
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-21 05:51:11 | 2025-07-21 05:51:11 | `Disabled` | `Scheduled` | - |
-| 2025-07-20 05:51:16 | 2025-07-20 05:51:51 | `Completed` | `Scheduled` | - |
-| 2025-07-19 05:51:10 | 2025-07-19 05:51:45 | `Completed` | `Scheduled` | - |
-| 2025-07-18 05:51:09 | 2025-07-18 05:51:53 | `Completed` | `Scheduled` | - |
-| 2025-07-17 05:51:10 | 2025-07-17 05:52:00 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU ESC Interactions & Confirmations
 - **Dataset ID**: `6f4ca986-4ab0-4fed-b23b-1b1c57155f6d`
@@ -164,14 +124,6 @@ This document contains operational and technical details for the **BI_TMU_CRM** 
 - Type: `Extension` | Connection: `{'path': 'titanukraine.crm4.dynamics.com', 'kind': 'CommonDataService'}`
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-08-09 01:02:17 | 2026-08-09 01:02:17 | `Disabled` | `Scheduled` | - |
-| 2026-08-08 01:02:20 | 2026-08-08 01:09:21 | `Completed` | `Scheduled` | - |
-| 2026-08-07 01:02:15 | 2026-08-07 01:09:34 | `Completed` | `Scheduled` | - |
-| 2026-08-06 01:02:14 | 2026-08-06 01:09:18 | `Completed` | `Scheduled` | - |
-| 2026-08-05 01:03:36 | 2026-08-05 01:10:03 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

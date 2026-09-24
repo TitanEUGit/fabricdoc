@@ -44,14 +44,6 @@ This document contains operational and technical details for the **BI_TMEU_Custo
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmr_opspackage', 'database': 'tmr ops package'}`
 - Type: `Sql` | Connection: `{'server': '10.75.1.7', 'database': 'jetnavdwh'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 06:02:16 | 2026-09-15 06:11:40 | `Completed` | `Scheduled` | - |
-| 2026-09-14 06:01:15 | 2026-09-14 06:09:35 | `Completed` | `Scheduled` | - |
-| 2026-09-13 06:02:09 | 2026-09-13 06:11:44 | `Completed` | `Scheduled` | - |
-| 2026-09-12 06:02:18 | 2026-09-12 06:11:37 | `Completed` | `Scheduled` | - |
-| 2026-09-11 06:02:18 | 2026-09-11 06:11:08 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMB Customer Penetration Board
 - **Dataset ID**: `04ee2469-c9c8-4f94-83c9-b3dcbef43aa2`
@@ -69,14 +61,6 @@ This document contains operational and technical details for the **BI_TMEU_Custo
 - Type: `Sql` | Connection: `{'server': '10.75.1.7', 'database': 'jetnavdwh'}`
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanbg'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 06:02:14 | 2026-09-15 06:08:10 | `Completed` | `Scheduled` | - |
-| 2026-09-14 06:01:14 | 2026-09-14 06:06:06 | `Completed` | `Scheduled` | - |
-| 2026-09-13 06:02:09 | 2026-09-13 06:08:15 | `Completed` | `Scheduled` | - |
-| 2026-09-12 06:02:16 | 2026-09-12 06:09:32 | `Completed` | `Scheduled` | - |
-| 2026-09-11 06:02:16 | 2026-09-11 06:07:53 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU Customer Penetration Board
 - **Dataset ID**: `bc3953ee-b242-417a-885f-a8b824494619`
@@ -93,14 +77,6 @@ This document contains operational and technical details for the **BI_TMEU_Custo
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmu_opspackage', 'database': 'tmu ops package'}`
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 06:02:08 | 2026-09-15 06:07:03 | `Completed` | `Scheduled` | - |
-| 2026-09-14 06:01:06 | 2026-09-14 06:04:59 | `Completed` | `Scheduled` | - |
-| 2026-09-13 06:02:10 | 2026-09-13 06:07:50 | `Completed` | `Scheduled` | - |
-| 2026-09-12 06:02:08 | 2026-09-12 06:08:04 | `Completed` | `Scheduled` | - |
-| 2026-09-11 06:02:08 | 2026-09-11 06:06:19 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

@@ -64,14 +64,6 @@ This document contains operational and technical details for the **BI_TMU_Parts 
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-08-14 09:56:29 | 2026-08-14 10:09:04 | `Completed` | `OnDemand` | - |
-| 2026-07-17 08:14:01 | 2026-07-17 08:26:08 | `Completed` | `OnDemand` | - |
-| 2026-06-12 11:19:33 | 2026-06-12 11:29:58 | `Completed` | `OnDemand` | - |
-| 2026-05-22 15:16:39 | 2026-05-22 15:25:27 | `Completed` | `OnDemand` | - |
-| 2026-04-17 08:20:22 | 2026-04-17 08:34:05 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMU Market VAT Report
 - **Dataset ID**: `d6821a68-887d-4da1-8cb8-a74e81798000`
@@ -86,14 +78,6 @@ This document contains operational and technical details for the **BI_TMU_Parts 
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-08-21 06:15:06 | 2026-08-21 06:24:25 | `Completed` | `OnDemand` | - |
-| 2026-08-20 17:26:52 | 2026-08-20 17:36:04 | `Completed` | `OnDemand` | - |
-| 2026-07-31 11:10:24 | 2026-07-31 11:21:04 | `Completed` | `OnDemand` | - |
-| 2026-06-23 14:32:32 | 2026-06-23 14:44:29 | `Completed` | `OnDemand` | - |
-| 2026-05-22 14:05:48 | 2026-05-22 14:20:07 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMU Sales VAT Report
 - **Dataset ID**: `bcd6ba6d-fd7b-4ade-a908-c15234b07dc3`
@@ -108,14 +92,6 @@ This document contains operational and technical details for the **BI_TMU_Parts 
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-08-21 06:15:15 | 2026-08-21 06:18:14 | `Completed` | `OnDemand` | - |
-| 2026-08-20 17:27:01 | 2026-08-20 17:30:01 | `Completed` | `OnDemand` | - |
-| 2026-07-31 11:10:27 | 2026-07-31 11:13:56 | `Completed` | `OnDemand` | - |
-| 2026-06-23 14:32:38 | 2026-06-23 14:35:21 | `Completed` | `OnDemand` | - |
-| 2026-04-22 11:31:02 | 2026-04-22 11:35:00 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMU Market VAT Report - Export Enabled
 - **Dataset ID**: `455390ca-a392-493c-920e-05d60dbc5141`
@@ -130,14 +106,6 @@ This document contains operational and technical details for the **BI_TMU_Parts 
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-08-21 06:15:09 | 2026-08-21 06:24:43 | `Completed` | `OnDemand` | - |
-| 2026-08-20 17:26:56 | 2026-08-20 17:37:20 | `Completed` | `OnDemand` | - |
-| 2026-07-31 11:10:25 | 2026-07-31 11:19:41 | `Completed` | `OnDemand` | - |
-| 2026-06-23 14:32:30 | 2026-06-23 14:44:31 | `Completed` | `OnDemand` | - |
-| 2026-05-22 14:05:51 | 2026-05-22 14:14:11 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMU AfterSales Market (VAT based)
 - **Dataset ID**: `76d8d8c4-9b2e-4e44-8fe9-6edbbe655605`
@@ -152,14 +120,6 @@ This document contains operational and technical details for the **BI_TMU_Parts 
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-08-21 06:14:57 | 2026-08-21 06:35:02 | `Completed` | `OnDemand` | - |
-| 2026-08-20 17:26:45 | 2026-08-20 17:47:11 | `Completed` | `OnDemand` | - |
-| 2026-07-31 11:10:22 | 2026-07-31 11:32:51 | `Completed` | `OnDemand` | - |
-| 2026-06-23 14:32:27 | 2026-06-23 14:51:03 | `Completed` | `OnDemand` | - |
-| 2026-05-22 14:05:46 | 2026-05-22 14:26:55 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `f24c0fa0-0a81-45f6-b0ab-8a866bf35084`
@@ -174,14 +134,6 @@ This document contains operational and technical details for the **BI_TMU_Parts 
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-21 16:24:15 | 2025-07-21 16:24:15 | `Disabled` | `Scheduled` | - |
-| 2025-07-20 16:24:06 | 2025-07-20 16:24:23 | `Completed` | `Scheduled` | - |
-| 2025-07-19 16:24:09 | 2025-07-19 16:24:22 | `Completed` | `Scheduled` | - |
-| 2025-07-18 16:24:07 | 2025-07-18 16:24:18 | `Completed` | `Scheduled` | - |
-| 2025-07-17 16:24:09 | 2025-07-17 16:24:21 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU Parts Customs Import with Text OneLake
 - **Dataset ID**: `13854906-b695-46e3-a278-86e7497d8bdd`
@@ -196,14 +148,6 @@ This document contains operational and technical details for the **BI_TMU_Parts 
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-08-14 09:56:25 | 2026-08-14 10:12:07 | `Completed` | `OnDemand` | - |
-| 2026-07-17 08:14:05 | 2026-07-17 08:29:26 | `Completed` | `OnDemand` | - |
-| 2026-06-12 11:19:35 | 2026-06-12 11:35:03 | `Completed` | `OnDemand` | - |
-| 2026-05-22 15:16:41 | 2026-05-22 15:32:52 | `Completed` | `OnDemand` | - |
-| 2026-04-17 08:20:20 | 2026-04-17 08:34:06 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMU Assortment Budget
 - **Dataset ID**: `f82dbbaf-dce5-44d4-b575-6c40c315f60b`
@@ -218,14 +162,6 @@ This document contains operational and technical details for the **BI_TMU_Parts 
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.database.fabric.microsoft.com', 'database': 'tmu assortment budget-2ad254ce-44d5-4c67-9aee-a34267f0a56d'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 05:02:12 | 2026-09-15 05:07:00 | `Completed` | `Scheduled` | - |
-| 2026-09-14 05:01:11 | 2026-09-14 05:05:12 | `Completed` | `Scheduled` | - |
-| 2026-09-13 05:02:13 | 2026-09-13 05:07:13 | `Completed` | `Scheduled` | - |
-| 2026-09-12 05:02:16 | 2026-09-12 05:08:26 | `Completed` | `Scheduled` | - |
-| 2026-09-11 05:02:17 | 2026-09-11 05:07:18 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU Parts Turn & Budget
 - **Dataset ID**: `3c4de179-08d3-4730-b02e-a3c31ca96df3`
@@ -240,14 +176,6 @@ This document contains operational and technical details for the **BI_TMU_Parts 
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.database.fabric.microsoft.com', 'database': 'tmu assortment budget-2ad254ce-44d5-4c67-9aee-a34267f0a56d'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-14 23:02:06 | 2026-09-14 23:07:25 | `Completed` | `Scheduled` | - |
-| 2026-09-13 23:02:17 | 2026-09-13 23:09:03 | `Completed` | `Scheduled` | - |
-| 2026-09-12 23:02:11 | 2026-09-12 23:08:14 | `Completed` | `Scheduled` | - |
-| 2026-09-11 23:01:08 | 2026-09-11 23:05:25 | `Completed` | `Scheduled` | - |
-| 2026-09-10 23:02:19 | 2026-09-10 23:09:06 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

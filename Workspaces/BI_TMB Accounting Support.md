@@ -43,14 +43,6 @@ This document contains operational and technical details for the **BI_TMB Accoun
 **Connected Data Sources (Lineage)**:
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMB/Accounting/WG%20Purchases%20IC.xlsx'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2023-07-03 01:01:13 | 2023-07-03 01:01:13 | `Disabled` | `Scheduled` | - |
-| 2023-07-02 01:01:08 | 2023-07-02 01:05:23 | `Completed` | `Scheduled` | - |
-| 2023-07-01 01:02:09 | 2023-07-01 01:10:59 | `Completed` | `Scheduled` | - |
-| 2023-06-30 01:02:11 | 2023-06-30 01:10:33 | `Completed` | `Scheduled` | - |
-| 2023-06-29 01:02:13 | 2023-06-29 01:12:01 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Purchase_sales report TMB
 - **Dataset ID**: `5adb9f5a-1ad4-448e-8c83-830d6f51a60b`
@@ -75,14 +67,6 @@ This document contains operational and technical details for the **BI_TMB Accoun
 **Connected Data Sources (Lineage)**:
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMB/Accounting/AMT%20Exports%20Work%20file.xlsx'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 01:00:18 | 2026-09-15 01:02:00 | `Completed` | `Scheduled` | - |
-| 2026-09-14 01:00:31 | 2026-09-14 01:04:12 | `Completed` | `Scheduled` | - |
-| 2026-09-13 01:01:18 | 2026-09-13 01:05:08 | `Completed` | `Scheduled` | - |
-| 2026-09-12 01:00:21 | 2026-09-12 01:02:32 | `Completed` | `Scheduled` | - |
-| 2026-09-11 01:00:35 | 2026-09-11 01:03:03 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `12cc3550-f4f8-4830-8043-e1362e209224`
@@ -97,14 +81,6 @@ This document contains operational and technical details for the **BI_TMB Accoun
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-21 09:34:04 | 2025-07-21 09:34:04 | `Disabled` | `Scheduled` | - |
-| 2025-07-20 09:34:15 | 2025-07-20 09:45:46 | `Completed` | `Scheduled` | - |
-| 2025-07-19 09:34:03 | 2025-07-19 09:44:30 | `Completed` | `Scheduled` | - |
-| 2025-07-18 09:35:08 | 2025-07-18 09:44:59 | `Completed` | `Scheduled` | - |
-| 2025-07-17 09:34:06 | 2025-07-17 09:45:03 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

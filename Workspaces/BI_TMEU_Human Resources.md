@@ -39,14 +39,6 @@ This document contains operational and technical details for the **BI_TMEU_Human
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmeu_bronze_lakehouse'}`
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-6yrznhjyk4mejouruyrqklpc7m.datawarehouse.fabric.microsoft.com', 'database': 'hr management'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 09:33:16 | 2026-09-15 09:33:48 | `Completed` | `OnDemand` | - |
-| 2026-09-15 03:00:15 | 2026-09-15 03:02:36 | `Completed` | `Scheduled` | - |
-| 2026-09-14 03:00:15 | 2026-09-14 03:02:31 | `Completed` | `Scheduled` | - |
-| 2026-09-13 03:01:08 | 2026-09-13 03:03:47 | `Completed` | `Scheduled` | - |
-| 2026-09-12 03:01:10 | 2026-09-12 03:05:48 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

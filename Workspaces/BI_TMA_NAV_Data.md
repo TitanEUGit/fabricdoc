@@ -46,14 +46,6 @@ This document contains operational and technical details for the **BI_TMA_NAV_Da
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanat_prod'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 05:01:12 | 2026-09-15 05:06:21 | `Completed` | `Scheduled` | - |
-| 2026-09-14 05:01:09 | 2026-09-14 05:06:28 | `Completed` | `Scheduled` | - |
-| 2026-09-13 05:02:08 | 2026-09-13 05:31:06 | `Completed` | `Scheduled` | - |
-| 2026-09-12 05:01:12 | 2026-09-12 05:08:13 | `Completed` | `Scheduled` | - |
-| 2026-09-11 09:54:57 | 2026-09-11 09:56:09 | `Completed` | `ViaApi` | - |
 
 ### Semantic Model: TMA NAV Data
 - **Dataset ID**: `736a59a6-7fa8-45da-a0fa-3bc4bb07c0c6`
@@ -68,14 +60,6 @@ This document contains operational and technical details for the **BI_TMA_NAV_Da
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanat_prod'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-07-07 05:02:04 | 2026-07-07 05:02:04 | `Disabled` | `Scheduled` | - |
-| 2026-07-06 05:02:03 | 2026-07-06 05:10:55 | `Completed` | `Scheduled` | - |
-| 2026-07-05 05:02:12 | 2026-07-05 05:13:25 | `Completed` | `Scheduled` | - |
-| 2026-07-04 05:02:03 | 2026-07-04 05:10:09 | `Completed` | `Scheduled` | - |
-| 2026-07-03 05:02:02 | 2026-07-03 05:49:53 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMA NAV Data Full Refresh
 - **Dataset ID**: `2c7570c7-d984-4897-9581-c82f9840a245`
@@ -90,14 +74,6 @@ This document contains operational and technical details for the **BI_TMA_NAV_Da
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanat_prod'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 04:01:05 | 2026-09-15 04:07:24 | `Completed` | `Scheduled` | - |
-| 2026-09-14 04:01:15 | 2026-09-14 04:08:11 | `Completed` | `Scheduled` | - |
-| 2026-09-13 04:02:12 | 2026-09-13 04:10:52 | `Completed` | `Scheduled` | - |
-| 2026-09-12 04:01:04 | 2026-09-12 04:10:35 | `Completed` | `Scheduled` | - |
-| 2026-09-11 04:02:16 | 2026-09-11 04:08:52 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
 
 ### Semantic Model: TMA Accounts Receivable_Payable
 - **Dataset ID**: `f047b72f-5d9e-40b6-a5da-27b4ababc7a7`
@@ -112,14 +88,6 @@ This document contains operational and technical details for the **BI_TMA_NAV_Da
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tma_nav_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 02:01:09 | 2026-09-15 02:06:31 | `Completed` | `Scheduled` | - |
-| 2026-09-14 02:01:08 | 2026-09-14 02:05:24 | `Completed` | `Scheduled` | - |
-| 2026-09-13 02:01:09 | 2026-09-13 02:03:54 | `Completed` | `Scheduled` | - |
-| 2026-09-12 02:01:04 | 2026-09-12 02:05:35 | `Completed` | `Scheduled` | - |
-| 2026-09-11 02:02:03 | 2026-09-11 02:08:06 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMA Shipped Not Invoiced WG Items
 - **Dataset ID**: `00a016cf-0e3c-45a3-8720-50c3e773cbd9`
@@ -134,14 +102,6 @@ This document contains operational and technical details for the **BI_TMA_NAV_Da
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tma_nav_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 09:03:02 | 2026-09-15 09:08:20 | `Completed` | `Scheduled` | - |
-| 2026-09-15 06:03:16 | 2026-09-15 06:10:01 | `Completed` | `Scheduled` | - |
-| 2026-09-14 13:06:19 | 2026-09-14 13:12:47 | `Completed` | `Scheduled` | - |
-| 2026-09-14 09:03:03 | 2026-09-14 09:09:25 | `Completed` | `Scheduled` | - |
-| 2026-09-14 06:02:16 | 2026-09-14 06:09:49 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

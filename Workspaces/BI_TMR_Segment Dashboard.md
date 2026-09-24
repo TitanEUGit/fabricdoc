@@ -45,14 +45,6 @@ This document contains operational and technical details for the **BI_TMR_Segmen
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMR/serv_rec_rate/gross_sal_serv.xlsx'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmr_crm', 'database': 'tmr crm'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-28 20:01:16 | 2025-07-28 20:01:16 | `Disabled` | `Scheduled` | - |
-| 2025-07-21 20:01:15 | 2025-07-21 20:10:26 | `Completed` | `Scheduled` | - |
-| 2025-07-14 20:01:10 | 2025-07-14 20:07:28 | `Completed` | `Scheduled` | - |
-| 2025-07-07 20:00:06 | 2025-07-07 20:01:31 | `Completed` | `Scheduled` | - |
-| 2025-06-30 20:01:10 | 2025-06-30 20:07:35 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Report Usage Metrics Model
 - **Dataset ID**: `0dbd2eeb-5b39-4c71-9d79-3aa4ea72bf56`
@@ -75,14 +67,6 @@ This document contains operational and technical details for the **BI_TMR_Segmen
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2024-05-25 21:03:20 | 2024-05-25 21:03:20 | `Disabled` | `Scheduled` | - |
-| 2024-05-24 21:04:08 | 2024-05-24 21:17:21 | `Completed` | `Scheduled` | - |
-| 2024-05-23 21:05:51 | 2024-05-23 21:18:44 | `Completed` | `Scheduled` | - |
-| 2024-05-22 21:05:01 | 2024-05-22 21:18:24 | `Completed` | `Scheduled` | - |
-| 2024-05-21 21:07:28 | 2024-05-21 21:19:49 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

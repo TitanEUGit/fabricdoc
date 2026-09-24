@@ -169,14 +169,6 @@ Manual Excel Files          ┘                                                 
 **Connected Data Sources (Lineage)**:
 - Type: `AzureDataLakeStorage` | Connection: `{'server': 'onelake.dfs.fabric.microsoft.com', 'path': '/8d7c60ce-cb19-4805-ab1a-c84d6e1adf58/560be169-9531-4fc2-8c36-4bb173fc1240/'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-07-27 07:40:30 | 2026-07-27 07:40:41 | `Completed` | `DirectLakeFraming` | - |
-| 2026-07-18 03:09:46 | 2026-07-18 03:09:55 | `Failed` | `DirectLakeFraming` | {"errorCode":"Premium_ASWL_Error","errorDescrip... |
-| 2026-06-30 19:09:17 | 2026-06-30 19:09:19 | `Completed` | `DirectLakeFraming` | - |
-| 2026-06-30 19:07:36 | 2026-06-30 19:09:17 | `Failed` | `DirectLakeFraming` | {"errorCode":"Premium_ASWL_Error","errorDescrip... |
-| 2026-04-02 08:52:46 | 2026-04-02 08:52:49 | `Completed` | `WebModeling` | - |
 
 ## 4. Power BI Reports Inventory
 

@@ -43,14 +43,6 @@ This document contains operational and technical details for the **BI_IT_Interco
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_it_intercompany_cost_report', 'database': 'direct_it service and fee overview report'}`
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmeu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 09:01:05 | 2026-09-15 09:03:42 | `Completed` | `Scheduled` | - |
-| 2026-09-14 09:00:25 | 2026-09-14 09:03:32 | `Completed` | `Scheduled` | - |
-| 2026-09-13 09:01:11 | 2026-09-13 09:04:38 | `Completed` | `Scheduled` | - |
-| 2026-09-12 09:01:18 | 2026-09-12 09:04:24 | `Completed` | `Scheduled` | - |
-| 2026-09-11 09:01:04 | 2026-09-11 09:03:19 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Direct_IT Service and Fee Overview Report
 - **Dataset ID**: `79ac26e9-a25a-4ae9-920e-285609e55548`
@@ -67,14 +59,6 @@ This document contains operational and technical details for the **BI_IT_Interco
 - Type: `Extension` | Connection: `{'path': 'Enrollment Number;72928766', 'kind': 'AzureCostManagement'}`
 - Type: `Web` | Connection: `{'url': 'https://management.azure.com/providers/Microsoft.Billing/billingAccounts/72928766/invoices'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 08:01:02 | 2026-09-15 08:04:19 | `Completed` | `Scheduled` | - |
-| 2026-09-14 08:01:02 | 2026-09-14 08:07:52 | `Completed` | `Scheduled` | - |
-| 2026-09-13 08:01:03 | 2026-09-13 08:04:48 | `Completed` | `Scheduled` | - |
-| 2026-09-12 08:01:21 | 2026-09-12 08:06:51 | `Completed` | `Scheduled` | - |
-| 2026-09-11 08:01:03 | 2026-09-11 08:02:41 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `b6058f61-abb1-4a9c-b1e9-3edf596b0e10`
@@ -89,14 +73,6 @@ This document contains operational and technical details for the **BI_IT_Interco
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-20 23:05:17 | 2025-07-20 23:05:17 | `Disabled` | `Scheduled` | - |
-| 2025-07-19 23:05:19 | 2025-07-19 23:17:29 | `Completed` | `Scheduled` | - |
-| 2025-07-18 23:05:08 | 2025-07-18 23:17:54 | `Completed` | `Scheduled` | - |
-| 2025-07-17 23:05:01 | 2025-07-17 23:16:32 | `Completed` | `Scheduled` | - |
-| 2025-07-16 23:05:12 | 2025-07-16 23:17:16 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

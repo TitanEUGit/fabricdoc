@@ -37,14 +37,6 @@ This document contains operational and technical details for the **BI_TMD_Sales*
 - Type: `Extension` | Connection: `{'path': 'PowerPlatformDataflows', 'kind': 'PowerPlatformDataflows'}`
 - Type: `SharePointList` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/collaboration/'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 02:00:12 | 2026-09-15 02:12:21 | `Completed` | `Scheduled` | - |
-| 2026-09-14 02:00:11 | 2026-09-14 02:10:39 | `Completed` | `Scheduled` | - |
-| 2026-09-13 02:01:12 | 2026-09-13 02:12:25 | `Completed` | `Scheduled` | - |
-| 2026-09-12 02:00:09 | 2026-09-12 02:09:06 | `Completed` | `Scheduled` | - |
-| 2026-09-11 02:01:14 | 2026-09-11 02:11:38 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `c775c54f-65a4-4235-85b6-2aa97ba2b57a`
@@ -59,14 +51,6 @@ This document contains operational and technical details for the **BI_TMD_Sales*
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-21 17:18:09 | 2025-07-21 17:18:09 | `Disabled` | `Scheduled` | - |
-| 2025-07-20 17:17:03 | 2025-07-20 17:18:03 | `Completed` | `Scheduled` | - |
-| 2025-07-19 17:18:06 | 2025-07-19 17:18:24 | `Completed` | `Scheduled` | - |
-| 2025-07-18 17:17:07 | 2025-07-18 17:18:28 | `Completed` | `Scheduled` | - |
-| 2025-07-17 17:17:06 | 2025-07-17 17:18:22 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

@@ -75,14 +75,6 @@ This document contains operational and technical details for the **BI_TMU_PROD**
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-02-01 05:01:12 | 2026-02-01 05:01:12 | `Disabled` | `Scheduled` | - |
-| 2026-01-31 05:00:07 | 2026-01-31 05:01:50 | `Completed` | `Scheduled` | - |
-| 2026-01-30 05:00:23 | 2026-01-30 05:03:30 | `Completed` | `Scheduled` | - |
-| 2026-01-29 05:00:25 | 2026-01-29 05:03:21 | `Completed` | `Scheduled` | - |
-| 2026-01-28 05:00:17 | 2026-01-28 05:02:39 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU Service Mileage & Hours
 - **Dataset ID**: `0aa29cbe-c6ec-4533-8d63-76422659d1ac`
@@ -97,14 +89,6 @@ This document contains operational and technical details for the **BI_TMU_PROD**
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-03-22 05:01:09 | 2026-03-22 05:01:09 | `Disabled` | `Scheduled` | - |
-| 2026-03-21 05:01:12 | 2026-03-21 05:03:58 | `Completed` | `Scheduled` | - |
-| 2026-03-20 05:01:06 | 2026-03-20 05:02:37 | `Completed` | `Scheduled` | - |
-| 2026-03-19 05:01:08 | 2026-03-19 05:02:35 | `Completed` | `Scheduled` | - |
-| 2026-03-18 05:00:15 | 2026-03-18 05:03:16 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU Service Sales & Working Hours
 - **Dataset ID**: `93ea0d0e-8fe0-4b6a-8050-7076e94c528c`
@@ -119,14 +103,6 @@ This document contains operational and technical details for the **BI_TMU_PROD**
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-02-01 05:01:06 | 2026-02-01 05:01:06 | `Disabled` | `Scheduled` | - |
-| 2026-01-31 05:00:13 | 2026-01-31 05:02:21 | `Completed` | `Scheduled` | - |
-| 2026-01-30 05:00:25 | 2026-01-30 05:03:22 | `Completed` | `Scheduled` | - |
-| 2026-01-29 05:00:27 | 2026-01-29 05:03:10 | `Completed` | `Scheduled` | - |
-| 2026-01-28 05:00:09 | 2026-01-28 05:01:48 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU PIH
 - **Dataset ID**: `49074992-c1ff-4f5c-a7d1-0fc8e61b7a8c`
@@ -143,14 +119,6 @@ This document contains operational and technical details for the **BI_TMU_PROD**
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmeu_inventorybook', 'database': 'tmeu inventory book'}`
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 05:01:12 | 2026-09-15 05:03:55 | `Completed` | `Scheduled` | - |
-| 2026-09-14 05:00:21 | 2026-09-14 05:02:43 | `Completed` | `Scheduled` | - |
-| 2026-09-13 05:01:09 | 2026-09-13 05:03:11 | `Completed` | `Scheduled` | - |
-| 2026-09-12 05:00:19 | 2026-09-12 05:02:01 | `Completed` | `Scheduled` | - |
-| 2026-09-11 05:01:11 | 2026-09-11 05:03:54 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU SC Dashboard
 - **Dataset ID**: `33d8e090-1d24-47fd-be45-d6ed2ee5cfdb`
@@ -167,14 +135,6 @@ This document contains operational and technical details for the **BI_TMU_PROD**
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMU/suply_chain_db/sc_dashboard_budget_title.xlsx'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_eoc_sales_dashboard', 'database': 'tmu sales dashboard'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 06:01:09 | 2026-09-15 06:03:53 | `Completed` | `Scheduled` | - |
-| 2026-09-14 06:00:29 | 2026-09-14 06:03:17 | `Completed` | `Scheduled` | - |
-| 2026-09-13 06:01:06 | 2026-09-13 06:02:37 | `Completed` | `Scheduled` | - |
-| 2026-09-12 06:00:28 | 2026-09-12 06:02:45 | `Completed` | `Scheduled` | - |
-| 2026-09-11 06:01:14 | 2026-09-11 06:03:34 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU SC Dashboard 2024
 - **Dataset ID**: `adea2dd9-db57-4e79-9b64-405c7183e085`
@@ -204,14 +164,6 @@ This document contains operational and technical details for the **BI_TMU_PROD**
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-21 08:25:14 | 2025-07-21 08:25:14 | `Disabled` | `Scheduled` | - |
-| 2025-07-20 08:25:14 | 2025-07-20 08:25:45 | `Completed` | `Scheduled` | - |
-| 2025-07-19 08:25:15 | 2025-07-19 08:25:29 | `Completed` | `Scheduled` | - |
-| 2025-07-18 08:25:19 | 2025-07-18 08:25:33 | `Completed` | `Scheduled` | - |
-| 2025-07-17 08:25:18 | 2025-07-17 08:25:46 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU WG Forecast Accuracy
 - **Dataset ID**: `5eb681ae-11b2-4c8a-a71b-2f58374b05c8`
@@ -230,14 +182,6 @@ This document contains operational and technical details for the **BI_TMU_PROD**
 - Type: `Extension` | Connection: `{'path': 'PowerPlatformDataflows', 'kind': 'PowerPlatformDataflows'}`
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMU/Order%20Helper/Models%20and%20Leadtime.xlsx'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 10:02:06 | 2026-09-15 10:05:51 | `Completed` | `Scheduled` | - |
-| 2026-09-14 10:02:12 | 2026-09-14 10:06:58 | `Completed` | `Scheduled` | - |
-| 2026-09-13 10:02:08 | 2026-09-13 10:06:50 | `Completed` | `Scheduled` | - |
-| 2026-09-12 10:02:10 | 2026-09-12 10:06:40 | `Completed` | `Scheduled` | - |
-| 2026-09-11 10:02:06 | 2026-09-11 10:05:50 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU Parts Transport Cost Awareness
 - **Dataset ID**: `2ec90fe7-61b9-4b0a-9f24-46d0230c2265`
@@ -252,14 +196,6 @@ This document contains operational and technical details for the **BI_TMU_PROD**
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-03-24 06:02:13 | 2026-03-24 06:02:13 | `Disabled` | `Scheduled` | - |
-| 2026-03-23 06:02:13 | 2026-03-23 06:07:44 | `Completed` | `Scheduled` | - |
-| 2026-03-22 06:02:08 | 2026-03-22 06:06:37 | `Completed` | `Scheduled` | - |
-| 2026-03-21 06:01:15 | 2026-03-21 06:06:03 | `Completed` | `Scheduled` | - |
-| 2026-03-20 06:01:14 | 2026-03-20 06:05:55 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU SC Dashboard 2025
 - **Dataset ID**: `811e22b8-ec21-4330-ad4f-10e3f45f05a0`
@@ -276,10 +212,6 @@ This document contains operational and technical details for the **BI_TMU_PROD**
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMU/suply_chain_db/sc_dashboard_budget_title.xlsx'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmeu_testspace', 'database': 'tmu sales dashboard'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-04-24 13:32:48 | 2026-04-24 13:32:51 | `Failed` | `OnDemand` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
 
 ### Semantic Model: TMU WG Sales Forecast
 - **Dataset ID**: `c9a81717-a93b-4d19-9855-8e2a1b8bb05b`
@@ -295,14 +227,6 @@ This document contains operational and technical details for the **BI_TMU_PROD**
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmeu_bronze_lakehouse'}`
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.database.fabric.microsoft.com', 'database': 'tmu assortment budget-2ad254ce-44d5-4c67-9aee-a34267f0a56d'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-08-13 12:58:20 | 2026-08-13 12:58:24 | `Completed` | `ViaApi` | - |
-| 2026-08-13 12:53:25 | 2026-08-13 12:53:29 | `Completed` | `ViaApi` | - |
-| 2026-08-13 12:53:17 | 2026-08-13 12:53:20 | `Completed` | `ViaApi` | - |
-| 2026-08-13 12:50:45 | 2026-08-13 12:50:48 | `Completed` | `ViaApi` | - |
-| 2026-08-13 12:47:27 | 2026-08-13 12:47:32 | `Completed` | `ViaApi` | - |
 
 ### Semantic Model: TMU AfterSales Credit Limits Report
 - **Dataset ID**: `fa85ef02-d7db-436a-9df6-eec70bedb2d7`
@@ -319,13 +243,6 @@ This document contains operational and technical details for the **BI_TMU_PROD**
 - Type: `Extension` | Connection: `{'path': 'PowerPlatformDataflows', 'kind': 'PowerPlatformDataflows'}`
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.database.fabric.microsoft.com', 'database': 'credit_limit_leger_db-63c686ae-3399-4ce0-bc13-5ce0336cab9e'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-14 04:02:17 | 2026-09-14 04:10:34 | `Completed` | `Scheduled` | - |
-| 2026-09-07 04:03:03 | 2026-09-07 04:10:24 | `Completed` | `Scheduled` | - |
-| 2026-08-31 13:16:02 | 2026-08-31 13:17:44 | `Completed` | `OnDemandTraining` | - |
-| 2026-08-31 13:04:40 | 2026-08-31 13:06:35 | `Completed` | `OnDemand` | - |
 
 ## 4. Power BI Reports Inventory
 

@@ -44,14 +44,6 @@ This document contains operational and technical details for the **BI_TMB_Afters
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': '10.75.1.7', 'database': 'jetnavdwh'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-14 23:00:13 | 2026-09-14 23:07:46 | `Completed` | `Scheduled` | - |
-| 2026-09-13 23:00:11 | 2026-09-13 23:08:07 | `Completed` | `Scheduled` | - |
-| 2026-09-12 23:00:16 | 2026-09-12 23:15:21 | `Completed` | `Scheduled` | - |
-| 2026-09-11 23:00:19 | 2026-09-11 23:08:21 | `Completed` | `Scheduled` | - |
-| 2026-09-10 23:00:19 | 2026-09-10 23:08:01 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMB SP Turn per Vendor
 - **Dataset ID**: `38f04f35-176b-45e1-85f6-6e24dca0f612`
@@ -63,14 +55,6 @@ This document contains operational and technical details for the **BI_TMB_Afters
 - **Frequency**: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
 - **Scheduled Times**: `05:00` (Romance Standard Time)
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-08-25 03:01:03 | 2025-08-25 03:01:03 | `Disabled` | `Scheduled` | - |
-| 2025-08-24 03:01:11 | 2025-08-24 03:14:12 | `Completed` | `Scheduled` | - |
-| 2025-08-23 03:01:04 | 2025-08-23 03:05:50 | `Completed` | `Scheduled` | - |
-| 2025-08-22 03:01:14 | 2025-08-22 03:09:15 | `Completed` | `Scheduled` | - |
-| 2025-08-21 03:01:09 | 2025-08-21 03:10:02 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMB Open Service Orders
 - **Dataset ID**: `2363bdcc-7277-47d5-9948-2ee49f360901`
@@ -82,14 +66,6 @@ This document contains operational and technical details for the **BI_TMB_Afters
 - **Frequency**: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
 - **Scheduled Times**: `01:00` (Romance Standard Time)
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-08-17 23:01:15 | 2025-08-17 23:01:15 | `Disabled` | `Scheduled` | - |
-| 2025-08-16 23:01:16 | 2025-08-16 23:09:13 | `Completed` | `Scheduled` | - |
-| 2025-08-15 23:01:16 | 2025-08-15 23:10:01 | `Completed` | `Scheduled` | - |
-| 2025-08-14 23:01:17 | 2025-08-14 23:11:19 | `Completed` | `Scheduled` | - |
-| 2025-08-13 23:01:16 | 2025-08-13 23:11:19 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Report Usage Metrics Model
 - **Dataset ID**: `fffd053c-9ed3-4492-b4ec-10a6d6dbc8af`
@@ -112,14 +88,6 @@ This document contains operational and technical details for the **BI_TMB_Afters
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': '10.75.1.7', 'database': 'jetnavdwh'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-08-25 02:01:06 | 2025-08-25 02:01:06 | `Disabled` | `Scheduled` | - |
-| 2025-08-24 02:01:01 | 2025-08-24 02:03:34 | `Completed` | `Scheduled` | - |
-| 2025-08-23 02:01:06 | 2025-08-23 02:07:44 | `Completed` | `Scheduled` | - |
-| 2025-08-22 02:01:05 | 2025-08-22 02:04:57 | `Completed` | `Scheduled` | - |
-| 2025-08-21 02:02:01 | 2025-08-21 02:04:46 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMB Parts Sales (OPS_limit)
 - **Dataset ID**: `bf978c4e-4111-4f35-a321-d0b6cba8ffe8`
@@ -137,14 +105,6 @@ This document contains operational and technical details for the **BI_TMB_Afters
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/int_orderbook', 'database': 'tmeu order book'}`
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmeu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 05:01:13 | 2026-09-15 05:23:17 | `Completed` | `Scheduled` | - |
-| 2026-09-14 05:01:11 | 2026-09-14 05:24:44 | `Completed` | `Scheduled` | - |
-| 2026-09-13 05:02:11 | 2026-09-13 05:54:20 | `Completed` | `Scheduled` | - |
-| 2026-09-12 05:01:16 | 2026-09-12 05:24:14 | `Completed` | `Scheduled` | - |
-| 2026-09-11 05:02:15 | 2026-09-11 05:24:21 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `e9105555-df07-421a-93c4-b0ce050b34ea`
@@ -159,14 +119,6 @@ This document contains operational and technical details for the **BI_TMB_Afters
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-12-15 13:46:00 | 2025-12-15 13:46:00 | `Disabled` | `Scheduled` | - |
-| 2025-12-14 13:46:00 | 2025-12-14 13:46:38 | `Completed` | `Scheduled` | - |
-| 2025-12-13 13:46:01 | 2025-12-13 13:46:54 | `Completed` | `Scheduled` | - |
-| 2025-12-12 13:46:02 | 2025-12-12 13:46:14 | `Completed` | `Scheduled` | - |
-| 2025-12-11 13:46:16 | 2025-12-11 13:46:58 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

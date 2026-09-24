@@ -40,14 +40,6 @@ This document contains operational and technical details for the **BI_TMB_CRM** 
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'titanbulgaria.crm4.dynamics.com', 'kind': 'CommonDataService'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-06 00:31:15 | 2026-09-06 00:31:15 | `Disabled` | `Scheduled` | - |
-| 2026-09-05 00:31:14 | 2026-09-05 00:39:08 | `Completed` | `Scheduled` | - |
-| 2026-09-04 00:30:19 | 2026-09-04 00:35:47 | `Completed` | `Scheduled` | - |
-| 2026-09-03 00:31:10 | 2026-09-03 00:38:26 | `Completed` | `Scheduled` | - |
-| 2026-09-02 00:31:12 | 2026-09-02 00:39:28 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMB CRM
 - **Dataset ID**: `c2269cfc-78f8-47a0-97fd-8759d0ca5a8a`
@@ -62,14 +54,6 @@ This document contains operational and technical details for the **BI_TMB_CRM** 
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'titanbulgaria.crm4.dynamics.com', 'kind': 'CommonDataService'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-05 00:03:15 | 2026-09-05 00:03:15 | `Disabled` | `Scheduled` | - |
-| 2026-09-04 00:03:15 | 2026-09-04 00:10:28 | `Completed` | `Scheduled` | - |
-| 2026-09-03 00:03:14 | 2026-09-03 00:10:32 | `Completed` | `Scheduled` | - |
-| 2026-09-02 00:03:13 | 2026-09-02 00:10:37 | `Completed` | `Scheduled` | - |
-| 2026-09-01 00:03:14 | 2026-09-01 00:10:10 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

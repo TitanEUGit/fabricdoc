@@ -56,14 +56,6 @@ This document contains operational and technical details for the **BI_TMEU_After
 - Type: `Extension` | Connection: `{'path': 'PowerPlatformDataflows', 'kind': 'PowerPlatformDataflows'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmu_opspackage', 'database': 'tmu ops package'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-03-23 05:01:05 | 2026-03-23 05:01:05 | `Disabled` | `Scheduled` | - |
-| 2026-03-22 05:01:07 | 2026-03-22 05:03:12 | `Completed` | `Scheduled` | - |
-| 2026-03-21 05:01:10 | 2026-03-21 05:03:51 | `Completed` | `Scheduled` | - |
-| 2026-03-20 05:01:05 | 2026-03-20 05:03:18 | `Completed` | `Scheduled` | - |
-| 2026-03-19 05:01:06 | 2026-03-19 05:03:07 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMEU Open Service Jobcards
 - **Dataset ID**: `005f67d8-0096-4be7-85bd-2330fd6648a7`
@@ -82,14 +74,6 @@ This document contains operational and technical details for the **BI_TMEU_After
 - Type: `Web` | Connection: `{'url': 'https://titanmachinerybg.frontu.com/'}`
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 05:30:23 | 2026-09-15 05:39:55 | `Completed` | `Scheduled` | - |
-| 2026-09-14 05:31:15 | 2026-09-14 05:41:44 | `Completed` | `Scheduled` | - |
-| 2026-09-13 05:31:17 | 2026-09-13 05:46:50 | `Completed` | `Scheduled` | - |
-| 2026-09-12 05:31:12 | 2026-09-12 05:42:03 | `Completed` | `Scheduled` | - |
-| 2026-09-11 05:31:14 | 2026-09-11 05:41:12 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMEU Overstocked Parts
 - **Dataset ID**: `1a51c1d3-0d58-431f-88ec-8006cfe3513e`
@@ -108,14 +92,6 @@ This document contains operational and technical details for the **BI_TMEU_After
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmb_opspackage', 'database': 'tmb ops package'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmu_opspackage', 'database': 'tmu ops package'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-13 06:01:15 | 2026-09-13 06:05:50 | `Completed` | `Scheduled` | - |
-| 2026-09-06 06:01:12 | 2026-09-06 06:05:33 | `Completed` | `Scheduled` | - |
-| 2026-08-30 06:01:18 | 2026-08-30 06:06:34 | `Completed` | `Scheduled` | - |
-| 2026-08-23 06:00:27 | 2026-08-23 06:05:05 | `Completed` | `Scheduled` | - |
-| 2026-08-16 06:00:33 | 2026-08-16 06:05:03 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `6b1d9649-7e95-4d0b-ae3e-c97e0a8cf48e`
@@ -130,14 +106,6 @@ This document contains operational and technical details for the **BI_TMEU_After
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-21 06:26:32 | 2025-07-21 06:26:32 | `Disabled` | `Scheduled` | - |
-| 2025-07-20 06:25:02 | 2025-07-20 06:25:19 | `Completed` | `Scheduled` | - |
-| 2025-07-19 06:25:10 | 2025-07-19 06:25:43 | `Completed` | `Scheduled` | - |
-| 2025-07-18 06:25:01 | 2025-07-18 06:25:26 | `Completed` | `Scheduled` | - |
-| 2025-07-17 06:25:11 | 2025-07-17 06:25:31 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMEU Parts Item List
 - **Dataset ID**: `5faeb973-dc3e-4165-b824-3e0f6abbd850`
@@ -155,14 +123,6 @@ This document contains operational and technical details for the **BI_TMEU_After
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmu_opspackage', 'database': 'tmu ops package'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmb_opspackage', 'database': 'tmb ops package'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-14 08:01:02 | 2026-09-14 08:02:58 | `Completed` | `Scheduled` | - |
-| 2026-09-07 08:02:07 | 2026-09-07 08:05:55 | `Completed` | `Scheduled` | - |
-| 2026-08-31 08:02:06 | 2026-08-31 08:05:51 | `Completed` | `Scheduled` | - |
-| 2026-08-24 08:02:07 | 2026-08-24 08:06:03 | `Completed` | `Scheduled` | - |
-| 2026-08-17 08:02:03 | 2026-08-17 08:05:15 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMEU Warranty Dashboard
 - **Dataset ID**: `b3c3f284-7d05-44c5-89ee-22c1f3a36250`
@@ -177,14 +137,6 @@ This document contains operational and technical details for the **BI_TMEU_After
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': '10.75.1.7', 'database': 'jetnavdwh'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 03:00:28 | 2026-09-15 03:13:51 | `Completed` | `Scheduled` | - |
-| 2026-09-14 03:01:04 | 2026-09-14 03:10:46 | `Completed` | `Scheduled` | - |
-| 2026-09-13 03:01:20 | 2026-09-13 03:13:19 | `Completed` | `Scheduled` | - |
-| 2026-09-12 03:01:15 | 2026-09-12 03:12:01 | `Completed` | `Scheduled` | - |
-| 2026-09-11 03:01:17 | 2026-09-11 03:10:24 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

@@ -45,14 +45,6 @@ This document contains operational and technical details for the **BI_TM_Global_
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmr_opspackage', 'database': 'tmr ops package'}`
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/Global/Sales_Equipment_New/Australia%20Wholegoods%20Sales%20data.xlsx'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2024-05-03 08:40:39 | 2024-05-03 08:40:46 | `Completed` | `OnDemand` | - |
-| 2024-04-24 16:09:16 | 2024-04-24 16:09:33 | `Completed` | `OnDemand` | - |
-| 2024-04-24 13:29:46 | 2024-04-24 13:29:58 | `Completed` | `OnDemand` | - |
-| 2024-04-24 06:19:16 | 2024-04-24 06:19:32 | `Completed` | `OnDemand` | - |
-| 2024-02-19 15:03:42 | 2024-02-19 15:04:03 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `1dce8a70-2dd0-4eb8-9e64-2cd85b938035`
@@ -67,14 +59,6 @@ This document contains operational and technical details for the **BI_TM_Global_
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-21 01:03:00 | 2025-07-21 01:03:00 | `Disabled` | `Scheduled` | - |
-| 2025-07-20 01:03:01 | 2025-07-20 01:17:35 | `Completed` | `Scheduled` | - |
-| 2025-07-19 01:03:01 | 2025-07-19 01:17:15 | `Completed` | `Scheduled` | - |
-| 2025-07-18 01:03:03 | 2025-07-18 01:17:42 | `Completed` | `Scheduled` | - |
-| 2025-07-17 01:03:01 | 2025-07-17 01:17:31 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

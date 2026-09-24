@@ -46,14 +46,6 @@ This document contains operational and technical details for the **BI_TMU_Segmen
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMU/serv_rec_rate/gross_sal_serv.xlsx'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmu_crm', 'database': 'tmu crm'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-05-18 20:01:05 | 2026-05-18 20:03:07 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2026-05-11 20:01:05 | 2026-05-11 20:03:18 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2026-05-04 20:01:21 | 2026-05-04 20:05:26 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2026-04-28 09:18:02 | 2026-04-28 09:18:33 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2025-06-02 20:01:10 | 2025-06-02 20:01:10 | `Disabled` | `Scheduled` | - |
 
 ### Semantic Model: Report Usage Metrics Model
 - **Dataset ID**: `ff311e11-0fdb-49cd-ac88-5c0d7c25d0d4`
@@ -76,14 +68,6 @@ This document contains operational and technical details for the **BI_TMU_Segmen
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2024-05-26 03:10:01 | 2024-05-26 03:10:01 | `Disabled` | `Scheduled` | - |
-| 2024-05-25 03:09:01 | 2024-05-25 03:17:58 | `Completed` | `Scheduled` | - |
-| 2024-05-24 03:09:08 | 2024-05-24 03:17:35 | `Completed` | `Scheduled` | - |
-| 2024-05-23 03:09:00 | 2024-05-23 03:17:45 | `Completed` | `Scheduled` | - |
-| 2024-05-22 03:09:20 | 2024-05-22 03:18:24 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

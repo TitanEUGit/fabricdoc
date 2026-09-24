@@ -47,14 +47,6 @@ This document contains operational and technical details for the **BI_TMD_Afters
 - Type: `ODBC` | Connection: `{'connectionString': 'dsn=timeline - tmd'}`
 - Type: `Extension` | Connection: `{'path': 'PowerPlatformDataflows', 'kind': 'PowerPlatformDataflows'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 05:01:10 | 2026-09-15 05:09:21 | `Completed` | `Scheduled` | - |
-| 2026-09-14 05:00:19 | 2026-09-14 05:04:25 | `Completed` | `Scheduled` | - |
-| 2026-09-13 05:01:17 | 2026-09-13 05:09:10 | `Completed` | `Scheduled` | - |
-| 2026-09-12 05:01:17 | 2026-09-12 05:14:06 | `Completed` | `Scheduled` | - |
-| 2026-09-11 05:01:10 | 2026-09-11 05:06:25 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMD CRM Contacts
 - **Dataset ID**: `008cd3f2-4e8f-426e-b41f-44deaca0be1a`
@@ -69,14 +61,6 @@ This document contains operational and technical details for the **BI_TMD_Afters
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'titanmachinery.crm4.dynamics.com', 'kind': 'CommonDataService'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-10-04 22:01:02 | 2025-10-04 22:01:02 | `Disabled` | `Scheduled` | - |
-| 2025-10-03 22:01:07 | 2025-10-03 22:06:00 | `Completed` | `Scheduled` | - |
-| 2025-10-02 22:01:03 | 2025-10-02 22:04:24 | `Completed` | `Scheduled` | - |
-| 2025-10-01 22:01:03 | 2025-10-01 22:04:46 | `Completed` | `Scheduled` | - |
-| 2025-09-30 22:01:03 | 2025-09-30 22:04:03 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMD Parts Sales
 - **Dataset ID**: `065ba841-8533-4bab-820c-292021b46135`
@@ -94,14 +78,6 @@ This document contains operational and technical details for the **BI_TMD_Afters
 - Type: `SharePointList` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/collaboration/'}`
 - Type: `Extension` | Connection: `{'path': 'titanmachinery.crm4.dynamics.com', 'kind': 'CommonDataService'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 00:00:14 | 2026-09-15 00:08:31 | `Completed` | `Scheduled` | - |
-| 2026-09-14 00:00:16 | 2026-09-14 00:07:56 | `Completed` | `Scheduled` | - |
-| 2026-09-13 00:01:04 | 2026-09-13 00:10:23 | `Completed` | `Scheduled` | - |
-| 2026-09-12 00:00:17 | 2026-09-12 00:08:18 | `Completed` | `Scheduled` | - |
-| 2026-09-11 00:01:06 | 2026-09-11 00:09:13 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMD Parts Purchase Orders
 - **Dataset ID**: `3f876c52-b1db-482a-9d0c-f45eb9ba9d44`
@@ -116,14 +92,6 @@ This document contains operational and technical details for the **BI_TMD_Afters
 **Connected Data Sources (Lineage)**:
 - Type: `ODBC` | Connection: `{'connectionString': 'dsn=timeline - tmd'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-03-11 06:00:07 | 2026-03-11 06:00:07 | `Disabled` | `Scheduled` | - |
-| 2026-03-10 06:01:05 | 2026-03-10 06:03:14 | `Completed` | `Scheduled` | - |
-| 2026-03-09 06:01:05 | 2026-03-09 06:04:09 | `Completed` | `Scheduled` | - |
-| 2026-03-08 06:01:16 | 2026-03-08 06:05:33 | `Completed` | `Scheduled` | - |
-| 2026-03-07 06:01:05 | 2026-03-07 06:05:03 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMD Variable Service Compensation
 - **Dataset ID**: `90240e20-71eb-47b7-891a-8340e4b458bc`
@@ -140,14 +108,6 @@ This document contains operational and technical details for the **BI_TMD_Afters
 - Type: `SharePointList` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/collaboration/'}`
 - Type: `Extension` | Connection: `{'path': 'PowerPlatformDataflows', 'kind': 'PowerPlatformDataflows'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-04-19 22:01:10 | 2026-04-19 22:01:10 | `Disabled` | `Scheduled` | - |
-| 2026-04-12 22:01:22 | 2026-04-12 22:10:23 | `Completed` | `Scheduled` | - |
-| 2026-04-05 22:01:21 | 2026-04-05 22:09:51 | `Completed` | `Scheduled` | - |
-| 2026-03-29 22:01:15 | 2026-03-29 22:11:19 | `Completed` | `Scheduled` | - |
-| 2026-03-22 23:01:16 | 2026-03-22 23:10:57 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `bb0c2b75-4a52-4dda-b863-8765aacd779c`
@@ -162,14 +122,6 @@ This document contains operational and technical details for the **BI_TMD_Afters
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-08-18 16:16:14 | 2025-08-18 16:16:14 | `Disabled` | `Scheduled` | - |
-| 2025-08-17 16:16:10 | 2025-08-17 16:20:10 | `Completed` | `Scheduled` | - |
-| 2025-08-16 16:16:05 | 2025-08-16 16:20:33 | `Completed` | `Scheduled` | - |
-| 2025-08-15 16:17:11 | 2025-08-15 16:22:23 | `Completed` | `Scheduled` | - |
-| 2025-08-14 16:18:05 | 2025-08-14 16:22:40 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Report Usage Metrics Model
 - **Dataset ID**: `b3a2c743-21f9-4b7c-b81c-d35b8a1c6f68`

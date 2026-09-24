@@ -43,14 +43,6 @@ This document contains operational and technical details for the **BI_TMR_Sales_
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmr_opspackage', 'database': 'tmr ops package'}`
 - Type: `Extension` | Connection: `{'path': 'titanromania.crm4.dynamics.com', 'kind': 'CommonDataService'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-14 22:01:03 | 2026-09-14 22:15:47 | `Completed` | `Scheduled` | - |
-| 2026-09-13 22:01:15 | 2026-09-13 22:13:05 | `Completed` | `Scheduled` | - |
-| 2026-09-12 22:01:15 | 2026-09-12 22:13:26 | `Completed` | `Scheduled` | - |
-| 2026-09-11 22:01:16 | 2026-09-11 22:14:13 | `Completed` | `Scheduled` | - |
-| 2026-09-10 22:01:19 | 2026-09-10 22:13:19 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `966ea4fa-cdd1-4582-b0a2-3bef9f2d2567`
@@ -65,14 +57,6 @@ This document contains operational and technical details for the **BI_TMR_Sales_
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-21 03:33:05 | 2025-07-21 03:33:05 | `Disabled` | `Scheduled` | - |
-| 2025-07-20 03:33:07 | 2025-07-20 03:45:40 | `Completed` | `Scheduled` | - |
-| 2025-07-19 03:33:04 | 2025-07-19 03:46:05 | `Completed` | `Scheduled` | - |
-| 2025-07-18 03:33:03 | 2025-07-18 03:46:47 | `Completed` | `Scheduled` | - |
-| 2025-07-17 03:33:17 | 2025-07-17 03:46:17 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

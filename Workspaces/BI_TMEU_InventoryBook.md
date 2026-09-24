@@ -45,14 +45,6 @@ This document contains operational and technical details for the **BI_TMEU_Inven
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'tmweupautosql01.database.windows.net', 'database': 'tmweu_reporting_db'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-14 23:00:09 | 2026-09-14 23:04:10 | `Completed` | `Scheduled` | - |
-| 2026-09-13 23:00:24 | 2026-09-13 23:06:41 | `Completed` | `Scheduled` | - |
-| 2026-09-12 23:00:06 | 2026-09-12 23:12:49 | `Completed` | `Scheduled` | - |
-| 2026-09-11 23:00:10 | 2026-09-11 23:04:28 | `Completed` | `Scheduled` | - |
-| 2026-09-10 23:00:09 | 2026-09-10 23:04:55 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Report Usage Metrics Model
 - **Dataset ID**: `11b91048-04e6-48fe-bc7b-30bb30c9dd62`
@@ -75,14 +67,6 @@ This document contains operational and technical details for the **BI_TMEU_Inven
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-21 11:54:11 | 2025-07-21 11:54:11 | `Disabled` | `Scheduled` | - |
-| 2025-07-20 11:54:01 | 2025-07-20 11:54:45 | `Completed` | `Scheduled` | - |
-| 2025-07-19 11:54:12 | 2025-07-19 11:54:33 | `Completed` | `Scheduled` | - |
-| 2025-07-18 11:54:07 | 2025-07-18 11:54:24 | `Completed` | `Scheduled` | - |
-| 2025-07-17 11:54:00 | 2025-07-17 11:54:27 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

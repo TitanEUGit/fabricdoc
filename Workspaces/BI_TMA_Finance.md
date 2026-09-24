@@ -41,14 +41,6 @@ This document contains operational and technical details for the **BI_TMA_Financ
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': '10.75.1.7', 'database': 'jetnavdwh'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 11:00:22 | - | `Unknown` | `DataFactory` | - |
-| 2026-09-15 02:00:26 | 2026-09-15 02:04:07 | `Completed` | `Scheduled` | - |
-| 2026-09-14 11:00:23 | 2026-09-14 11:01:49 | `Completed` | `DataFactory` | - |
-| 2026-09-14 02:00:26 | 2026-09-14 02:03:33 | `Completed` | `Scheduled` | - |
-| 2026-09-13 11:00:37 | 2026-09-13 11:01:58 | `Completed` | `DataFactory` | - |
 
 ### Semantic Model: Report Usage Metrics Model
 - **Dataset ID**: `0c3d19f1-72e4-4176-88e2-779fe814a50c`
@@ -71,14 +63,6 @@ This document contains operational and technical details for the **BI_TMA_Financ
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2024-05-26 03:24:09 | 2024-05-26 03:24:09 | `Disabled` | `Scheduled` | - |
-| 2024-05-25 03:24:08 | 2024-05-25 03:25:06 | `Completed` | `Scheduled` | - |
-| 2024-05-24 03:24:12 | 2024-05-24 03:24:56 | `Completed` | `Scheduled` | - |
-| 2024-05-23 03:24:01 | 2024-05-23 03:24:51 | `Completed` | `Scheduled` | - |
-| 2024-05-22 03:24:02 | 2024-05-22 03:24:25 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

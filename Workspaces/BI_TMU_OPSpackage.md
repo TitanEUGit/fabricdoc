@@ -52,14 +52,6 @@ This document contains operational and technical details for the **BI_TMU_OPSpac
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.database.fabric.microsoft.com', 'database': 'tmu assortment budget-2ad254ce-44d5-4c67-9aee-a34267f0a56d'}`
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmeu_erp_raw_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 04:00:27 | 2026-09-15 04:11:56 | `Completed` | `Scheduled` | - |
-| 2026-09-14 04:00:27 | 2026-09-14 04:10:50 | `Completed` | `Scheduled` | - |
-| 2026-09-13 04:01:14 | 2026-09-13 04:13:28 | `Completed` | `Scheduled` | - |
-| 2026-09-12 04:00:33 | 2026-09-12 04:14:27 | `Completed` | `Scheduled` | - |
-| 2026-09-11 04:01:24 | 2026-09-11 04:13:39 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `a17cf531-be9f-4681-9a6e-f54c37a5a990`
@@ -74,14 +66,6 @@ This document contains operational and technical details for the **BI_TMU_OPSpac
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-20 19:52:17 | 2025-07-20 19:52:17 | `Disabled` | `Scheduled` | - |
-| 2025-07-19 19:52:04 | 2025-07-19 19:53:44 | `Completed` | `Scheduled` | - |
-| 2025-07-18 19:52:24 | 2025-07-18 19:53:50 | `Completed` | `Scheduled` | - |
-| 2025-07-17 19:52:16 | 2025-07-17 19:52:47 | `Completed` | `Scheduled` | - |
-| 2025-07-16 19:52:15 | 2025-07-16 19:53:26 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

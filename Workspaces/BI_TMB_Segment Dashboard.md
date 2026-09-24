@@ -44,14 +44,6 @@ This document contains operational and technical details for the **BI_TMB_Segmen
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMB/TIV/TIV%20inputs.xlsx'}`
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMB/headcount_division/headcount_by_division.xlsx'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-08-18 20:02:13 | 2025-08-18 20:02:13 | `Disabled` | `Scheduled` | - |
-| 2025-08-11 20:03:11 | 2025-08-11 20:11:57 | `Completed` | `Scheduled` | - |
-| 2025-08-04 20:01:15 | 2025-08-04 20:04:38 | `Completed` | `Scheduled` | - |
-| 2025-07-28 20:01:15 | 2025-07-28 20:09:01 | `Completed` | `Scheduled` | - |
-| 2025-07-21 20:01:14 | 2025-07-21 20:09:35 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Report Usage Metrics Model
 - **Dataset ID**: `6af76276-4eb9-4a73-941a-b97a1055fe7c`
@@ -74,14 +66,6 @@ This document contains operational and technical details for the **BI_TMB_Segmen
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2024-05-25 07:35:06 | 2024-05-25 07:35:06 | `Disabled` | `Scheduled` | - |
-| 2024-05-24 07:35:06 | 2024-05-24 07:44:10 | `Completed` | `Scheduled` | - |
-| 2024-05-23 07:35:01 | 2024-05-23 07:44:10 | `Completed` | `Scheduled` | - |
-| 2024-05-22 07:35:00 | 2024-05-22 07:43:48 | `Completed` | `Scheduled` | - |
-| 2024-05-21 07:35:05 | 2024-05-21 07:43:58 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

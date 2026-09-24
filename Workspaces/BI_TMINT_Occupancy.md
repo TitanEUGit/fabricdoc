@@ -40,14 +40,6 @@ This document contains operational and technical details for the **BI_TMINT_Occu
 **Connected Data Sources (Lineage)**:
 - Type: `SharePointList` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/occupancycenter/'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-08-26 06:01:09 | 2025-08-26 06:01:09 | `Disabled` | `Scheduled` | - |
-| 2025-08-25 06:01:09 | 2025-08-25 06:06:40 | `Completed` | `Scheduled` | - |
-| 2025-08-24 06:04:01 | 2025-08-24 06:05:31 | `Completed` | `Scheduled` | - |
-| 2025-08-23 06:01:01 | 2025-08-23 06:01:49 | `Completed` | `Scheduled` | - |
-| 2025-08-22 06:02:09 | 2025-08-22 06:05:15 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `837d9537-cd25-41d6-acb6-909ee92508d1`
@@ -62,14 +54,6 @@ This document contains operational and technical details for the **BI_TMINT_Occu
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-20 21:44:04 | 2025-07-20 21:44:04 | `Disabled` | `Scheduled` | - |
-| 2025-07-19 21:44:07 | 2025-07-19 21:45:21 | `Completed` | `Scheduled` | - |
-| 2025-07-18 21:45:03 | 2025-07-18 21:45:43 | `Completed` | `Scheduled` | - |
-| 2025-07-17 21:45:07 | 2025-07-17 21:45:48 | `Completed` | `Scheduled` | - |
-| 2025-07-16 21:44:09 | 2025-07-16 21:44:54 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

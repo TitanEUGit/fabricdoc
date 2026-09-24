@@ -53,14 +53,6 @@ This document contains operational and technical details for the **BI_EOC_Parts_
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/EOC/TMEU_Parts_dashboard_turnrates.xlsx'}`
 - Type: `Extension` | Connection: `{'path': 'PowerPlatformDataflows', 'kind': 'PowerPlatformDataflows'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 05:30:26 | 2026-09-15 05:42:51 | `Completed` | `Scheduled` | - |
-| 2026-09-14 05:31:21 | 2026-09-14 05:43:52 | `Completed` | `Scheduled` | - |
-| 2026-09-13 05:31:10 | 2026-09-13 05:38:59 | `Completed` | `Scheduled` | - |
-| 2026-09-12 05:31:21 | 2026-09-12 05:43:47 | `Completed` | `Scheduled` | - |
-| 2026-09-11 05:31:19 | 2026-09-11 05:43:10 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMB Parts Dashboard
 - **Dataset ID**: `9a90fe75-6c0b-4390-b39a-7ef6135a7bcf`
@@ -81,14 +73,6 @@ This document contains operational and technical details for the **BI_EOC_Parts_
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/EOC/TMEU_Parts_dashboard_turnrates.xlsx'}`
 - Type: `Extension` | Connection: `{'path': 'PowerPlatformDataflows', 'kind': 'PowerPlatformDataflows'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 06:01:01 | 2026-09-15 06:03:57 | `Completed` | `Scheduled` | - |
-| 2026-09-14 06:00:27 | 2026-09-14 06:06:24 | `Completed` | `Scheduled` | - |
-| 2026-09-13 06:01:08 | 2026-09-13 06:06:13 | `Completed` | `Scheduled` | - |
-| 2026-09-12 06:01:08 | 2026-09-12 06:07:03 | `Completed` | `Scheduled` | - |
-| 2026-09-11 06:01:02 | 2026-09-11 06:04:12 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMD Parts Dashboard
 - **Dataset ID**: `95925f55-ef55-4919-977b-48741d236856`
@@ -109,14 +93,6 @@ This document contains operational and technical details for the **BI_EOC_Parts_
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/EOC/TMEU_Parts_dashboard_turnrates.xlsx'}`
 - Type: `Extension` | Connection: `{'path': 'PowerPlatformDataflows', 'kind': 'PowerPlatformDataflows'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 06:01:05 | 2026-09-15 06:03:15 | `Completed` | `Scheduled` | - |
-| 2026-09-14 06:00:12 | 2026-09-14 06:01:53 | `Completed` | `Scheduled` | - |
-| 2026-09-13 06:01:13 | 2026-09-13 06:05:01 | `Completed` | `Scheduled` | - |
-| 2026-09-12 06:01:15 | 2026-09-12 06:05:45 | `Completed` | `Scheduled` | - |
-| 2026-09-11 06:01:08 | 2026-09-11 06:03:10 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU Parts Dashboard
 - **Dataset ID**: `cf6c9900-8f7d-4086-b0aa-3aadf193527c`
@@ -136,14 +112,6 @@ This document contains operational and technical details for the **BI_EOC_Parts_
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/EOC/TMEU_Parts_dashboard_turnrates.xlsx'}`
 - Type: `Extension` | Connection: `{'path': 'PowerPlatformDataflows', 'kind': 'PowerPlatformDataflows'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 06:01:09 | 2026-09-15 06:06:35 | `Completed` | `Scheduled` | - |
-| 2026-09-14 06:00:30 | 2026-09-14 06:05:13 | `Completed` | `Scheduled` | - |
-| 2026-09-13 06:01:06 | 2026-09-13 06:04:49 | `Completed` | `Scheduled` | - |
-| 2026-09-12 06:01:06 | 2026-09-12 06:05:43 | `Completed` | `Scheduled` | - |
-| 2026-09-11 06:01:13 | 2026-09-11 06:05:04 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMEU Summary Parts Dashboard
 - **Dataset ID**: `e9dc8b7f-ca7f-42eb-beab-d93ea8b1adba`
@@ -161,14 +129,6 @@ This document contains operational and technical details for the **BI_EOC_Parts_
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_eoc_parts_dashboard', 'database': 'tmr parts dashboard'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_eoc_parts_dashboard', 'database': 'tmu parts dashboard'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 06:30:25 | 2026-09-15 06:37:17 | `Completed` | `Scheduled` | - |
-| 2026-09-14 06:31:17 | 2026-09-14 06:38:20 | `Completed` | `Scheduled` | - |
-| 2026-09-13 06:31:15 | 2026-09-13 06:38:37 | `Completed` | `Scheduled` | - |
-| 2026-09-12 06:31:19 | 2026-09-12 06:38:32 | `Completed` | `Scheduled` | - |
-| 2026-09-11 06:31:12 | 2026-09-11 06:35:23 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `6412b717-c799-432c-b745-9ea5b75dacc6`
@@ -183,14 +143,6 @@ This document contains operational and technical details for the **BI_EOC_Parts_
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-21 08:32:13 | 2025-07-21 08:32:13 | `Disabled` | `Scheduled` | - |
-| 2025-07-20 08:32:13 | 2025-07-20 08:45:08 | `Completed` | `Scheduled` | - |
-| 2025-07-19 08:32:20 | 2025-07-19 08:45:35 | `Completed` | `Scheduled` | - |
-| 2025-07-18 08:32:10 | 2025-07-18 08:45:41 | `Completed` | `Scheduled` | - |
-| 2025-07-17 08:32:14 | 2025-07-17 08:44:51 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

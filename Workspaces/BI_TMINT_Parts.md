@@ -48,14 +48,6 @@ This document contains operational and technical details for the **BI_TMINT_Part
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': '10.75.1.7', 'database': 'jetnavdwh'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2020-08-16 22:01:34 | 2020-08-16 22:27:40 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2020-08-15 22:02:24 | 2020-08-15 22:26:21 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2020-08-14 22:02:28 | 2020-08-14 22:24:34 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2020-08-13 22:03:28 | 2020-08-13 22:27:37 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2020-08-12 22:01:40 | 2020-08-12 22:25:16 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMINT_BI_Inventory_Aging_Report
 - **Dataset ID**: `5df8ba3b-557c-4409-ad17-a528d8024276`
@@ -67,14 +59,6 @@ This document contains operational and technical details for the **BI_TMINT_Part
 - **Frequency**: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
 - **Scheduled Times**: `09:00, 11:00, 13:00, 15:00, 17:00` (GTB Standard Time)
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-04-22 05:43:31 | 2025-04-22 05:47:52 | `Failed` | `OnDemand` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2023-03-23 10:17:25 | 2023-03-23 10:17:26 | `Failed` | `OnDemand` | {"errorCode":"ModelRefreshDisabled_CredentialNo... |
-| 2022-10-04 08:31:10 | 2022-10-04 08:38:56 | `Failed` | `OnDemand` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2022-06-10 06:00:45 | 2022-06-10 06:15:14 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2022-06-09 14:02:02 | 2022-06-09 14:15:28 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
 
 ### Semantic Model: TMINT_BI_Preventive_Aging_Report
 - **Dataset ID**: `b93d3337-f9a4-427e-a9cd-d49e02274930`
@@ -86,14 +70,6 @@ This document contains operational and technical details for the **BI_TMINT_Part
 - **Frequency**: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
 - **Scheduled Times**: `09:00, 12:00, 15:00` (GTB Standard Time)
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2023-03-23 10:17:30 | 2023-03-23 10:17:30 | `Failed` | `OnDemand` | {"errorCode":"ModelRefreshDisabled_CredentialNo... |
-| 2021-10-05 09:01:12 | 2021-10-05 09:01:12 | `Disabled` | `Scheduled` | - |
-| 2021-10-05 06:00:21 | 2021-10-05 06:15:35 | `Completed` | `Scheduled` | - |
-| 2021-10-04 12:02:16 | 2021-10-04 12:25:29 | `Completed` | `Scheduled` | - |
-| 2021-10-04 09:01:12 | 2021-10-04 09:24:22 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Parts - Aging
 - **Dataset ID**: `05a71bc2-cd63-4fa2-8911-a1df65335625`
@@ -108,14 +84,6 @@ This document contains operational and technical details for the **BI_TMINT_Part
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': '10.75.1.7', 'database': 'jetnavdwh'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 04:00:26 | 2026-09-15 04:11:43 | `Completed` | `Scheduled` | - |
-| 2026-09-14 12:01:19 | 2026-09-14 12:12:24 | `Completed` | `Scheduled` | - |
-| 2026-09-14 04:00:25 | 2026-09-14 04:10:24 | `Completed` | `Scheduled` | - |
-| 2026-09-13 12:01:15 | 2026-09-13 12:13:12 | `Completed` | `Scheduled` | - |
-| 2026-09-13 04:01:12 | 2026-09-13 04:11:31 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Parts - Aging - EndOfMonth
 - **Dataset ID**: `ff2706e7-600c-4c95-b327-a11fd5c1a342`
@@ -130,14 +98,6 @@ This document contains operational and technical details for the **BI_TMINT_Part
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': '10.75.1.7', 'database': 'jetnavdwh'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 06:00:08 | 2026-09-15 06:08:49 | `Completed` | `ViaApi` | - |
-| 2026-09-15 00:01:08 | 2026-09-15 00:13:01 | `Completed` | `Scheduled` | - |
-| 2026-09-14 00:01:08 | 2026-09-14 00:12:02 | `Completed` | `Scheduled` | - |
-| 2026-09-13 00:01:17 | 2026-09-13 00:13:02 | `Completed` | `Scheduled` | - |
-| 2026-09-12 00:01:10 | 2026-09-12 00:12:28 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `e3e38f8b-bed7-4248-bd79-2716063255dd`
@@ -152,14 +112,6 @@ This document contains operational and technical details for the **BI_TMINT_Part
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-21 07:35:02 | 2025-07-21 07:35:02 | `Disabled` | `Scheduled` | - |
-| 2025-07-20 07:35:05 | 2025-07-20 07:45:21 | `Completed` | `Scheduled` | - |
-| 2025-07-19 07:35:11 | 2025-07-19 07:44:43 | `Completed` | `Scheduled` | - |
-| 2025-07-18 07:35:07 | 2025-07-18 07:45:12 | `Completed` | `Scheduled` | - |
-| 2025-07-17 07:35:06 | 2025-07-17 07:44:30 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMR Stock Order Report
 - **Dataset ID**: `593e97f2-ab3e-46e4-95f5-ffa12ce25963`
@@ -175,14 +127,6 @@ This document contains operational and technical details for the **BI_TMINT_Part
 - Type: `Sql` | Connection: `{'server': '10.75.1.7', 'database': 'jetnavdwh'}`
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 02:01:13 | 2026-09-15 02:14:46 | `Completed` | `Scheduled` | - |
-| 2026-09-14 02:01:07 | 2026-09-14 02:12:38 | `Completed` | `Scheduled` | - |
-| 2026-09-13 02:01:08 | 2026-09-13 02:11:23 | `Completed` | `Scheduled` | - |
-| 2026-09-12 02:01:06 | 2026-09-12 02:13:15 | `Completed` | `Scheduled` | - |
-| 2026-09-11 02:01:09 | 2026-09-11 02:10:18 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

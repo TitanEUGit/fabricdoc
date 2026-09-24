@@ -66,14 +66,6 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 **Connected Data Sources (Lineage)**:
 - Type: `SharePointList` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/collaboration/'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-14 02:00:23 | 2026-09-14 02:36:37 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2026-09-07 02:00:14 | 2026-09-07 02:41:12 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2026-08-31 02:00:15 | 2026-08-31 02:36:53 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2026-08-24 02:00:14 | 2026-08-24 02:38:23 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2026-08-19 13:47:45 | 2026-08-19 14:23:34 | `Failed` | `OnDemand` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
 
 ### Semantic Model: alert_sharepoint
 - **Dataset ID**: `99fc1dac-c34a-453e-ad54-d35434dab6a9`
@@ -88,14 +80,6 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 **Connected Data Sources (Lineage)**:
 - Type: `SharePointList` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/tmua/'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-14 22:01:09 | 2026-09-14 22:08:14 | `Completed` | `Scheduled` | - |
-| 2026-09-13 22:01:17 | 2026-09-13 22:07:13 | `Completed` | `Scheduled` | - |
-| 2026-09-12 22:01:17 | 2026-09-12 22:07:35 | `Completed` | `Scheduled` | - |
-| 2026-09-11 22:01:18 | 2026-09-11 22:07:36 | `Completed` | `Scheduled` | - |
-| 2026-09-10 22:01:21 | 2026-09-10 22:07:02 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMR Headcount File
 - **Dataset ID**: `e53c9781-f5f6-462f-8712-4f1d2fd4c0ef`
@@ -111,14 +95,6 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/RO_HR/Reporting/HC%20report/2024/TMR_HC%20report_rev%20as%20per%20service%20dashboard.xlsx'}`
 - Type: `SharePointList` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/collaboration/'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-03 21:01:24 | 2026-09-03 21:57:28 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2026-09-03 06:58:31 | 2026-09-03 07:53:47 | `Failed` | `OnDemand` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2026-09-02 21:02:30 | 2026-09-02 22:20:07 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2026-09-01 21:01:28 | 2026-09-01 21:15:24 | `Completed` | `Scheduled` | - |
-| 2026-08-31 21:01:23 | 2026-08-31 21:15:49 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMR PA History
 - **Dataset ID**: `707be0b8-6f26-4354-9bb2-08bf71a155c0`
@@ -133,14 +109,6 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 **Connected Data Sources (Lineage)**:
 - Type: `SharePointList` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/collaboration/'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-12-28 23:01:11 | 2025-12-28 23:01:11 | `Disabled` | `Scheduled` | - |
-| 2025-12-21 23:01:06 | 2025-12-21 23:10:30 | `Completed` | `Scheduled` | - |
-| 2025-12-14 23:00:21 | 2025-12-14 23:10:28 | `Completed` | `Scheduled` | - |
-| 2025-12-07 23:01:17 | 2025-12-07 23:10:59 | `Completed` | `Scheduled` | - |
-| 2025-11-30 23:01:06 | 2025-11-30 23:08:55 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMD PA History
 - **Dataset ID**: `73b1811a-a5d7-47b5-aaf7-ef28841cbae0`
@@ -155,14 +123,6 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 **Connected Data Sources (Lineage)**:
 - Type: `SharePointList` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/collaboration/'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-01-03 23:00:09 | 2026-01-03 23:00:09 | `Disabled` | `Scheduled` | - |
-| 2026-01-02 23:01:03 | 2026-01-02 23:07:41 | `Completed` | `Scheduled` | - |
-| 2026-01-01 23:01:09 | 2026-01-01 23:09:45 | `Completed` | `Scheduled` | - |
-| 2025-12-31 23:00:13 | 2025-12-31 23:06:16 | `Completed` | `Scheduled` | - |
-| 2025-12-30 23:01:03 | 2025-12-30 23:06:23 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU PA History
 - **Dataset ID**: `b2119e5e-b4ee-46b1-b67b-c943981d46b5`
@@ -177,14 +137,6 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 **Connected Data Sources (Lineage)**:
 - Type: `SharePointList` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/collaboration/'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-14 22:01:18 | 2026-09-14 22:13:23 | `Completed` | `Scheduled` | - |
-| 2026-09-13 22:01:18 | 2026-09-13 22:12:38 | `Completed` | `Scheduled` | - |
-| 2026-09-12 22:01:19 | 2026-09-12 22:13:16 | `Completed` | `Scheduled` | - |
-| 2026-09-11 22:01:20 | 2026-09-11 22:13:44 | `Completed` | `Scheduled` | - |
-| 2026-09-10 22:01:23 | 2026-09-10 22:13:01 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Staging TMU Inventory
 - **Dataset ID**: `abaff326-14a3-4ef9-a000-e36913fa5f4f`
@@ -199,14 +151,6 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 **Connected Data Sources (Lineage)**:
 - Type: `Web` | Connection: `{'url': 'https://parts.titanmachinery.ua/'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-05-10 04:01:17 | 2026-05-10 04:01:17 | `Disabled` | `Scheduled` | - |
-| 2026-05-09 04:01:07 | 2026-05-09 04:07:09 | `Completed` | `Scheduled` | - |
-| 2026-05-08 04:01:18 | 2026-05-08 04:09:16 | `Completed` | `Scheduled` | - |
-| 2026-05-07 04:01:07 | 2026-05-07 04:07:23 | `Completed` | `Scheduled` | - |
-| 2026-05-06 04:01:07 | 2026-05-06 04:07:34 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMEU TIV and MS
 - **Dataset ID**: `b5f3ee4d-f7d1-4ae9-a05b-0b36110acd08`
@@ -221,14 +165,6 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 **Connected Data Sources (Lineage)**:
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_Logistics/Marketshare%2012months%20rolling/MS%2012%20months%20rolling.xlsm'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-14 22:01:02 | 2026-09-14 22:03:18 | `Completed` | `Scheduled` | - |
-| 2026-09-13 22:01:21 | 2026-09-13 22:06:57 | `Completed` | `Scheduled` | - |
-| 2026-09-12 22:01:21 | 2026-09-12 22:06:05 | `Completed` | `Scheduled` | - |
-| 2026-09-11 22:01:23 | 2026-09-11 22:05:47 | `Completed` | `Scheduled` | - |
-| 2026-09-10 22:01:26 | 2026-09-10 22:05:41 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMEU Parts Inventory Staging
 - **Dataset ID**: `43ac2f83-8541-4894-8a5a-4916eb084327`
@@ -246,14 +182,6 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmb_opspackage', 'database': 'tmb ops package'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmd_aftersales', 'database': 'tmd parts sales'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 05:01:02 | 2026-09-15 05:06:21 | `Completed` | `Scheduled` | - |
-| 2026-09-14 05:00:11 | 2026-09-14 05:03:33 | `Completed` | `Scheduled` | - |
-| 2026-09-13 05:01:16 | 2026-09-13 05:06:43 | `Completed` | `Scheduled` | - |
-| 2026-09-12 05:01:16 | 2026-09-12 05:08:56 | `Completed` | `Scheduled` | - |
-| 2026-09-11 05:01:04 | 2026-09-11 05:04:34 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMD Parts Inventory Staging
 - **Dataset ID**: `fb8b36d5-bff0-4308-bdba-7b752deaf8a8`
@@ -268,14 +196,6 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 **Connected Data Sources (Lineage)**:
 - Type: `SharePointList` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/collaboration/'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-08-18 07:51:16 | 2025-08-18 08:35:04 | `Completed` | `ViaApi` | - |
-| 2025-08-13 09:12:56 | 2025-08-13 09:58:20 | `Completed` | `ViaApi` | - |
-| 2025-06-19 05:54:14 | 2025-06-19 05:54:20 | `Cancelled` | `OnDemand` | {"errorCode":"ModelRefresh_ShortMessage_Cancell... |
-| 2025-06-18 15:32:26 | 2025-06-18 16:38:54 | `Completed` | `ViaApi` | - |
-| 2025-06-18 12:21:09 | 2025-06-18 13:18:49 | `Completed` | `ViaApi` | - |
 
 ### Semantic Model: 1C SQL Ledger Data
 - **Dataset ID**: `b46cf783-91f2-4da3-9656-ca9a2e4317db`
@@ -291,14 +211,6 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmu_opspackage', 'database': 'tmu ops package'}`
 - Type: `Sql` | Connection: `{'server': '10.71.3.14', 'database': 'dailywork'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 11:00:21 | - | `Unknown` | `DataFactory` | - |
-| 2026-09-15 01:01:09 | 2026-09-15 01:11:57 | `Completed` | `Scheduled` | - |
-| 2026-09-14 11:00:23 | 2026-09-14 11:08:14 | `Completed` | `DataFactory` | - |
-| 2026-09-14 01:00:30 | 2026-09-14 01:10:46 | `Completed` | `Scheduled` | - |
-| 2026-09-13 11:00:37 | 2026-09-13 11:07:39 | `Completed` | `DataFactory` | - |
 
 ### Semantic Model: EU IT Expenses Staging
 - **Dataset ID**: `644f3fb9-a8ba-4eaf-94d0-cc3e8968577f`
@@ -318,14 +230,6 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/ds_tmeu_datasets and dataflows', 'database': '1c sql ledger data'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tma_finance', 'database': 'eoc entity report'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-07-18 06:01:30 | 2026-07-18 06:01:30 | `Disabled` | `Scheduled` | - |
-| 2026-07-17 06:01:10 | 2026-07-17 06:04:53 | `Completed` | `Scheduled` | - |
-| 2026-07-16 06:01:19 | 2026-07-16 06:07:36 | `Completed` | `Scheduled` | - |
-| 2026-07-15 06:00:18 | 2026-07-15 06:04:57 | `Completed` | `Scheduled` | - |
-| 2026-07-14 06:01:08 | 2026-07-14 06:06:01 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU Sales Backlog Staging
 - **Dataset ID**: `6dbc849f-4f47-4b32-80d0-d0550020c1c5`
@@ -340,14 +244,6 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 **Connected Data Sources (Lineage)**:
 - Type: `SharePointList` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/collaboration/'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-06-28 16:00:09 | 2026-06-28 16:30:18 | `Failed` | `ViaApi` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2026-05-28 16:00:05 | 2026-05-28 16:05:46 | `Completed` | `ViaApi` | - |
-| 2026-04-28 16:00:07 | 2026-04-28 16:05:39 | `Completed` | `ViaApi` | - |
-| 2026-03-28 16:00:10 | 2026-03-28 16:22:34 | `Failed` | `ViaApi` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2026-02-28 16:00:10 | 2026-02-28 16:32:31 | `Failed` | `ViaApi` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
 
 ### Semantic Model: TMEU IT Devices Users
 - **Dataset ID**: `7d81e1fe-3853-42db-a0a6-59778f12532d`
@@ -364,14 +260,6 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 - Type: `SharePointList` | Connection: `{'url': 'https://titanmachinery365europe.sharepoint.com/sites/hr-dataset-europe/'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/ds_tmeu_datasets and dataflows', 'database': 'zoho dataset'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-01-10 03:01:06 | 2026-01-10 03:01:06 | `Disabled` | `Scheduled` | - |
-| 2026-01-09 03:01:05 | 2026-01-09 03:05:20 | `Completed` | `Scheduled` | - |
-| 2026-01-08 03:01:02 | 2026-01-08 03:05:01 | `Completed` | `Scheduled` | - |
-| 2026-01-07 03:01:02 | 2026-01-07 03:05:40 | `Completed` | `Scheduled` | - |
-| 2026-01-06 03:01:07 | 2026-01-06 03:07:04 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Zoho Dataset
 - **Dataset ID**: `4c6de12d-dc63-4152-8c1e-79ed38cc792b`
@@ -387,14 +275,6 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 - Type: `Web` | Connection: `{'url': 'https://accounts.zoho.eu/'}`
 - Type: `Web` | Connection: `{'url': 'https://endpointcentral.manageengine.eu/'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-05-11 00:02:09 | 2026-05-11 00:02:09 | `Disabled` | `Scheduled` | - |
-| 2026-05-10 00:01:09 | 2026-05-10 00:12:28 | `Completed` | `Scheduled` | - |
-| 2026-05-09 00:02:06 | 2026-05-09 00:14:42 | `Completed` | `Scheduled` | - |
-| 2026-05-08 00:01:12 | 2026-05-08 00:12:20 | `Completed` | `Scheduled` | - |
-| 2026-05-07 00:02:13 | 2026-05-07 00:15:05 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

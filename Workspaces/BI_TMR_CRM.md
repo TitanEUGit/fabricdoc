@@ -59,14 +59,6 @@ This document contains operational and technical details for the **BI_TMR_CRM** 
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'titanromania.crm4.dynamics.com', 'kind': 'CommonDataService'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-05-12 05:00:18 | 2026-05-12 05:00:18 | `Disabled` | `Scheduled` | - |
-| 2026-05-11 05:01:07 | 2026-05-11 05:07:51 | `Completed` | `Scheduled` | - |
-| 2026-05-10 05:01:06 | 2026-05-10 05:06:21 | `Completed` | `Scheduled` | - |
-| 2026-05-09 05:01:07 | 2026-05-09 05:08:53 | `Completed` | `Scheduled` | - |
-| 2026-05-08 05:01:06 | 2026-05-08 05:07:24 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Dashboard Usage Metrics Model
 - **Dataset ID**: `cbaa7c70-12f0-4e6e-bf6e-fcccc1d6d90c`
@@ -89,14 +81,6 @@ This document contains operational and technical details for the **BI_TMR_CRM** 
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'titanromania.crm4.dynamics.com', 'kind': 'CommonDataService'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-10-06 02:01:10 | 2025-10-06 02:01:10 | `Disabled` | `Scheduled` | - |
-| 2025-10-05 02:01:10 | 2025-10-05 02:12:17 | `Completed` | `Scheduled` | - |
-| 2025-10-04 02:01:09 | 2025-10-04 02:11:14 | `Completed` | `Scheduled` | - |
-| 2025-10-03 02:01:09 | 2025-10-03 02:11:46 | `Completed` | `Scheduled` | - |
-| 2025-10-02 02:01:10 | 2025-10-02 02:11:59 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMR Product KPI
 - **Dataset ID**: `5a0e9736-ca81-4ccf-8dff-86580e0cb2bf`
@@ -111,14 +95,6 @@ This document contains operational and technical details for the **BI_TMR_CRM** 
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'titanromania.crm4.dynamics.com', 'kind': 'CommonDataService'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-01-12 23:00:27 | 2026-01-12 23:00:27 | `Disabled` | `Scheduled` | - |
-| 2026-01-11 23:00:27 | 2026-01-11 23:07:33 | `Completed` | `Scheduled` | - |
-| 2026-01-10 23:00:26 | 2026-01-10 23:08:10 | `Completed` | `Scheduled` | - |
-| 2026-01-09 23:00:24 | 2026-01-09 23:07:55 | `Completed` | `Scheduled` | - |
-| 2026-01-08 23:00:12 | 2026-01-08 23:05:58 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `5dccfe3e-9fb3-4146-9928-0de00691dcf7`
@@ -133,14 +109,6 @@ This document contains operational and technical details for the **BI_TMR_CRM** 
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-23 09:04:15 | 2025-07-23 09:04:15 | `Disabled` | `Scheduled` | - |
-| 2025-07-22 09:03:23 | 2025-07-22 09:17:48 | `Completed` | `Scheduled` | - |
-| 2025-07-21 09:04:19 | 2025-07-21 09:18:40 | `Completed` | `Scheduled` | - |
-| 2025-07-20 09:03:18 | 2025-07-20 09:17:58 | `Completed` | `Scheduled` | - |
-| 2025-07-19 09:04:16 | 2025-07-19 09:18:36 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

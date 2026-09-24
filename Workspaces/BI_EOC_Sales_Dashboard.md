@@ -51,14 +51,6 @@ This document contains operational and technical details for the **BI_EOC_Sales_
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMB/Sales_dashboard/sales_dashboard_budget_title.xlsx'}`
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/EOC/TMEU_Sales_dashboard_fin_inputs.xlsx'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-10-27 05:02:03 | 2025-10-27 05:02:03 | `Disabled` | `Scheduled` | - |
-| 2025-10-26 05:02:03 | 2025-10-26 05:08:52 | `Completed` | `Scheduled` | - |
-| 2025-10-25 04:03:12 | 2025-10-25 04:12:02 | `Completed` | `Scheduled` | - |
-| 2025-10-24 04:02:09 | 2025-10-24 04:12:08 | `Completed` | `Scheduled` | - |
-| 2025-10-23 04:02:08 | 2025-10-23 04:12:16 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMD Sales Dashboard
 - **Dataset ID**: `b38619ee-4e3e-40f1-9c50-142eb78e297e`
@@ -80,14 +72,6 @@ This document contains operational and technical details for the **BI_EOC_Sales_
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/ds_tmeu_datasets and dataflows', 'database': 'tmeu tiv and ms'}`
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/EOC/TMEU_Sales_dashboard_fin_inputs.xlsx'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-11-04 05:02:19 | 2025-11-04 05:02:19 | `Disabled` | `Scheduled` | - |
-| 2025-11-03 05:02:12 | 2025-11-03 05:12:10 | `Completed` | `Scheduled` | - |
-| 2025-11-02 05:02:18 | 2025-11-02 05:16:01 | `Completed` | `Scheduled` | - |
-| 2025-11-01 05:02:17 | 2025-11-01 05:14:05 | `Completed` | `Scheduled` | - |
-| 2025-10-31 05:02:23 | 2025-10-31 05:14:05 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMR Sales Dashboard
 - **Dataset ID**: `93f283a6-44d5-4b26-9187-109886419f3a`
@@ -109,14 +93,6 @@ This document contains operational and technical details for the **BI_EOC_Sales_
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMR/Sales_dashboard/sales_dashboard_budget_title.xlsx'}`
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/EOC/TMEU_Sales_dashboard_fin_inputs.xlsx'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-10-27 05:02:17 | 2025-10-27 05:02:17 | `Disabled` | `Scheduled` | - |
-| 2025-10-26 05:02:14 | 2025-10-26 05:13:50 | `Completed` | `Scheduled` | - |
-| 2025-10-25 04:03:16 | 2025-10-25 04:13:29 | `Completed` | `Scheduled` | - |
-| 2025-10-24 04:02:13 | 2025-10-24 04:14:15 | `Completed` | `Scheduled` | - |
-| 2025-10-23 04:02:17 | 2025-10-23 04:14:46 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU Sales Dashboard
 - **Dataset ID**: `790817e9-b7d1-4d74-a7a4-7e75b0cb0b72`
@@ -138,14 +114,6 @@ This document contains operational and technical details for the **BI_EOC_Sales_
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/ds_tmeu_datasets and dataflows', 'database': 'tmeu_hc_dataset'}`
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/EOC/TMEU_Sales_dashboard_fin_inputs.xlsx'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 04:00:28 | 2026-09-15 04:03:22 | `Completed` | `Scheduled` | - |
-| 2026-09-14 04:01:09 | 2026-09-14 04:04:33 | `Completed` | `Scheduled` | - |
-| 2026-09-13 04:01:15 | 2026-09-13 04:05:28 | `Completed` | `Scheduled` | - |
-| 2026-09-12 04:00:23 | 2026-09-12 04:02:53 | `Completed` | `Scheduled` | - |
-| 2026-09-11 04:01:13 | 2026-09-11 04:03:48 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `a6c9e921-4a74-4ed0-80c4-60a8b90d5416`
@@ -160,14 +128,6 @@ This document contains operational and technical details for the **BI_EOC_Sales_
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-21 00:45:01 | 2025-07-21 00:45:01 | `Disabled` | `Scheduled` | - |
-| 2025-07-20 00:45:13 | 2025-07-20 00:45:35 | `Completed` | `Scheduled` | - |
-| 2025-07-19 00:45:05 | 2025-07-19 00:46:06 | `Completed` | `Scheduled` | - |
-| 2025-07-18 00:45:12 | 2025-07-18 00:45:44 | `Completed` | `Scheduled` | - |
-| 2025-07-17 00:45:06 | 2025-07-17 00:45:24 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

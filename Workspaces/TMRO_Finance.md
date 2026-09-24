@@ -119,14 +119,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-10 11:03:20 | 2026-09-10 11:03:36 | `Completed` | `OnDemand` | - |
-| 2026-09-09 09:19:07 | 2026-09-09 09:19:19 | `Completed` | `OnDemand` | - |
-| 2026-09-09 09:03:59 | 2026-09-09 09:04:10 | `Completed` | `OnDemand` | - |
-| 2026-09-09 09:02:01 | 2026-09-09 09:02:19 | `Completed` | `OnDemand` | - |
-| 2026-09-09 09:01:31 | 2026-09-09 09:01:41 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMR_Stock_Balance_Equip_DP
 - **Dataset ID**: `2458199d-c761-4280-955d-e1e0488f8485`
@@ -141,14 +133,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 01:00:16 | 2026-09-15 01:03:01 | `Completed` | `Scheduled` | - |
-| 2026-09-14 01:00:22 | 2026-09-14 01:02:35 | `Completed` | `Scheduled` | - |
-| 2026-09-13 01:01:05 | 2026-09-13 01:03:23 | `Completed` | `Scheduled` | - |
-| 2026-09-12 01:00:19 | 2026-09-12 01:02:45 | `Completed` | `Scheduled` | - |
-| 2026-09-11 01:00:17 | 2026-09-11 01:02:37 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMR_Notinvoiced_Documents_DateParameter
 - **Dataset ID**: `018e9201-c1fb-4601-b4d0-4a0f9bae68d7`
@@ -163,14 +147,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-11 05:25:11 | 2026-09-11 05:26:29 | `Completed` | `OnDemand` | - |
-| 2026-09-11 05:22:33 | 2026-09-11 05:23:49 | `Completed` | `OnDemand` | - |
-| 2026-09-10 12:56:10 | 2026-09-10 12:57:31 | `Completed` | `OnDemand` | - |
-| 2026-09-09 12:46:13 | 2026-09-09 12:47:30 | `Completed` | `OnDemand` | - |
-| 2026-09-09 12:43:47 | 2026-09-09 12:45:08 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: Report Usage Metrics Model
 - **Dataset ID**: `9c6ab3cc-4bec-4622-b34e-dd85a5867f32`
@@ -193,14 +169,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 04:30:28 | 2026-09-15 04:38:36 | `Completed` | `Scheduled` | - |
-| 2026-09-14 04:30:21 | 2026-09-14 04:33:39 | `Completed` | `Scheduled` | - |
-| 2026-09-13 04:30:23 | 2026-09-13 04:44:20 | `Completed` | `Scheduled` | - |
-| 2026-09-12 04:30:30 | 2026-09-12 04:38:59 | `Completed` | `Scheduled` | - |
-| 2026-09-11 04:30:30 | 2026-09-11 04:33:19 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMR_Jobcards_Invoicing
 - **Dataset ID**: `4ab2838e-bc11-4a95-91d7-390c6614c08f`
@@ -215,14 +183,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 04:00:19 | 2026-09-15 04:05:32 | `Completed` | `Scheduled` | - |
-| 2026-09-14 11:01:05 | 2026-09-14 11:06:39 | `Completed` | `Scheduled` | - |
-| 2026-09-14 04:00:17 | 2026-09-14 04:04:41 | `Completed` | `Scheduled` | - |
-| 2026-09-13 11:01:07 | 2026-09-13 11:15:53 | `Completed` | `Scheduled` | - |
-| 2026-09-13 04:01:07 | 2026-09-13 04:09:33 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMR_Mapping_Invoices_Payments
 - **Dataset ID**: `f5bc55dc-2910-4b99-9241-5b9cbf16b5cb`
@@ -237,14 +197,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-08-24 06:13:41 | 2026-08-24 06:14:21 | `Completed` | `OnDemand` | - |
-| 2026-08-24 06:10:45 | 2026-08-24 06:11:35 | `Completed` | `OnDemand` | - |
-| 2026-07-13 06:54:44 | 2026-07-13 06:55:14 | `Completed` | `OnDemand` | - |
-| 2026-07-13 06:54:03 | 2026-07-13 06:54:39 | `Completed` | `OnDemand` | - |
-| 2026-06-22 06:01:31 | 2026-06-22 06:02:00 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMR_Item_Ledger
 - **Dataset ID**: `51b13f8b-5bc4-4f6e-b5a8-ee732de41c8f`
@@ -259,14 +211,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-05-14 12:31:01 | 2026-05-14 12:34:45 | `Completed` | `OnDemand` | - |
-| 2026-05-11 05:56:39 | 2026-05-11 06:00:15 | `Completed` | `OnDemand` | - |
-| 2026-05-06 05:52:31 | 2026-05-06 05:54:19 | `Completed` | `OnDemand` | - |
-| 2026-03-18 13:06:07 | 2026-03-18 13:08:24 | `Completed` | `OnDemand` | - |
-| 2026-02-26 09:37:21 | 2026-02-26 09:38:29 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMR_Not_Applied_Invoices_v2
 - **Dataset ID**: `7d026142-2f86-40c2-853d-38f16f48f0d3`
@@ -281,14 +225,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-07-03 11:54:57 | 2026-07-03 11:55:29 | `Completed` | `OnDemand` | - |
-| 2026-06-05 07:54:17 | 2026-06-05 07:55:10 | `Completed` | `OnDemand` | - |
-| 2026-06-05 07:53:02 | 2026-06-05 07:53:42 | `Completed` | `OnDemand` | - |
-| 2026-06-04 13:26:01 | 2026-06-04 13:29:49 | `Completed` | `OnDemand` | - |
-| 2026-06-04 12:34:01 | 2026-06-04 12:34:51 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMR_Parts_Stock_Balance_Reconcile_TB
 - **Dataset ID**: `337cd60e-6f77-4e50-b014-6da228f0e6f5`
@@ -303,14 +239,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-09 09:02:01 | 2026-09-09 09:02:45 | `Completed` | `OnDemand` | - |
-| 2026-09-09 09:01:11 | 2026-09-09 09:01:41 | `Completed` | `OnDemand` | - |
-| 2026-09-09 09:00:09 | 2026-09-09 09:00:36 | `Completed` | `OnDemand` | - |
-| 2026-09-09 08:59:01 | 2026-09-09 08:59:39 | `Completed` | `OnDemand` | - |
-| 2026-08-14 07:24:16 | 2026-08-14 07:24:36 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMR_Parts_Reports
 - **Dataset ID**: `8b7d5962-5eae-459d-90f9-27bc115b4021`
@@ -325,14 +253,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-10 06:51:17 | 2026-09-10 06:52:45 | `Completed` | `OnDemand` | - |
-| 2026-09-10 06:00:16 | 2026-09-10 06:02:25 | `Completed` | `OnDemand` | - |
-| 2026-09-10 05:58:42 | 2026-09-10 06:00:14 | `Completed` | `OnDemand` | - |
-| 2026-09-09 13:37:04 | 2026-09-09 13:38:40 | `Completed` | `OnDemand` | - |
-| 2026-09-09 09:01:56 | 2026-09-09 09:03:43 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMR_Flash_Service
 - **Dataset ID**: `d4d407a5-375b-4b4f-911c-5c1f3f8e9510`
@@ -347,14 +267,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 10:01:18 | 2026-09-15 10:07:40 | `Completed` | `Scheduled` | - |
-| 2026-09-15 08:01:09 | 2026-09-15 08:05:38 | `Completed` | `Scheduled` | - |
-| 2026-09-15 07:00:29 | 2026-09-15 07:08:13 | `Completed` | `Scheduled` | - |
-| 2026-09-15 04:00:23 | 2026-09-15 04:06:37 | `Completed` | `Scheduled` | - |
-| 2026-09-14 19:00:24 | 2026-09-14 19:19:31 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMR_Extended_Warranty
 - **Dataset ID**: `f1bc5c08-c825-4a7c-830c-00316ee46eb6`
@@ -369,14 +281,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-10 10:02:38 | 2026-09-10 10:03:21 | `Completed` | `OnDemand` | - |
-| 2026-09-10 05:57:03 | 2026-09-10 05:57:10 | `Completed` | `OnDemand` | - |
-| 2026-09-10 05:52:02 | 2026-09-10 05:52:26 | `Completed` | `OnDemand` | - |
-| 2026-09-01 07:53:58 | 2026-09-01 07:54:04 | `Completed` | `OnDemand` | - |
-| 2026-09-01 07:53:43 | 2026-09-01 07:53:54 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMR_Mapping_Service_Invoices_Offers
 - **Dataset ID**: `c56172c6-c9ab-43fe-91a7-e319ee3977e3`
@@ -391,14 +295,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-05-14 12:31:28 | 2026-05-14 12:32:07 | `Completed` | `OnDemand` | - |
-| 2026-05-11 05:56:47 | 2026-05-11 05:58:15 | `Completed` | `OnDemand` | - |
-| 2026-05-06 05:52:36 | 2026-05-06 05:54:00 | `Completed` | `OnDemand` | - |
-| 2026-04-06 05:17:38 | 2026-04-06 05:18:33 | `Completed` | `OnDemand` | - |
-| 2026-02-02 08:37:06 | 2026-02-02 08:37:34 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMR_Parts_Purchasing
 - **Dataset ID**: `ef4a3a81-343b-4252-b00a-2cb2ced3cc90`
@@ -413,14 +309,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 09:01:22 | 2026-09-15 09:05:59 | `Completed` | `Scheduled` | - |
-| 2026-09-15 04:00:14 | 2026-09-15 04:05:09 | `Completed` | `Scheduled` | - |
-| 2026-09-14 09:00:14 | 2026-09-14 09:02:52 | `Completed` | `Scheduled` | - |
-| 2026-09-14 04:00:13 | 2026-09-14 04:04:42 | `Completed` | `Scheduled` | - |
-| 2026-09-11 09:00:12 | 2026-09-11 09:01:35 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMR_Buyback_Costs
 - **Dataset ID**: `d10638d6-eacc-4b6d-99d9-fade59f01a75`
@@ -435,14 +323,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-05-14 11:59:05 | 2026-05-14 12:01:29 | `Completed` | `OnDemand` | - |
-| 2026-04-09 10:58:46 | 2026-04-09 10:59:20 | `Completed` | `OnDemand` | - |
-| 2026-03-31 13:18:44 | 2026-03-31 13:19:54 | `Completed` | `OnDemand` | - |
-| 2026-03-31 13:13:30 | 2026-03-31 13:14:32 | `Completed` | `OnDemand` | - |
-| 2026-02-02 12:38:48 | 2026-02-02 12:39:46 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: Report TMR P&L _wip
 - **Dataset ID**: `56261378-98d3-4c3e-b0f9-49d7ce4ce27f`
@@ -459,14 +339,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 - Type: `File` | Connection: `{'path': 'c:\\titan\\bireporting\\tmr\\diferente p&l.xlsx'}`
 - Type: `File` | Connection: `{'path': 'c:\\titan\\bireporting\\tmr\\reclasif&adj ifrs_p&l.xlsx'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-01-29 12:38:41 | 2026-01-29 12:38:41 | `Failed` | `OnDemand` | {"errorCode":"ModelRefreshDisabled_CredentialNo... |
-| 2025-05-09 10:33:13 | 2025-05-09 10:33:14 | `Failed` | `OnDemand` | {"errorCode":"ModelRefreshDisabled_CredentialNo... |
-| 2025-02-25 09:28:52 | 2025-02-25 09:28:53 | `Failed` | `OnDemand` | {"errorCode":"ModelRefreshDisabled_CredentialNo... |
-| 2024-11-25 13:46:10 | 2024-11-25 13:46:10 | `Failed` | `OnDemand` | {"errorCode":"ModelRefreshDisabled_CredentialNo... |
-| 2024-10-08 05:26:58 | 2024-10-08 05:26:58 | `Failed` | `OnDemand` | {"errorCode":"ModelRefreshDisabled_CredentialNo... |
 
 ### Semantic Model: TMR_Cars_Expenses
 - **Dataset ID**: `b2659127-fa16-4761-a221-e112b94e9250`
@@ -481,14 +353,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-08-05 08:05:15 | 2026-08-05 08:06:31 | `Completed` | `OnDemand` | - |
-| 2026-05-14 12:30:52 | 2026-05-14 12:34:44 | `Completed` | `OnDemand` | - |
-| 2026-05-14 11:59:06 | 2026-05-14 12:06:21 | `Completed` | `OnDemand` | - |
-| 2026-05-11 05:57:22 | 2026-05-11 06:00:42 | `Completed` | `OnDemand` | - |
-| 2026-05-11 05:42:58 | 2026-05-11 05:48:53 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMR_Open_Receivables_Group_Report
 - **Dataset ID**: `afe41783-1aae-4857-8b4f-e92f9c2254b6`
@@ -503,14 +367,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 09:01:11 | 2026-09-15 09:03:42 | `Completed` | `Scheduled` | - |
-| 2026-09-15 08:01:03 | 2026-09-15 08:02:29 | `Completed` | `Scheduled` | - |
-| 2026-09-15 07:01:03 | 2026-09-15 07:02:47 | `Completed` | `Scheduled` | - |
-| 2026-09-15 06:01:02 | 2026-09-15 06:02:46 | `Completed` | `Scheduled` | - |
-| 2026-09-14 14:01:05 | 2026-09-14 14:03:09 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMR_Sales_70401
 - **Dataset ID**: `5f6c4116-def2-4cbc-bc7b-a9e8af525d38`
@@ -525,14 +381,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-14 11:48:03 | 2026-09-14 11:50:06 | `Completed` | `OnDemand` | - |
-| 2026-09-14 11:02:20 | 2026-09-14 11:08:36 | `Completed` | `OnDemand` | - |
-| 2026-08-11 11:21:46 | 2026-08-11 11:22:53 | `Completed` | `OnDemand` | - |
-| 2026-08-10 11:11:21 | 2026-08-10 11:12:32 | `Completed` | `OnDemand` | - |
-| 2026-07-07 06:58:35 | 2026-07-07 06:59:59 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMR_P&L_DP
 - **Dataset ID**: `7cd6a279-1e00-4fc4-ab98-a27bfb49394b`
@@ -547,14 +395,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 06:27:34 | 2026-09-15 06:29:23 | `Completed` | `OnDemand` | - |
-| 2026-09-15 00:00:23 | 2026-09-15 00:11:25 | `Completed` | `Scheduled` | - |
-| 2026-09-14 12:41:13 | 2026-09-14 12:42:43 | `Completed` | `OnDemand` | - |
-| 2026-09-14 12:38:51 | 2026-09-14 12:40:32 | `Completed` | `OnDemand` | - |
-| 2026-09-14 08:16:11 | 2026-09-14 08:17:31 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMR_P&L_DP_live
 - **Dataset ID**: `432b2e64-3bff-4724-9055-e9e977ef4e0b`
@@ -571,14 +411,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/tmro_finance', 'database': 'tmr_parts_reports'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-05-18 12:15:26 | 2026-05-18 12:15:26 | `Failed` | `OnDemand` | {"errorCode":"ModelRefreshDisabled_CredentialNo... |
-| 2026-05-13 08:50:47 | 2026-05-13 08:50:47 | `Failed` | `OnDemand` | {"errorCode":"ModelRefreshDisabled_CredentialNo... |
-| 2025-07-02 11:20:12 | 2025-07-02 11:20:13 | `Failed` | `OnDemand` | {"errorCode":"ModelRefreshDisabled_CredentialNo... |
-| 2022-08-04 09:44:09 | 2022-08-04 09:46:12 | `Failed` | `OnDemand` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2022-04-01 12:13:26 | 2022-04-01 12:31:13 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMR_Core_Charges
 - **Dataset ID**: `431591fc-9186-4b2e-bfd0-78562d65821c`
@@ -593,14 +425,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-08-25 06:20:50 | 2026-08-25 06:20:58 | `Completed` | `OnDemand` | - |
-| 2026-08-25 06:20:36 | 2026-08-25 06:20:47 | `Completed` | `OnDemand` | - |
-| 2026-08-17 11:50:23 | 2026-08-17 11:50:32 | `Completed` | `OnDemand` | - |
-| 2026-08-03 07:01:54 | 2026-08-03 07:02:08 | `Completed` | `OnDemand` | - |
-| 2026-08-03 07:01:33 | 2026-08-03 07:01:49 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMR_Extended_Warranty_Cons
 - **Dataset ID**: `c68ea218-9632-4af9-9214-0ba9b2577098`
@@ -615,14 +439,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 07:01:06 | 2026-09-15 07:03:53 | `Completed` | `Scheduled` | - |
-| 2026-09-15 02:00:16 | 2026-09-15 02:09:58 | `Completed` | `Scheduled` | - |
-| 2026-09-14 21:00:18 | 2026-09-14 21:09:02 | `Completed` | `Scheduled` | - |
-| 2026-09-14 13:01:09 | 2026-09-14 13:07:12 | `Completed` | `Scheduled` | - |
-| 2026-09-14 11:01:09 | 2026-09-14 11:06:45 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Report TMR Aging_DP
 - **Dataset ID**: `99cb6fd7-b637-48d0-bff8-6fed48e8c80d`
@@ -637,14 +453,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': '10.75.1.7', 'database': 'jetnavdwh'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-09 13:01:47 | 2026-09-09 13:08:45 | `Completed` | `OnDemand` | - |
-| 2026-09-09 12:47:37 | 2026-09-09 12:54:34 | `Completed` | `OnDemand` | - |
-| 2026-09-09 12:10:51 | 2026-09-09 12:21:55 | `Completed` | `OnDemand` | - |
-| 2026-09-09 08:59:38 | 2026-09-09 09:07:16 | `Completed` | `OnDemand` | - |
-| 2026-08-10 08:08:11 | 2026-08-10 08:14:10 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMR_Jobcards_SLE_check
 - **Dataset ID**: `a37c1ca7-a36f-4ccf-b9c9-08d45283d608`
@@ -659,14 +467,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-10-09 09:19:29 | 2025-10-09 09:19:44 | `Completed` | `OnDemand` | - |
-| 2025-07-02 11:36:59 | 2025-07-02 11:37:43 | `Completed` | `OnDemand` | - |
-| 2025-05-09 10:32:56 | 2025-05-09 10:34:26 | `Completed` | `OnDemand` | - |
-| 2025-05-08 06:17:48 | 2025-05-08 06:18:02 | `Completed` | `OnDemand` | - |
-| 2024-09-17 12:16:49 | 2024-09-17 12:17:07 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMR_GPS_Sales
 - **Dataset ID**: `0ef35aa8-9af1-4727-b409-dcb47740e1ed`
@@ -681,14 +481,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 09:01:17 | 2026-09-15 09:09:10 | `Completed` | `Scheduled` | - |
-| 2026-09-15 07:01:13 | 2026-09-15 07:10:06 | `Completed` | `Scheduled` | - |
-| 2026-09-14 14:01:18 | 2026-09-14 14:09:54 | `Completed` | `Scheduled` | - |
-| 2026-09-14 11:01:12 | 2026-09-14 11:11:35 | `Completed` | `Scheduled` | - |
-| 2026-09-14 09:00:28 | 2026-09-14 09:07:49 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMR_Equipments_Purchasing
 - **Dataset ID**: `06f75c66-c060-4a1c-928c-4a4bb85665c7`
@@ -703,14 +495,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-05-14 12:30:55 | 2026-05-14 12:32:34 | `Completed` | `OnDemand` | - |
-| 2026-05-11 05:57:27 | 2026-05-11 05:59:04 | `Completed` | `OnDemand` | - |
-| 2026-05-11 05:43:27 | 2026-05-11 05:44:19 | `Completed` | `OnDemand` | - |
-| 2026-05-06 12:38:48 | 2026-05-06 12:40:42 | `Completed` | `OnDemand` | - |
-| 2026-02-17 08:50:35 | 2026-02-17 08:50:52 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `f309fa3c-ce19-43bf-b349-d0dfe19d1787`
@@ -725,14 +509,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2023-09-24 05:58:02 | 2023-09-24 05:58:02 | `Disabled` | `Scheduled` | - |
-| 2023-09-23 05:58:03 | 2023-09-23 06:01:02 | `Completed` | `Scheduled` | - |
-| 2023-09-22 05:58:03 | 2023-09-22 06:01:06 | `Completed` | `Scheduled` | - |
-| 2023-09-21 05:58:10 | 2023-09-21 06:01:03 | `Completed` | `Scheduled` | - |
-| 2023-09-20 05:58:09 | 2023-09-20 06:01:14 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMR_S&M_DQ
 - **Dataset ID**: `e0036818-1fb6-404c-8307-d13bb2a6cbda`
@@ -758,14 +534,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-01 05:15:13 | 2026-09-01 05:15:29 | `Completed` | `OnDemand` | - |
-| 2026-08-24 05:30:04 | 2026-08-24 05:30:10 | `Completed` | `OnDemand` | - |
-| 2026-08-24 05:29:29 | 2026-08-24 05:29:39 | `Completed` | `OnDemand` | - |
-| 2026-08-19 07:26:25 | 2026-08-19 07:26:35 | `Completed` | `OnDemand` | - |
-| 2026-08-05 11:28:29 | 2026-08-05 11:28:39 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMR_Uninvoiced_Shipments_DQ
 - **Dataset ID**: `426f38c9-0b2c-448b-8f87-ed50da19f7fb`
@@ -780,14 +548,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-02 13:11:18 | 2026-09-02 13:11:22 | `Completed` | `OnDemand` | - |
-| 2026-09-01 09:50:19 | 2026-09-01 09:50:31 | `Completed` | `OnDemand` | - |
-| 2026-08-31 13:04:21 | 2026-08-31 13:04:24 | `Completed` | `OnDemand` | - |
-| 2026-08-31 12:34:07 | 2026-08-31 12:37:23 | `Completed` | `OnDemand` | - |
-| 2026-08-31 07:09:31 | 2026-08-31 07:09:33 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMR_E-Invoice
 - **Dataset ID**: `b8cc66e3-67fd-4a33-8c7d-d8b45049ebd1`
@@ -802,14 +562,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-03-06 06:35:08 | 2026-03-06 06:35:40 | `Completed` | `OnDemand` | - |
-| 2025-05-08 10:31:34 | 2025-05-08 10:31:58 | `Completed` | `OnDemand` | - |
-| 2025-03-31 05:24:00 | 2025-03-31 05:25:04 | `Completed` | `OnDemand` | - |
-| 2024-10-07 05:31:04 | 2024-10-07 05:32:20 | `Completed` | `OnDemand` | - |
-| 2024-09-17 13:00:24 | 2024-09-17 13:01:07 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: Test_DWH
 - **Dataset ID**: `97c160c8-5ec9-4142-9410-69098ab10c19`
@@ -824,14 +576,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': '10.75.1.7', 'database': 'jetnavdwh'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-06-06 22:00:08 | 2026-06-06 22:00:08 | `Disabled` | `Scheduled` | - |
-| 2026-06-05 22:01:12 | 2026-06-05 22:03:54 | `Completed` | `Scheduled` | - |
-| 2026-06-04 22:01:11 | 2026-06-04 22:04:05 | `Completed` | `Scheduled` | - |
-| 2026-06-03 22:01:12 | 2026-06-03 22:04:57 | `Completed` | `Scheduled` | - |
-| 2026-06-02 22:01:12 | 2026-06-02 22:04:56 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Report Maintenance_wip
 - **Dataset ID**: `9afe8eeb-6c0b-4bd8-8251-0d1bbd119d70`
@@ -846,14 +590,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': '10.75.1.7', 'database': 'jetnavdwh'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 09:01:09 | 2026-09-15 09:04:24 | `Completed` | `Scheduled` | - |
-| 2026-09-15 07:01:13 | 2026-09-15 07:05:37 | `Completed` | `Scheduled` | - |
-| 2026-09-15 04:30:15 | 2026-09-15 04:33:50 | `Completed` | `Scheduled` | - |
-| 2026-09-14 15:01:22 | 2026-09-14 15:05:14 | `Completed` | `Scheduled` | - |
-| 2026-09-14 13:02:17 | 2026-09-14 13:07:08 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMR_Warranty_Report_DP
 - **Dataset ID**: `39c2d47a-c54c-4baf-9855-3c6180174912`
@@ -868,14 +604,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-09 11:41:37 | 2026-09-09 11:42:32 | `Completed` | `OnDemand` | - |
-| 2026-09-09 11:27:28 | 2026-09-09 11:28:21 | `Completed` | `OnDemand` | - |
-| 2026-09-09 11:25:59 | 2026-09-09 11:26:59 | `Completed` | `OnDemand` | - |
-| 2026-09-08 05:48:36 | 2026-09-08 05:49:31 | `Completed` | `OnDemand` | - |
-| 2026-09-08 05:47:21 | 2026-09-08 05:48:15 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: Report TMA Sales and Margin
 - **Dataset ID**: `798ad2cd-75a5-411d-9352-3bac25c8b7a4`
@@ -890,14 +618,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': '10.75.1.7', 'database': 'jetnavdwh'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 10:12:22 | 2026-09-15 10:14:14 | `Completed` | `OnDemand` | - |
-| 2026-09-10 06:00:08 | 2026-09-10 06:03:28 | `Completed` | `OnDemand` | - |
-| 2026-09-09 09:00:16 | 2026-09-09 09:02:02 | `Completed` | `OnDemand` | - |
-| 2026-09-02 09:48:56 | 2026-09-02 09:52:44 | `Completed` | `OnDemand` | - |
-| 2026-08-26 09:27:21 | 2026-08-26 09:30:11 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMR_Utilities
 - **Dataset ID**: `cec852bb-3c2c-45cd-b8bb-6bb9fceb998e`
@@ -912,14 +632,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 05:01:12 | 2026-09-15 05:04:16 | `Completed` | `Scheduled` | - |
-| 2026-09-14 05:01:10 | 2026-09-14 05:05:17 | `Completed` | `Scheduled` | - |
-| 2026-09-13 05:02:10 | 2026-09-13 05:07:06 | `Completed` | `Scheduled` | - |
-| 2026-09-12 05:01:14 | 2026-09-12 05:05:52 | `Completed` | `Scheduled` | - |
-| 2026-09-11 05:02:13 | 2026-09-11 05:07:09 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Report TMR Price_Margin_25
 - **Dataset ID**: `21edf945-8751-4930-942d-bf06127dda26`
@@ -934,14 +646,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': '10.75.1.7', 'database': 'jetnavdwh'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 07:06:51 | 2026-09-15 07:10:21 | `Completed` | `OnDemand` | - |
-| 2026-09-15 06:54:00 | 2026-09-15 06:56:59 | `Completed` | `OnDemand` | - |
-| 2026-09-15 05:01:12 | 2026-09-15 05:09:39 | `Completed` | `Scheduled` | - |
-| 2026-09-14 05:01:10 | 2026-09-14 05:10:23 | `Completed` | `Scheduled` | - |
-| 2026-09-13 05:02:09 | 2026-09-13 05:13:00 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMR_Partners
 - **Dataset ID**: `b1985337-a537-4df7-b9b5-58b8ced6db89`
@@ -956,14 +660,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-05-14 11:59:16 | 2026-05-14 11:59:44 | `Completed` | `OnDemand` | - |
-| 2026-04-06 05:17:41 | 2026-04-06 05:17:51 | `Completed` | `OnDemand` | - |
-| 2025-05-26 12:14:25 | 2025-05-26 12:28:09 | `Completed` | `OnDemand` | - |
-| 2025-05-26 11:06:36 | 2025-05-26 11:06:48 | `Completed` | `OnDemand` | - |
-| 2025-05-23 11:28:30 | 2025-05-23 11:28:40 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: Report Stock&Sales WG
 - **Dataset ID**: `aee49375-1e7d-447c-aa4e-68c86146ec20`
@@ -978,14 +674,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': '10.75.1.7', 'database': 'jetnavdwh'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 10:03:18 | 2026-09-15 10:13:16 | `Completed` | `Scheduled` | - |
-| 2026-09-15 09:03:20 | 2026-09-15 09:11:02 | `Completed` | `Scheduled` | - |
-| 2026-09-15 08:02:11 | 2026-09-15 08:07:11 | `Completed` | `Scheduled` | - |
-| 2026-09-15 07:02:18 | 2026-09-15 07:08:37 | `Completed` | `Scheduled` | - |
-| 2026-09-15 06:02:10 | 2026-09-15 06:07:51 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMR_BS_DP
 - **Dataset ID**: `63f0e018-1349-40e3-86d4-4e4f7abc9226`
@@ -1000,14 +688,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-14 12:57:59 | 2026-09-14 13:00:58 | `Completed` | `OnDemand` | - |
-| 2026-09-14 12:54:53 | 2026-09-14 12:57:56 | `Completed` | `OnDemand` | - |
-| 2026-09-14 12:50:27 | 2026-09-14 12:52:54 | `Completed` | `OnDemand` | - |
-| 2026-09-14 12:47:02 | 2026-09-14 12:49:44 | `Completed` | `OnDemand` | - |
-| 2026-09-14 09:41:49 | 2026-09-14 09:43:51 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: TMR_CostCenters_COGS_Service
 - **Dataset ID**: `fe3c80eb-cd5d-4e56-8143-0ac2807ed7cb`
@@ -1022,14 +702,6 @@ This document contains operational and technical details for the **TMRO_Finance*
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'titaneu.database.windows.net', 'database': 'titanro'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-10 06:16:59 | 2026-09-10 06:17:09 | `Completed` | `OnDemand` | - |
-| 2026-09-04 10:02:08 | 2026-09-04 10:02:14 | `Completed` | `OnDemand` | - |
-| 2026-09-04 09:59:13 | 2026-09-04 09:59:27 | `Completed` | `OnDemand` | - |
-| 2026-08-12 11:10:04 | 2026-08-12 11:10:14 | `Completed` | `OnDemand` | - |
-| 2026-08-11 08:52:03 | 2026-08-11 08:52:16 | `Completed` | `OnDemand` | - |
 
 ### Semantic Model: Report TMA Sales and Margin_temp
 - **Dataset ID**: `eb5e5406-6b75-4e15-976f-f18cabb3de0b`

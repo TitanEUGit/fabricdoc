@@ -41,14 +41,6 @@ This document contains operational and technical details for the **BI_TMINT_PST*
 - Type: `SharePointList` | Connection: `{'url': 'https://titanmachinery365europe.sharepoint.com/sites/hr-dataset-europe/'}`
 - Type: `SharePointList` | Connection: `{'url': 'https://titanmachinery365europe.sharepoint.com/sites/hr-dataset-pst/'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-06-06 22:00:16 | 2026-06-06 22:00:16 | `Disabled` | `Scheduled` | - |
-| 2026-06-05 22:00:19 | 2026-06-05 22:02:19 | `Completed` | `Scheduled` | - |
-| 2026-06-04 22:01:18 | 2026-06-04 22:04:27 | `Completed` | `Scheduled` | - |
-| 2026-06-03 22:00:19 | 2026-06-03 22:02:35 | `Completed` | `Scheduled` | - |
-| 2026-06-02 22:00:17 | 2026-06-02 22:02:04 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `c369142c-2a06-4782-91ec-05d950c60fac`
@@ -63,14 +55,6 @@ This document contains operational and technical details for the **BI_TMINT_PST*
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-07-20 19:56:01 | 2025-07-20 19:56:01 | `Disabled` | `Scheduled` | - |
-| 2025-07-19 19:56:06 | 2025-07-19 19:56:42 | `Completed` | `Scheduled` | - |
-| 2025-07-18 19:56:13 | 2025-07-18 19:56:36 | `Completed` | `Scheduled` | - |
-| 2025-07-17 19:56:00 | 2025-07-17 19:57:16 | `Completed` | `Scheduled` | - |
-| 2025-07-16 19:56:03 | 2025-07-16 19:57:16 | `Completed` | `Scheduled` | - |
 
 ## 4. Power BI Reports Inventory
 

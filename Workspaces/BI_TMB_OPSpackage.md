@@ -46,14 +46,6 @@ This document contains operational and technical details for the **BI_TMB_OPSpac
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmeu_bronze_lakehouse'}`
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmeu_erp_raw_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-14 23:30:21 | 2026-09-14 23:47:03 | `Completed` | `Scheduled` | - |
-| 2026-09-13 23:30:19 | 2026-09-13 23:46:39 | `Completed` | `Scheduled` | - |
-| 2026-09-12 23:30:15 | 2026-09-12 23:32:21 | `Failed` | `Scheduled` | {"errorCode":"ModelRefresh_ShortMessage_Process... |
-| 2026-09-11 23:31:17 | 2026-09-11 23:51:05 | `Completed` | `Scheduled` | - |
-| 2026-09-10 23:30:20 | 2026-09-10 23:45:48 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Report Usage Metrics Model
 - **Dataset ID**: `754588d4-8706-4344-bb2c-11e83df40ac8`

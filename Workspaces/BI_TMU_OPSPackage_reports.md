@@ -61,14 +61,6 @@ This document contains operational and technical details for the **BI_TMU_OPSPac
 - Type: `Extension` | Connection: `{'path': 'PowerPlatformDataflows', 'kind': 'PowerPlatformDataflows'}`
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 05:00:13 | 2026-09-15 05:01:44 | `Completed` | `Scheduled` | - |
-| 2026-09-14 05:00:14 | 2026-09-14 05:01:55 | `Completed` | `Scheduled` | - |
-| 2026-09-13 05:01:07 | 2026-09-13 05:03:09 | `Completed` | `Scheduled` | - |
-| 2026-09-12 05:00:16 | 2026-09-12 05:01:48 | `Completed` | `Scheduled` | - |
-| 2026-09-11 05:01:06 | 2026-09-11 05:02:42 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: P&L TMU
 - **Dataset ID**: `e9574ace-ce2e-42b6-b7b8-05df02acd535`
@@ -85,14 +77,6 @@ This document contains operational and technical details for the **BI_TMU_OPSPac
 - Type: `SharePointList` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/collaboration/'}`
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 04:00:23 | 2026-09-15 04:50:13 | `Completed` | `Scheduled` | - |
-| 2026-09-14 04:00:20 | 2026-09-14 04:46:47 | `Completed` | `Scheduled` | - |
-| 2026-09-13 04:01:10 | 2026-09-13 04:48:27 | `Completed` | `Scheduled` | - |
-| 2026-09-12 04:00:29 | 2026-09-12 04:50:50 | `Completed` | `Scheduled` | - |
-| 2026-09-11 04:01:19 | 2026-09-11 04:46:15 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Service Sales
 - **Dataset ID**: `099d4b59-0d30-4f4a-9214-493cfcdcb78f`
@@ -107,14 +91,6 @@ This document contains operational and technical details for the **BI_TMU_OPSPac
 **Connected Data Sources (Lineage)**:
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 03:00:24 | 2026-09-15 03:04:36 | `Completed` | `Scheduled` | - |
-| 2026-09-14 03:00:27 | 2026-09-14 03:03:01 | `Completed` | `Scheduled` | - |
-| 2026-09-13 03:01:17 | 2026-09-13 03:06:56 | `Completed` | `Scheduled` | - |
-| 2026-09-12 03:00:21 | 2026-09-12 03:02:07 | `Completed` | `Scheduled` | - |
-| 2026-09-11 03:01:19 | 2026-09-11 03:06:22 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: AfterSales & PrecisionFarming Sales
 - **Dataset ID**: `b96dc8a7-c059-42f9-b1d8-c7c561768eba`
@@ -132,14 +108,6 @@ This document contains operational and technical details for the **BI_TMU_OPSPac
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.database.fabric.microsoft.com', 'database': 'tmu assortment budget-2ad254ce-44d5-4c67-9aee-a34267f0a56d'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 04:00:25 | 2026-09-15 04:03:11 | `Completed` | `Scheduled` | - |
-| 2026-09-14 04:00:23 | 2026-09-14 04:03:44 | `Completed` | `Scheduled` | - |
-| 2026-09-13 04:01:12 | 2026-09-13 04:04:41 | `Completed` | `Scheduled` | - |
-| 2026-09-12 04:00:08 | 2026-09-12 04:01:32 | `Completed` | `Scheduled` | - |
-| 2026-09-11 04:01:02 | 2026-09-11 04:02:11 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: TMU AfterSales RedExcellence KPI
 - **Dataset ID**: `afe9f942-1558-408f-af12-89e85bf6fe21`
@@ -157,14 +125,6 @@ This document contains operational and technical details for the **BI_TMU_OPSPac
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/bi_tmu_opspackage_reports', 'database': 'p&l tmu'}`
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-15 05:01:19 | 2026-09-15 05:09:06 | `Completed` | `Scheduled` | - |
-| 2026-09-14 05:01:17 | 2026-09-14 05:09:36 | `Completed` | `Scheduled` | - |
-| 2026-09-13 05:01:02 | 2026-09-13 05:04:32 | `Completed` | `Scheduled` | - |
-| 2026-09-12 05:01:02 | 2026-09-12 05:05:48 | `Completed` | `Scheduled` | - |
-| 2026-09-11 05:01:20 | 2026-09-11 05:06:56 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Usage Metrics Report
 - **Dataset ID**: `fd8e4334-3286-4313-934b-33d38a1b346a`
@@ -179,14 +139,6 @@ This document contains operational and technical details for the **BI_TMU_OPSPac
 **Connected Data Sources (Lineage)**:
 - Type: `Extension` | Connection: `{'path': 'UsageMetricsDataConnector', 'kind': 'UsageMetricsDataConnector'}`
 
-**Recent Refresh History (Last 5 Runs)**:
-| Start Time | End Time | Status | Refresh Type | Service Exception |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-02-01 04:22:03 | 2026-02-01 04:22:03 | `Disabled` | `Scheduled` | - |
-| 2026-01-31 04:22:03 | 2026-01-31 04:22:55 | `Completed` | `Scheduled` | - |
-| 2026-01-30 04:22:03 | 2026-01-30 04:23:05 | `Completed` | `Scheduled` | - |
-| 2026-01-29 04:22:08 | 2026-01-29 04:23:38 | `Completed` | `Scheduled` | - |
-| 2026-01-28 04:22:02 | 2026-01-28 04:23:29 | `Completed` | `Scheduled` | - |
 
 ### Semantic Model: Report Usage Metrics Model
 - **Dataset ID**: `47f72313-b9e5-470d-b32a-dc372055e879`
