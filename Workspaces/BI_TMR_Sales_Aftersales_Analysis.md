@@ -8,6 +8,11 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!NOTE]
+> **Cross-Domain Customer Analysis (Romania)**
+> This workspace was created specifically by request of TMR. It contains reporting that analyzes sales per customer across all domains separately (Wholegoods, Parts, and Service) to identify cross-selling correlations. It also houses a manual future forecast based on the machinery currently owned by the customer.
+
 This document contains operational and technical details for the **BI_TMR_Sales_Aftersales_Analysis** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory

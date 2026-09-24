@@ -8,6 +8,12 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!NOTE]
+> **CRM Reporting (Dynamics 365)**
+> This workspace handles CRM reporting sourced from **Dataverse**. 
+> **Country Specific Setup (Ukraine):** The TMU sales process exclusively uses the **Opportunity** entity. Sales progression is tracked entirely through the *status* field rather than utilizing separate Quote or Sales Order entities.
+
 This document contains operational and technical details for the **BI_TMU_CRM** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory

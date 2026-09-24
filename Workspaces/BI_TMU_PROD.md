@@ -8,6 +8,27 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!IMPORTANT]
+> **TMU Production Operations & Supply Chain**
+> This workspace houses a variety of operational reports, dashboards, and critical dataflows for Ukraine (TMU). Notably, it contains cross-country legacy dataflows that are still heavily relied upon.
+
+> [!WARNING]
+> **Deprecated Items (Pending Decommissioning)**
+> - **TMU Returns**: Deprecated.
+> - **TMU WG Sales Forecast**: Forecast based on old Excel flows. Deprecated.
+
+### Key Dataflows & Reports
+| Item Name | Type | What It Shows / Context |
+|:---|:---|:---|
+| **TMEU_FX_Rates** | `Dataflow` | Contains EU USD/EUR FX rates depending on the official TMA finance file. **Warning:** Although located in TMU, it is used across *many* countries and reports. As a legacy dataflow, it should ideally be migrated to a Delta table, but this will be time-consuming due to heavy downstream dependencies. |
+| **TMU 1C AR Dataflow E** | `Dataflow` | Accounts receivable dataflow. It depends on Excel because the standard API cannot handle the compute required for this report. |
+| **TMU AfterSales Credit Limits Report** | `Report` | Tracks customer credit limits and their review in a dedicated workflow. **Features writeback functionality.** |
+| **TMU Parts Transport Cost Awareness** | `Report` | Calculates the transport share of delivered Aftersales goods. |
+| **TMU PIH** | `Report` | Detailed inventory report developed specifically for the purchase/supply department. *(Note: Most of this data can also be found in the standard OPS package).* |
+| **TMU SC Dashboard** | `Report` | Supply Chain dashboard for the TMU purchase/supply chain department. |
+| **TMU WG Forecast Accuracy** | `Report` | WG sales budget report. **Features writeback functionality.** |
+
 This document contains operational and technical details for the **BI_TMU_PROD** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory

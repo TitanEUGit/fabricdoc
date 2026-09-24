@@ -8,6 +8,11 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!WARNING]
+> **Legacy Workspace (Review for Decommissioning or Redesign)**
+> This workspace (using the legacy `TMINT` prefix) currently contains inactive occupancy reports. The reports and datasets within this workspace need to be reviewed by the business to determine if they should be redesigned or entirely decommissioned.
+
 This document contains operational and technical details for the **BI_TMINT_Occupancy** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory

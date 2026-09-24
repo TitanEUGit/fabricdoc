@@ -38,6 +38,7 @@ TMA — Austria (EU Headquarters / Europe Office Center)
     ├── Finance Manager       ← also owns Wholegoods (WG) responsibility
     ├── Aftersales Manager    ← Parts + Service across all EU countries
     ├── IT Manager            ← Technology & BI across all EU countries
+    ├── HR Manager            ← Human Resources in TMA and strategy for all EU countries
     └── Country Managers
         ├── TMB — Bulgaria
         ├── TMR — Romania
@@ -73,11 +74,12 @@ Unlike NAV countries where data is copied via standard CopyJobs, Ukraine uses a 
 > [!IMPORTANT]
 > Each 1C dataset has its **own dedicated API endpoint and pipeline**. There is no generic bulk extract — every new Ukrainian data requirement goes through this full workflow. Coordinate with the 1C support team before committing to a new data request, as lead time for API delivery can vary.
 
-#### CRM (Customer Relationship Management)
+#### CRM & Service Management
 
-| CRM System | Countries | BI Workspaces |
-|:---|:---|:---|
-| **Microsoft Dynamics 365** | TMR (Romania), TMB (Bulgaria), TMU (Ukraine) | `BI_TMR_CRM`, `BI_TMB_CRM`, `BI_TMU_CRM` |
+| System | Purpose / Scope | Countries | BI Workspaces / Dependencies |
+|:---|:---|:---|:---|
+| **Microsoft Dynamics 365** | Core CRM (Sales & Opportunity management) | TMR, TMB, TMU | `BI_TMR_CRM`, `BI_TMB_CRM`, `BI_TMU_CRM` |
+| **Frontu** | Service CRM (Workshop & Aftersales management). Queried via API. | TMR, TMB | `BI_TMEU_Aftersales` |
 
 > **Note:** TMA (Austria) does not have a CRM workspace — as a procurement/management entity with no retail market, TMA does not manage customer-facing sales activities directly.
 
@@ -201,7 +203,7 @@ Welcome! This guide is designed to help a newcomer quickly get up to speed with 
 
 ## 2. Common Maintenance Workflows
 ### Monitoring Daily Refreshes
-1. Open `02_Refresh_Schedules_&_Operations.md` to see expected daily refresh windows.
+1. Open `02_Refresh_Schedules_&_Operations.md` to see expected daily refresh windows. The documented schedules are valid as of the middle September 2026 and can already be changed, so make sure to check with the platform if the latest information is required!
 2. In the Power BI Service, navigate to the specific Workspace.
 3. Check dataset Refresh History for any `Failed` status.
 

@@ -8,6 +8,17 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!IMPORTANT]
+> **European Aftersales Reporting**
+> This workspace consolidates Aftersales reports for the European scope. 
+> **Primary Data Sources:** Data is mainly sourced from the core **ERP systems** and **Frontu** (the CRM used for service workshops).
+> **Data Ownership:** The key data owner is the **TMA Aftersales Manager**, who is responsible for deciding all business logic adjustments and approving viewer access.
+
+> [!WARNING]
+> **Decommissioning Review**
+> All reports in this workspace that currently have an inactive refresh schedule should be considered for decommissioning.
+
 This document contains operational and technical details for the **BI_TMEU_Aftersales** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory

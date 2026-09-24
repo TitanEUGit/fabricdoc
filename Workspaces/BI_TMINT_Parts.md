@@ -8,6 +8,11 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!NOTE]
+> **TMR Aftersales Reporting (On-Demand)**
+> Despite the legacy `TMINT` (International) prefix, this workspace actually contains Aftersales/Parts reports built specifically for **TMR (Romania)**. These function primarily as on-demand reports rather than scheduled operational dashboards.
+
 This document contains operational and technical details for the **BI_TMINT_Parts** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory

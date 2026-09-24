@@ -8,6 +8,13 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!IMPORTANT]
+> **Core Country Operations Report (Ukraine)**
+> This workspace houses the primary **TMU OPS Package report**, which is the business-critical operations dashboard for Ukraine. 
+> - **Primary Data Source:** `TMU_Bronze_Lakehouse`, which stores ERP data received via endpoints overnight.
+> - **Headcount Data:** Manually populated by the HR department in a SharePoint location every month during the first calendar days.
+
 This document contains operational and technical details for the **BI_TMU_OPSpackage** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory
@@ -41,7 +48,7 @@ This document contains operational and technical details for the **BI_TMU_OPSpac
 - Type: `Sql` | Connection: `{'server': '10.75.1.7', 'database': 'jetnavdwh'}`
 - Type: `AnalysisServices` | Connection: `{'server': 'powerbi://api.powerbi.com/v1.0/myorg/int_orderbook', 'database': 'tmeu order book'}`
 - Type: `Extension` | Connection: `{'path': 'titanukraine.crm4.dynamics.com', 'kind': 'CommonDataService'}`
-- Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}`
+- Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmu_bronze_lakehouse'}` — *Primary ERP source (stores data received via endpoints overnight)*
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.database.fabric.microsoft.com', 'database': 'tmu assortment budget-2ad254ce-44d5-4c67-9aee-a34267f0a56d'}`
 - Type: `Sql` | Connection: `{'server': 'cwgz5ola5r6u5e4heu5qw3drgy-zzqhzdizzmcurky2zbgw4gw7la.datawarehouse.fabric.microsoft.com', 'database': 'tmeu_erp_raw_lakehouse'}`
 
@@ -92,4 +99,5 @@ This document contains operational and technical details for the **BI_TMU_OPSpac
 
 ## 6. Newcomer Operational Runbook & Notes
 - **Primary Contact / Owner**: Refer to workspace access settings in Power BI portal.
-- **Troubleshooting**: If a refresh fails in `BI_TMU_OPSpackage`, inspect the failure log under section 3 above and check upstream data gateway connectivity.
+- **Troubleshooting (Refresh Failures)**: If a refresh fails in `BI_TMU_OPSpackage`, inspect the failure log under section 3 above and check upstream data gateway connectivity.
+- **Troubleshooting (Missing P&L Accounts)**: If the finance team reports that a newly added account is not showing up in the P&L, you need to maintain/add it within the **`TMU_Bronze_Lakehouse`** in the **`dbo.uausmapping`** table.

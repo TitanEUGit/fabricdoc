@@ -8,6 +8,11 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!NOTE]
+> **Cross-Country Finance Reporting**
+> The reports within this workspace are developed primarily for the **Finance Manager of TMA (Austria HQ)** and include consolidated financial and operational data spanning **all countries** across the European division.
+
 This document contains operational and technical details for the **BI_TME_Finance** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory

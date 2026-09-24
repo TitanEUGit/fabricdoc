@@ -8,6 +8,12 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!NOTE]
+> **European Customer Board Reporting**
+> This workspace contains European-level reports focused on customer segmentation. Customers are categorized into specific buckets based on their importance to the company.
+> **Data Ownership:** The key data owner for this logic and reporting is the **TMA Aftersales Manager**.
+
 This document contains operational and technical details for the **BI_TMEU_Customer_Board** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory

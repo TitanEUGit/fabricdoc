@@ -8,6 +8,20 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!IMPORTANT]
+> **TMU Advanced Operations & Aftersales Reports**
+> This workspace contains advanced analytical and operational reports for Ukraine (TMU) that provide deeper drill-downs than the standard core OPS Package.
+
+### Key Reports at a Glance
+| Report Name | What It Shows |
+|:---|:---|
+| **AfterSales & PrecisionFarming Sales** | Comprehensive report on TMU aftersales sales activity. |
+| **P&L TMU** | Advanced analytical PnL report for TMU. Provides much more financial detail than the standard PnL found in the core OPS package. |
+| **P&L AfterSales** | PnL limited exclusively to the Aftersales department. It depends directly on the `P&L TMU` data. |
+| **Service KPI** | Internal service KPIs measuring time occupation, efficiency, and revenue-related metrics. |
+| **TMU AfterSales RedExcellence KPI** | Specific reports evaluating if TMU will pass the Red Excellence program (CNH's strategic partnering and encouragement initiative). |
+
 This document contains operational and technical details for the **BI_TMU_OPSPackage_reports** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory
