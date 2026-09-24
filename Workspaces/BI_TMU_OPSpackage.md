@@ -13,7 +13,7 @@
 > **Core Country Operations Report (Ukraine)**
 > This workspace houses the primary **TMU OPS Package report**, which is the business-critical operations dashboard for Ukraine. 
 > - **Primary Data Source:** `TMU_Bronze_Lakehouse`, which stores ERP data received via endpoints overnight.
-> - **Manual Adjustments:** Pulls from dedicated `TMU OPS Package Helpers` dataflows (Parts 1 & 2) for manual user overrides.
+> - **Headcount Data:** Manually populated by the HR department in a SharePoint location every month during the first calendar days.
 
 This document contains operational and technical details for the **BI_TMU_OPSpackage** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
@@ -40,7 +40,7 @@ This document contains operational and technical details for the **BI_TMU_OPSpac
 - **Scheduled Times**: `07:00` (FLE Standard Time)
 
 **Connected Data Sources (Lineage)**:
-- Type: `Extension` | Connection: `{'path': 'PowerPlatformDataflows', 'kind': 'PowerPlatformDataflows'}` — *TMU OPS Package Helpers dataflows Part 1 & 2 (manual adjustments)*
+- Type: `Extension` | Connection: `{'path': 'PowerPlatformDataflows', 'kind': 'PowerPlatformDataflows'}`
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMU/OPSPackage/AR_adjustments/ar_adjustments.xlsx'}`
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMU/OPSPackage/Budget/SP_Budget.xlsx'}`
 - Type: `Web` | Connection: `{'url': 'https://titanmachinery365.sharepoint.com/sites/Collaboration/Shared%20Documents/INT_POWERBI_HELPER/TMU/OPSPackage/Budget/PNL%20Budget%20Division.xlsx'}`

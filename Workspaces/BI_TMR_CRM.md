@@ -8,6 +8,12 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!NOTE]
+> **CRM Reporting (Dynamics 365)**
+> This workspace handles CRM reporting sourced from **Dataverse**. 
+> **Country Specific Setup (Romania):** The TMR sales process utilizes the full suite of CRM entities: **Opportunity, Quote, and Sales Order**.
+
 This document contains operational and technical details for the **BI_TMR_CRM** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory

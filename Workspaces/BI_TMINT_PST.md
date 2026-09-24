@@ -8,6 +8,12 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!NOTE]
+> **Employee Performance Assessments**
+> This workspace houses reporting on Employee Performance Assessments. 
+> **Primary Data Source:** The underlying data for these reports is maintained via **SharePoint lists**.
+
 This document contains operational and technical details for the **BI_TMINT_PST** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory

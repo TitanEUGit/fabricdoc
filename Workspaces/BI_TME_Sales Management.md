@@ -8,6 +8,11 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!WARNING]
+> **Deprecated Workspace (Pending Deletion)**
+> The reports in the `BI_TME_Sales Management` workspace are considered deprecated. This workspace should be considered for removal once approved by management.
+
 This document contains operational and technical details for the **BI_TME_Sales Management** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory

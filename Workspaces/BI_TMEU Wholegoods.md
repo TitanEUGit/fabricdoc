@@ -8,6 +8,24 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!IMPORTANT]
+> **Core European Wholegoods Workspace (TMA HQ)**
+> This is a very important TMA workspace that consolidates Wholegoods (WG) data across all European countries. It houses the critical "source of truth" reports for Wholegoods inventory, orders, and forecasting.
+
+### Key Reports at a Glance
+| Report Name | What It Shows | Audience |
+|:---|:---|:---|
+| **TMEU Inventory Book** | **Source of truth.** WG inventory data gets collected from OPS packages reports on the 10th calendar day and persists in the lakehouse. | TMA WG Team / Management |
+| **TMEU Order Book** | **Source of truth.** Shows all active and arrived orders. Crucial for WG sales forecasting. | TMA WG Team / Management |
+| **TMEU Inventory Forecast** | Forecasts inventory based on the Order Book, Inventory Book, and manual adjustments (Excel files from SharePoint). | TMA Finance / Management |
+| **TMEU Inventory Forecast (EDD)** | Same as the standard forecast but includes manual Excel adjustments for the Planned Arrival date. | TMA Finance / Management |
+| **TMB KTI Report** | Relies on TMB KTI data (fed by a pipeline in the `Fabric_Prod_Workspace` with a similar name). | Country / TMA |
+
+### Newcomer Tips
+- All manual Excel adjustment files used in the Inventory Forecast reports are maintained by the **TMA Finance Manager** on SharePoint.
+- **Pending Deletion Review:** All `WG Stock Order Helper (model input)` reports across all countries (TMB, TMR, TMD, TMU) currently have unproven usage. Verify if they are still needed by the business and consider decommissioning them if not.
+
 This document contains operational and technical details for the **BI_TMEU Wholegoods** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory

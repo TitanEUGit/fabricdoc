@@ -67,33 +67,36 @@ data. Only **add** or **replace placeholder dashes** (`- `).
 
 ## Content Patterns & Templates
 
-### A. Workspace-Level Business Overview
-Insert under `## 1. Executive Summary & Newcomer Overview` (replace boilerplate):
+### A. Executive Summary GitHub Alerts
+When documenting the business purpose or status of a workspace, always insert a GitHub alert block immediately under the `## 1. Executive Summary & Newcomer Overview` header.
+
+Examples:
+- `> [!IMPORTANT]` for core/critical workspaces (e.g., OPS Packages)
+- `> [!WARNING]` for legacy, deprecated, or pending deletion workspaces
+- `> [!NOTE]` for domain or cross-country specific setups
 
 ```markdown
 ## 1. Executive Summary & Newcomer Overview
 
-### Business Purpose
-<1–3 sentences: what business domain this workspace covers and why it exists>
+> [!IMPORTANT]
+> **Core Country Operations Report (Ukraine)**
+> This workspace houses the primary **TMU OPS Package report**...
 
-### Primary Audience
-<Who reads/uses the reports in this workspace — e.g., "Regional IT managers and
-the central IT team at TMEU headquarters.">
-
-### Key Reports at a Glance
-| Report Name | What It Shows | Audience |
-|:---|:---|:---|
-| <Report Name> | <One-line description> | <Role/Team> |
-
-### Architecture & Data Flow
-<Brief description of where data originates, how it lands in Fabric, and how
-reports are powered — e.g., "Data comes from Freshservice via a Web connector
-in the SemanticModel, refreshed hourly on weekdays.">
-
-### Newcomer Tips
-- <Any gotcha or common confusion worth flagging>
-- <Refresh timing, access requirements, known limitations>
+This document contains operational and technical details for the...
 ```
+
+### B. Workspace-Level Business Overview
+(If an extensive overview is needed, append it below the alert block or use the standard headers: `### Business Purpose`, `### Primary Audience`, etc.)
+
+### C. Annotating Lineage Data Sources
+When identifying data sources (e.g., JetDWH, Dataverse, Lakehouses), add a concise explanatory comment directly to the end of the connection line in the `Lineage` section using an em-dash:
+```markdown
+- Type: `Sql` | Connection: `{'server': '10.75.1.7', 'database': 'jetnavdwh'}` — *Legacy JetDWH data warehouse (primary ERP source)*
+- Type: `Extension` | Connection: `{'path': 'PowerPlatformDataflows', 'kind': 'PowerPlatformDataflows'}` — *OPS Package Helpers dataflows (manual adjustments)*
+```
+
+### D. Newcomer Operational Runbook & Notes
+Append any specific troubleshooting instructions (e.g., missing P&L accounts, manual adjustments) to the `## 6. Newcomer Operational Runbook & Notes` section.
 
 ### B. Semantic Model / Dataset Description
 Fill in the `Description` column of the inventory table AND add a prose block
@@ -145,10 +148,8 @@ Replace the `- ` dash in the `Description` column with a concise phrase:
   - TMEU = Titan Machinery Europe
   - TMR = Titan Machinery Romania
   - TMB = Titan Machinery Bulgaria
-  - TMA = Titan Machinery **Austria** — EU headquarters where operations & management reside
-  - TME = Titan Machinery Eastern Europe
-  - TMINT = legacy prefix, may represent EU-wide scope (see caution below)
-  - EOC = dealer/EOC partner workspaces
+  - TMU = Titan Machinery **Ukraine** — country entity under TMA
+  - EOC = dealer/EOC partner workspaces (and Austria HQ operations)
   - WG = Wholegoods (large agricultural/construction equipment)
   - PST = Pre-Sales Tools
 
@@ -156,8 +157,8 @@ Replace the `- ` dash in the `Description` column with a concise phrase:
 > European organisation under an "International" label. Always read the workspace file first
 > to determine if it contains EU-relevant data before deciding whether to document it.
 
-> **❌ Out-of-scope prefixes — do NOT document these:**
-> - `BI_TMU_` / `BI_TMU_*` — Titan Machinery US (separate business entity)
+> **❌ Out-of-scope workspaces — do NOT document these:**
+> - Anything explicitly marked as Titan Machinery US (US entity is separate)
 > - `BI_TMD_` — Titan Machinery Deutschland / Germany (exited market, legacy only)
 
 ---

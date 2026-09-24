@@ -10,10 +10,11 @@
 ## 1. Executive Summary & Newcomer Overview
 
 > [!WARNING]
-> **Legacy Workspace (Transitioning to ERP-based Successors)**
+> **Deprecated Workspace (Pending Decommissioning)**
 > This workspace contains the legacy report on Wholegoods (WG) inventory, which was previously manually maintained by the TMA WG team. 
 > - **TMA WG team was disbanded in Aug 2026**, and the teams tasks were partially handed over to country managers and/or automated.
 > - **As of Sep 2026**, direct ERP-based successors to these reports are in the final stages of evaluation.
+> - **Recommendation:** This workspace is deprecated. Consider decommissioning and deleting it once the successors are fully approved.
 
 This document contains operational and technical details for the **BI_TMEU_InventoryBook** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 

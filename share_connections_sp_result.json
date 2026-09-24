@@ -1,0 +1,22 @@
+{
+  "service_principal": "Fabric-Migration-US-Source",
+  "sp_object_id": "4f525be9-0582-4e24-87dc-98812d526001",
+  "sp_app_id": "28d90760-5394-4a6b-8af5-b9e364c29b99",
+  "principal_type": "ServicePrincipal",
+  "role_assigned": "User",
+  "total_connections": 501,
+  "shareable_cloud": 47,
+  "personal_cloud": 245,
+  "successfully_shared": 45,
+  "skipped_already_has_access": 0,
+  "skipped_no_reshare_permission": 1,
+  "failed": 1,
+  "errors": [
+    {
+      "name": "MicrosoftOutlook OBaliuta",
+      "id": "66f4cacd-634e-4022-b7a5-1defaa44cf5d",
+      "status": 403,
+      "error": "{\"requestId\":\"53a47da2-52c2-4be5-b9cc-c45d2caef5fb\",\"errorCode\":\"DMTS_PowerBIDataMovementSensitiveConnectionSharingException\",\"moreDetails\":[{\"errorCode\":\"DM_ErrorDetailNameCode_UnderlyingErrorMessage\",\"message\":\"Customers are not allowed to add or update principals for the connections of type: MicrosoftOutlook\"}],\"message\":\"PowerBI service client received error HTTP response. HttpStatus: 403. PowerBIErrorCode: DMTS_PowerBIDataMovementSensitiveConnectionSharingException\",\"isRetriable\":false}"
+    }
+  ]
+}
