@@ -8,6 +8,22 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!IMPORTANT]
+> **Ukraine Market & Competitor Intelligence**
+> This workspace is used primarily to evaluate the Ukrainian market using external, non-organizational data. The data relates to competitor VAT information retrieved from a governmental portal database, allowing TMU to evaluate its standing among key market players.
+
+### Key Reports at a Glance
+| Report Name | What It Shows |
+|:---|:---|
+| **TMU AfterSales Market (VAT based)** | Evaluates TMU's Aftersales market position against competitors using external VAT data. |
+| **TMU Market VAT Report** | General market overview based on governmental VAT database. |
+| **TMU Market VAT Report - Export Enabled** | Same as above, but configured to allow data exports for offline analysis. |
+| **TMU Sales VAT Report** | Sales-focused market evaluation based on competitor VAT data. |
+| **TMU Parts Customs Import MGMNT** | Analyzes imported goods to Ukraine using external customs databases to evaluate competition from an import perspective. |
+| **TMU Parts Turn & Budget** | Calculates parts turn metrics using historical and budgeted data; primarily used by the parts purchasing team. |
+| **TMU Assortment Budget** | Features writeback functionality to automatically distribute aggregated high-level budgeted amounts down to the branch and parts category level. |
+
 This document contains operational and technical details for the **BI_TMU_Parts Market** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory
