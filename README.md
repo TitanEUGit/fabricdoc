@@ -18,6 +18,8 @@ If you are looking for specific information, start with these master indexes:
   Maps detailing how data flows from source Lakehouses (like `TMEU_Bronze_Lakehouse`) into downstream semantic models.
 * **[04_Newcomer_Transition_Guide.md](./04_Newcomer_Transition_Guide.md)** 
   *Essential reading for any new team member.* Contains the business domain primer, organisational structure (including TMA HQ relations), and our core systems landscape (Dynamics 365, Frontu, NAV, 1C).
+* **[05_Power_Automate_Workflows.md](./05_Power_Automate_Workflows.md)** 
+  Central directory documenting the active Power Automate workflows that integrate with or depend on our Fabric & Power BI environment.
 
 ---
 

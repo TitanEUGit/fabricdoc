@@ -33,7 +33,7 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 | **1C SQL Ledger Data** | `Report` | `a7952345-0ef8-4f55-aded-b1669dd7cc5d` | Auto-generated report for the semantic model bridging raw 1C data and the IT costs pipeline |
 | **EU IT Expenses Staging** | `Report` | `8bc26454-168d-4db2-80da-bc97aeae63f4` | ⚠️ Legacy report for IT costs calculation |
 | **TMU Sales Backlog Staging** | `Report` | `cec2dae3-2f80-4757-b25b-f7987ec635be` | ⚠️ Legacy Power Automate pipeline (monthly CSV copy). Monitor refresh and deprecate in the future |
-| **TMEU IT Devices Users** | `Report` | `eeadc0b6-b631-4b72-b4a1-5459decbc155` | ⚠️ Legacy report (now automated elsewhere). Monitor and consider for deletion |
+| **TMEU IT Devices Users** | `Report` | `eeadc0b6-b631-4b72-b4a1-5459decbc155` | Active datasource for user-related Power Automate flow |
 | **Zoho Dataset** | `Report` | `138d117b-a120-4d48-be0b-3d1b9b80f965` | ⚠️ Legacy report (now automated elsewhere). Monitor and consider for deletion |
 | **TMEU_HC_Dataset** | `SemanticModel` | `f9a0fe7e-b471-4e05-a381-c953fd1fec24` | Processes manual OPS Package Excels from SharePoint monthly. ⚠️ **Fragile:** Prone to breaking due to manual data entry errors in the source Excels |
 | **alert_sharepoint** | `SemanticModel` | `99fc1dac-c34a-453e-ad54-d35434dab6a9` | ⚠️ Legacy Power Automate pipeline (monthly CSV copy). Monitor refresh and deprecate in the future |
@@ -48,7 +48,7 @@ This document contains operational and technical details for the **DS_TMEU_Datas
 | **1C SQL Ledger Data** | `SemanticModel` | `b46cf783-91f2-4da3-9656-ca9a2e4317db` | Acts as a bridge semantic model between the raw 1C (1s) database and the IT costs pipeline |
 | **EU IT Expenses Staging** | `SemanticModel` | `644f3fb9-a8ba-4eaf-94d0-cc3e8968577f` | ⚠️ Legacy (pre-Fabric, Power Automate driven) calculation of IT costs. Candidate for deletion if no longer needed by business |
 | **TMU Sales Backlog Staging** | `SemanticModel` | `6dbc849f-4f47-4b32-80d0-d0550020c1c5` | ⚠️ Legacy Power Automate pipeline (monthly CSV copy). Monitor refresh and deprecate in the future |
-| **TMEU IT Devices Users** | `SemanticModel` | `7d81e1fe-3853-42db-a0a6-59778f12532d` | ⚠️ Legacy dataset (now automated elsewhere). Monitor and consider for deletion |
+| **TMEU IT Devices Users** | `SemanticModel` | `7d81e1fe-3853-42db-a0a6-59778f12532d` | Active datasource for user-related Power Automate flow |
 | **Zoho Dataset** | `SemanticModel` | `4c6de12d-dc63-4152-8c1e-79ed38cc792b` | ⚠️ Legacy dataset (now automated elsewhere). Monitor and consider for deletion |
 
 ## 3. Semantic Models (Datasets) & Refresh Schedules

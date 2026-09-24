@@ -29,13 +29,13 @@ This document contains operational and technical details for the **BI_TMEU_After
 | **TMEU Open Service Jobcards** | `Report` | `03a3b768-5773-4472-a5e1-f7b8bbaa976f` | - |
 | **TMEU Overstocked Parts** | `Report` | `48a67a3d-6318-4069-9a26-9f994bdcebb1` | - |
 | **Usage Metrics Report** | `Report` | `78471d8d-6eb4-4541-b8d9-06321355208e` | - |
-| **TMEU Parts Item List** | `Report` | `e2d112a1-3a44-4ce5-9bc9-2fe0496e859a` | - |
+| **TMEU Parts Item List** | `Report` | `e2d112a1-3a44-4ce5-9bc9-2fe0496e859a` | ⚠️ **Pending Usage Review:** Verify if this report is still actively used (fed by Power Automate `parts_items_translation` flow). |
 | **TMEU Warranty Dashboard** | `Report` | `cfdf3f50-f10a-4000-bcbe-cec05722d0d6` | - |
 | **SP Supplier Matrix** | `SemanticModel` | `0fc31860-861c-4131-8b73-f785f161b94a` | - |
 | **TMEU Open Service Jobcards** | `SemanticModel` | `005f67d8-0096-4be7-85bd-2330fd6648a7` | - |
 | **TMEU Overstocked Parts** | `SemanticModel` | `1a51c1d3-0d58-431f-88ec-8006cfe3513e` | - |
 | **Usage Metrics Report** | `SemanticModel` | `6b1d9649-7e95-4d0b-ae3e-c97e0a8cf48e` | - |
-| **TMEU Parts Item List** | `SemanticModel` | `5faeb973-dc3e-4165-b824-3e0f6abbd850` | - |
+| **TMEU Parts Item List** | `SemanticModel` | `5faeb973-dc3e-4165-b824-3e0f6abbd850` | ⚠️ **Pending Usage Review** |
 | **TMEU Warranty Dashboard** | `SemanticModel` | `b3c3f284-7d05-44c5-89ee-22c1f3a36250` | - |
 
 ## 3. Semantic Models (Datasets) & Refresh Schedules
