@@ -8,18 +8,23 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!NOTE]
+> **EOC Finance & NAV Data Source**
+> This workspace is primarily designed for the **EOC Finance team**. All reports in this workspace are based on TMA NAV database tables sourced from the [TMA_NAV_Lakehouse](https://app.powerbi.com/groups/8d7c60ce-cb19-4805-ab1a-c84d6e1adf58/lakehouses/560be169-9531-4fc2-8c36-4bb173fc1240?experience=fabric-developer&subfolderId=136973).
+
 This document contains operational and technical details for the **BI_TMA_NAV_Data** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory
 
 | Item Name | Item Type | Item ID | Description |
 | :--- | :--- | :--- | :--- |
-| **TMA NAV Reporting** | `Report` | `ef023446-922a-4e38-971c-29e95b053e67` | - |
-| **TMA NAV Data** | `Report` | `b2ad0ca2-61cc-405d-936d-f439b238973f` | - |
-| **TMA NAV Data Full Refresh** | `Report` | `9cff7aa3-5b26-437f-aa2a-386c5540889a` | - |
-| **TMA Accounts Receivable_Payable** | `Report` | `5b6eeaa8-daa0-4e11-9d3e-3299906a96b3` | - |
-| **TMA Revenue Report (Direct Lake)** | `Report` | `794c1d5d-43e8-452e-a208-1317523f0f67` | - |
-| **TMA Shipped Not Invoiced WG Items** | `Report` | `4f1f3c3e-4d37-41f0-96f8-506b02103af4` | - |
+| **TMA NAV Reporting** | `Report` | `ef023446-922a-4e38-971c-29e95b053e67` | Based on TMA NAV database tables from [TMA_NAV_Lakehouse](https://app.powerbi.com/groups/8d7c60ce-cb19-4805-ab1a-c84d6e1adf58/lakehouses/560be169-9531-4fc2-8c36-4bb173fc1240?experience=fabric-developer&subfolderId=136973) |
+| **TMA NAV Data** | `Report` | `b2ad0ca2-61cc-405d-936d-f439b238973f` | Based on TMA NAV database tables from [TMA_NAV_Lakehouse](https://app.powerbi.com/groups/8d7c60ce-cb19-4805-ab1a-c84d6e1adf58/lakehouses/560be169-9531-4fc2-8c36-4bb173fc1240?experience=fabric-developer&subfolderId=136973) |
+| **TMA NAV Data Full Refresh** | `Report` | `9cff7aa3-5b26-437f-aa2a-386c5540889a` | Based on TMA NAV database tables from [TMA_NAV_Lakehouse](https://app.powerbi.com/groups/8d7c60ce-cb19-4805-ab1a-c84d6e1adf58/lakehouses/560be169-9531-4fc2-8c36-4bb173fc1240?experience=fabric-developer&subfolderId=136973) |
+| **TMA Accounts Receivable_Payable** | `Report` | `5b6eeaa8-daa0-4e11-9d3e-3299906a96b3` | Based on TMA NAV database tables from [TMA_NAV_Lakehouse](https://app.powerbi.com/groups/8d7c60ce-cb19-4805-ab1a-c84d6e1adf58/lakehouses/560be169-9531-4fc2-8c36-4bb173fc1240?experience=fabric-developer&subfolderId=136973) |
+| **TMA Revenue Report (Direct Lake)** | `Report` | `794c1d5d-43e8-452e-a208-1317523f0f67` | Based on TMA NAV database tables from [TMA_NAV_Lakehouse](https://app.powerbi.com/groups/8d7c60ce-cb19-4805-ab1a-c84d6e1adf58/lakehouses/560be169-9531-4fc2-8c36-4bb173fc1240?experience=fabric-developer&subfolderId=136973) |
+| **TMA Shipped Not Invoiced WG Items** | `Report` | `4f1f3c3e-4d37-41f0-96f8-506b02103af4` | Based on TMA NAV database tables from [TMA_NAV_Lakehouse](https://app.powerbi.com/groups/8d7c60ce-cb19-4805-ab1a-c84d6e1adf58/lakehouses/560be169-9531-4fc2-8c36-4bb173fc1240?experience=fabric-developer&subfolderId=136973) |
 | **TMA NAV Reporting** | `SemanticModel` | `d25843b4-18e0-4711-a40f-0cc0b685757f` | - |
 | **TMA NAV Data** | `SemanticModel` | `736a59a6-7fa8-45da-a0fa-3bc4bb07c0c6` | - |
 | **TMA NAV Data Full Refresh** | `SemanticModel` | `2c7570c7-d984-4897-9581-c82f9840a245` | - |

@@ -8,6 +8,11 @@
 ---
 
 ## 1. Executive Summary & Newcomer Overview
+
+> [!NOTE]
+> **Human Resources Reporting**
+> This workspace houses the **TMA HR dashboard**. It is managed by the TMA HR Manager, who oversees HR operations in TMA and sets the HR strategy for all EU countries.
+
 This document contains operational and technical details for the **BI_TMEU_Human Resources** workspace. It is designed to give new team members full visibility into key items, data models, report lineage, and refresh schedules.
 
 ## 2. Native Fabric Items Inventory
